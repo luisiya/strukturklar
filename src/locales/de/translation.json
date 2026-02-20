@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "home": "Start",
+    "introduction": "Einführung",
+    "problem": "Herausforderung",
+    "approach": "Ansatz",
+    "targetAudience": "Zielgruppe",
+    "strategyCheck": "StrategieCheck",
+    "stance": "Haltung",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "StrukturKlar®️",
+    "tagline": "Strategische betriebswirtschaftliche Strukturentwicklung",
+    "subtitle": "Klarheit vor Wachstum. Struktur vor Skalierung."
+  },
+  "introduction": {
+    "heading": "Unternehmerischer Erfolg ist kein Zufall",
+    "text1": "Er ist das Ergebnis klarer Strukturen, belastbarer Zahlen und bewusster Entscheidungen.",
+    "text2": "Ich begleite Unternehmer und Vereine,",
+    "text3": "die ihre betriebswirtschaftliche Realität nicht nur verwalten,",
+    "text4": "sondern strategisch steuern wollen."
+  },
+  "problem": {
+    "heading": "Wenn Zahlen vorhanden sind – aber keine Steuerung",
+    "text1": "Viele Unternehmen arbeiten intensiv.",
+    "text2": "Doch häufig fehlt:",
+    "list": [
+      "eine klare Struktur der Entscheidungsgrundlagen",
+      "eine transparente Kosten- und Ertragslogik",
+      "eine definierte Prozessarchitektur",
+      "eine systematische Auswertung unternehmerischer Kennzahlen"
+    ],
+    "conclusion1": "Ohne Struktur entsteht Unsicherheit.",
+    "conclusion2": "Mit Struktur entsteht Steuerbarkeit."
+  },
+  "approach": {
+    "heading": "Mein Ansatz",
+    "text1": "StrukturKlar®️ ist keine klassische Buchhaltungsleistung.",
+    "text2": "Es ist eine analytische, betriebswirtschaftliche Strukturarbeit.",
+    "text3": "Ich analysiere vorhandene Zahlen, Prozesse und Entscheidungswege",
+    "text4": "und entwickle eine klare strategische Handlungsarchitektur.",
+    "focus": "Der Fokus liegt auf:",
+    "list": [
+      "Transparenz",
+      "Stabilisierung",
+      "Steuerbarkeit",
+      "nachhaltiger Weiterentwicklung"
+    ],
+    "disclaimer": "Es erfolgt keine steuerliche oder rechtliche Beratung im Sinne des Steuerberatungsgesetzes oder Rechtsdienstleistungsgesetzes."
+  },
+  "targetAudience": {
+    "heading": "Für wen StrukturKlar®️ geeignet ist",
+    "text": "Für Unternehmer und Vereinsverantwortliche,",
+    "list": [
+      "die bereits wirtschaftlich tätig sind",
+      "die Verantwortung für ihre Zahlen übernehmen",
+      "die strukturiert arbeiten wollen",
+      "die strategische Klarheit als Investition verstehen"
+    ],
+    "notSuitable": "Nicht geeignet ist die Beratung für reine Belegsortierung oder laufende Buchhaltungsarbeiten."
+  },
+  "strategyCheck": {
+    "heading": "Der StrukturKlar®️ StrategieCheck",
+    "intro": "Ein klar definierter Analyseprozess:",
+    "steps": [
+      "Strukturierte Sichtung der vorhandenen Unterlagen",
+      "Analyse der betriebswirtschaftlichen Logik",
+      "Identifikation struktureller Schwachstellen",
+      "Entwicklung konkreter, priorisierter Handlungsschritte"
+    ],
+    "goal1": "Ziel ist nicht kurzfristige Optimierung.",
+    "goal2": "Ziel ist langfristige Steuerbarkeit."
+  },
+  "stance": {
+    "heading": "Haltung",
+    "text1": "Ich arbeite sachlich, analytisch und unabhängig.",
+    "text2": "Ich verspreche keine schnellen Lösungen.",
+    "text3": "Ich entwickle tragfähige Strukturen.",
+    "responsibility": "Die Verantwortung für unternehmerische Entscheidungen verbleibt beim Auftraggeber."
+  },
+  "contact": {
+    "heading": "Kontakt",
+    "text1": "Wenn Sie Ihre betriebswirtschaftliche Struktur auf ein",
+    "text2": "strategisch\u00A0tragfähiges Fundament stellen möchten,",
+    "text3": "vereinbaren Sie ein Erstgespräch.",
+    "cta": "Erstgespräch vereinbaren",
+    "photoAlt": "StrukturKlar Kontakt",
+    "available": "Verfügbar für Erstgespräche",
+    "consultant": "Ihr StrukturKlar Berater",
+    "title": "Betriebswirtschaftliche Strukturentwicklung"
+  },
+  "form": {
+    "name": "Ihr Name",
+    "namePlaceholder": "Max Mustermann",
+    "email": "Ihre E-Mail",
+    "emailPlaceholder": "ihre.email@beispiel.de",
+    "comment": "Ihre Nachricht",
+    "commentPlaceholder": "Beschreiben Sie kurz Ihr Anliegen...",
+    "submit": "Anfrage senden",
+    "cancel": "Abbrechen",
+    "sending": "Wird gesendet...",
+    "successMessage": "Ihre Anfrage wurde erfolgreich gesendet!",
+    "errorMessage": "Fehler beim Senden. Bitte versuchen Sie es erneut."
+  },
+  "divider": "⸻"
+}

@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "home": "Home",
+    "introduction": "Introduction",
+    "problem": "Challenge",
+    "approach": "Approach",
+    "targetAudience": "Target Audience",
+    "strategyCheck": "StrategyCheck",
+    "stance": "Stance",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "StrukturKlar®️",
+    "tagline": "Strategic Business Structure Development",
+    "subtitle": "Clarity before growth. Structure before scaling."
+  },
+  "introduction": {
+    "heading": "Entrepreneurial success is no coincidence",
+    "text1": "It is the result of clear structures, reliable numbers, and conscious decisions.",
+    "text2": "I support entrepreneurs and associations",
+    "text3": "who want not only to manage their business reality,",
+    "text4": "but to strategically control it."
+  },
+  "problem": {
+    "heading": "When numbers exist – but no control",
+    "text1": "Many companies work intensively.",
+    "text2": "Yet often missing:",
+    "list": [
+      "a clear structure of decision-making foundations",
+      "transparent cost and revenue logic",
+      "a defined process architecture",
+      "systematic evaluation of business key figures"
+    ],
+    "conclusion1": "Without structure, uncertainty arises.",
+    "conclusion2": "With structure, controllability emerges."
+  },
+  "approach": {
+    "heading": "My Approach",
+    "text1": "StrukturKlar®️ is not traditional bookkeeping.",
+    "text2": "It is analytical, business-economic structural work.",
+    "text3": "I analyze existing numbers, processes, and decision paths",
+    "text4": "and develop a clear strategic action architecture.",
+    "focus": "The focus is on:",
+    "list": [
+      "Transparency",
+      "Stabilization",
+      "Controllability",
+      "sustainable development"
+    ],
+    "disclaimer": "No tax or legal advice is provided within the meaning of the Tax Advisory Act or Legal Services Act."
+  },
+  "targetAudience": {
+    "heading": "Who StrukturKlar®️ is suitable for",
+    "text": "For entrepreneurs and association leaders,",
+    "list": [
+      "who are already economically active",
+      "who take responsibility for their numbers",
+      "who want to work in a structured manner",
+      "who understand strategic clarity as an investment"
+    ],
+    "notSuitable": "The consultancy is not suitable for mere document sorting or ongoing bookkeeping work."
+  },
+  "strategyCheck": {
+    "heading": "The StrukturKlar®️ StrategyCheck",
+    "intro": "A clearly defined analysis process:",
+    "steps": [
+      "Structured review of existing documents",
+      "Analysis of business economic logic",
+      "Identification of structural weaknesses",
+      "Development of concrete, prioritized action steps"
+    ],
+    "goal1": "The goal is not short-term optimization.",
+    "goal2": "The goal is long-term controllability."
+  },
+  "stance": {
+    "heading": "Stance",
+    "text1": "I work objectively, analytically, and independently.",
+    "text2": "I do not promise quick solutions.",
+    "text3": "I develop sustainable structures.",
+    "responsibility": "The responsibility for entrepreneurial decisions remains with the client."
+  },
+  "contact": {
+    "heading": "Contact",
+    "text1": "If you would like to establish your business structure on a",
+    "text2": "strategically\u00A0sustainable foundation,",
+    "text3": "schedule an initial consultation.",
+    "cta": "Schedule Initial Consultation",
+    "photoAlt": "StrukturKlar Contact",
+    "available": "Available for Initial Consultations",
+    "consultant": "Your StrukturKlar Consultant",
+    "title": "Business Structure Development"
+  },
+  "form": {
+    "name": "Your Name",
+    "namePlaceholder": "John Doe",
+    "email": "Your Email",
+    "emailPlaceholder": "your.email@example.com",
+    "comment": "Your Message",
+    "commentPlaceholder": "Briefly describe your request...",
+    "submit": "Send Request",
+    "cancel": "Cancel",
+    "sending": "Sending...",
+    "successMessage": "Your request has been sent successfully!",
+    "errorMessage": "Error sending. Please try again."
+  },
+  "divider": "⸻"
+}
