@@ -1,7 +1,6 @@
 import { useState, FormEvent } from 'react'
 import { useTranslation } from 'react-i18next'
 import { HiX, HiMail, HiUser, HiCheckCircle } from 'react-icons/hi'
-import emailjs from '@emailjs/browser'
 
 interface ContactFormModalProps {
   isOpen: boolean
