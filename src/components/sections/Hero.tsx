@@ -15,7 +15,7 @@ const Hero = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/images/hero-background.jpg"
+            src={`${import.meta.env.BASE_URL}images/hero-background.jpg`}
             alt="Background"
             className="w-full h-full object-cover"
           />
