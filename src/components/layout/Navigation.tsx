@@ -11,12 +11,10 @@ const Navigation = () => {
 
   const navItems = [
     { key: 'home', id: 'hero' },
-    { key: 'introduction', id: 'introduction' },
-    { key: 'problem', id: 'problem' },
-    { key: 'approach', id: 'approach' },
-    { key: 'targetAudience', id: 'target-audience' },
-    { key: 'strategyCheck', id: 'strategy-check' },
-    { key: 'stance', id: 'stance' },
+    { key: 'forWhom', id: 'for-whom' },
+    { key: 'whenUseful', id: 'when-useful' },
+    { key: 'collaboration', id: 'collaboration' },
+    { key: 'packages', id: 'packages' },
     { key: 'contact', id: 'contact' },
   ]
 

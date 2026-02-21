@@ -1,18 +1,17 @@
 {
   "nav": {
     "home": "Start",
-    "introduction": "Einführung",
-    "problem": "Herausforderung",
-    "approach": "Ansatz",
-    "targetAudience": "Zielgruppe",
-    "strategyCheck": "StrategieCheck",
-    "stance": "Haltung",
+    "forWhom": "Für wen",
+    "whenUseful": "Wann sinnvoll",
+    "collaboration": "Ablauf",
+    "packages": "Pakete & Preise",
     "contact": "Kontakt"
   },
   "hero": {
-    "title": "StrukturKlar®️",
-    "tagline": "Strategische betriebswirtschaftliche Strukturentwicklung",
-    "subtitle": "Klarheit vor Wachstum. Struktur vor Skalierung."
+    "title": "Struktur. Klarheit. Entscheidungslogik.",
+    "tagline": "Betriebswirtschaftliche Struktur- und Entscheidungsanalyse für Unternehmer, die Verantwortung tragen und wieder Übersicht gewinnen wollen.",
+    "button1": "Kostenloses Strukturgespräch buchen (30 Minuten)",
+    "button2": "Ablauf & Pakete ansehen"
   },
   "introduction": {
     "heading": "Unternehmerischer Erfolg ist kein Zufall",
@@ -78,6 +77,114 @@
     "text2": "Ich verspreche keine schnellen Lösungen.",
     "text3": "Ich entwickle tragfähige Strukturen.",
     "responsibility": "Die Verantwortung für unternehmerische Entscheidungen verbleibt beim Auftraggeber."
+  },
+  "forWhom": {
+    "heading": "Für wen ist diese Beratung?",
+    "intro": "Diese Beratung richtet sich an Unternehmer:",
+    "items": [
+      "die unter dauerhaftem Entscheidungsdruck stehen",
+      "deren Kennzahlen nicht mehr klar erklärbar sind",
+      "deren Struktur historisch gewachsen und unübersichtlich geworden ist",
+      "die Verantwortung tragen und Klarheit statt Aktionismus suchen",
+      "die bereit sind, Entscheidungen auf Basis strukturierter Analyse zu treffen"
+    ]
+  },
+  "whenUseful": {
+    "heading": "Wann ist eine Analyse sinnvoll?",
+    "intro": "Eine Analyse ist besonders dann sinnvoll, wenn:",
+    "items": [
+      "Ergebnisse stagnieren oder sinken",
+      "Entscheidungen viel Energie kosten",
+      "Verantwortlichkeiten unklar geworden sind",
+      "interne Prozesse nicht mehr transparent sind",
+      "Abweichungen zwischen Planung und Realität auftreten"
+    ]
+  },
+  "whatYouGet": {
+    "heading": "Was Sie bekommen",
+    "intro": "Sie erhalten:",
+    "items": [
+      "eine strukturierte betriebswirtschaftliche Analyse",
+      "eine Plausibilitätsprüfung der Datenbasis",
+      "klar formulierte Entscheidungsoptionen",
+      "priorisierte Handlungsempfehlungen",
+      "Transparenz über strukturelle Schwachstellen"
+    ],
+    "responsibility": "Die unternehmerische Entscheidung bleibt ausschließlich bei Ihnen."
+  },
+  "collaborationModel": {
+    "heading": "3-Stufen-Modell der Zusammenarbeit",
+    "stage1": {
+      "title": "Strukturgespräch",
+      "subtitle": "30 Minuten, kostenlos",
+      "description": "Unverbindliches Gespräch zur Klärung Ihrer Ausgangssituation und zur Prüfung der Zusammenarbeit.",
+      "note": "Im Strukturgespräch erfolgt keine individuelle Detailanalyse sowie keine steuerliche oder rechtliche Einzelfallberatung."
+    },
+    "stage2": {
+      "title": "Struktur- & Abweichungsanalyse",
+      "description": "Umfassende betriebswirtschaftliche Analyse inkl. Auswertungsgespräch.",
+      "goal": "Struktur herstellen, Entscheidungslogik klären und Abweichungen sichtbar machen."
+    },
+    "stage3": {
+      "title": "Strategische Begleitung",
+      "subtitle": "optional",
+      "description": "Monatliche Entscheidungsunterstützung und Monitoring auf Basis der Analyse.",
+      "note": "Keine operative Umsetzung und keine Übernahme unternehmerischer Verantwortung."
+    }
+  },
+  "packages": {
+    "heading": "Pakete & Preise",
+    "package1": {
+      "name": "Struktur-Audit",
+      "subtitle": "Grundlegende Analyse",
+      "price": "ab 1.490 € – 1.990 €",
+      "includes": "Enthalten:",
+      "items": [
+        "Sichtung der bereitgestellten Unterlagen",
+        "Analyse von Struktur und Entscheidungslogik",
+        "Plausibilitätsprüfung der betriebswirtschaftlichen Datenbasis",
+        "Ergebnisgespräch (60–90 Minuten)",
+        "schriftliches Summary (1–2 Seiten)"
+      ]
+    },
+    "package2": {
+      "name": "Vertiefte Struktur- & Funktionsanalyse",
+      "subtitle": "Erweiterte Analyse bei spürbaren Abweichungen",
+      "price": "ab 2.490 € – 3.490 €",
+      "includes": "Enthalten zusätzlich:",
+      "items": [
+        "zweite Auswertungsschleife",
+        "strukturierte Prioritätenliste",
+        "Roadmap (30–60 Tage)",
+        "zusätzliches Strategietermin"
+      ]
+    },
+    "package3": {
+      "name": "Strategische Begleitung",
+      "subtitle": "monatlich",
+      "price1": "590 € – 990 € / Monat",
+      "or": "oder",
+      "price2": "1.190 € – 1.690 € / Monat",
+      "note": "Nur nach vorheriger Analyse buchbar."
+    }
+  },
+  "legalFramework": {
+    "heading": "Rechtlicher Rahmen",
+    "intro": "Die Beratung erfolgt ausschließlich betriebswirtschaftlich.",
+    "notIncluded": "Nicht Bestandteil der Leistung sind:",
+    "items": [
+      "Steuerberatung im Sinne des Steuerberatungsgesetzes (StBerG)",
+      "Rechtsberatung im Sinne des Rechtsdienstleistungsgesetzes (RDG)",
+      "Erstellung oder Übernahme laufender Buchhaltung",
+      "Erstellung von Steuererklärungen oder Jahresabschlüssen",
+      "Vertretung gegenüber Behörden oder Gerichten"
+    ],
+    "disclaimer": "Ein bestimmter wirtschaftlicher Erfolg wird nicht geschuldet."
+  },
+  "liability": {
+    "heading": "Haftungshinweis",
+    "text1": "Die Haftung ist – außer bei Vorsatz – auf die Deckungssumme der bestehenden Vermögensschadenhaftpflichtversicherung begrenzt.",
+    "text2": "Für Schäden, die auf unvollständigen oder fehlerhaften Angaben beruhen, wird keine Haftung übernommen."
   },
   "contact": {
     "heading": "Kontakt",

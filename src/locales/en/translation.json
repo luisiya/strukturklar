@@ -1,83 +1,125 @@
 {
   "nav": {
     "home": "Home",
-    "introduction": "Introduction",
-    "problem": "Challenge",
-    "approach": "Approach",
-    "targetAudience": "Target Audience",
-    "strategyCheck": "StrategyCheck",
-    "stance": "Stance",
+    "forWhom": "For Whom",
+    "whenUseful": "When Useful",
+    "collaboration": "Process",
+    "packages": "Packages & Pricing",
     "contact": "Contact"
   },
   "hero": {
-    "title": "StrukturKlar®️",
-    "tagline": "Strategic Business Structure Development",
-    "subtitle": "Clarity before growth. Structure before scaling."
+    "title": "Structure. Clarity. Decision Logic.",
+    "tagline": "Business structure and decision analysis for entrepreneurs who take responsibility and want to regain overview.",
+    "button1": "Book Free Consultation (30 Minutes)",
+    "button2": "View Process & Packages"
   },
-  "introduction": {
-    "heading": "Entrepreneurial success is no coincidence",
-    "text1": "It is the result of clear structures, reliable numbers, and conscious decisions.",
-    "text2": "I support entrepreneurs and associations",
-    "text3": "who want not only to manage their business reality,",
-    "text4": "but to strategically control it."
+  "forWhom": {
+    "heading": "Who is this consulting for?",
+    "intro": "This consulting is aimed at entrepreneurs:",
+    "items": [
+      "who are under constant decision-making pressure",
+      "whose key figures are no longer clearly explainable",
+      "whose structure has grown historically and become unclear",
+      "who bear responsibility and seek clarity instead of activism",
+      "who are ready to make decisions based on structured analysis"
+    ]
   },
-  "problem": {
-    "heading": "When numbers exist – but no control",
-    "text1": "Many companies work intensively.",
-    "text2": "Yet often missing:",
-    "list": [
-      "a clear structure of decision-making foundations",
-      "transparent cost and revenue logic",
-      "a defined process architecture",
-      "systematic evaluation of business key figures"
+  "whenUseful": {
+    "heading": "When is an analysis useful?",
+    "intro": "An analysis is particularly useful when:",
+    "items": [
+      "Results stagnate or decline",
+      "Decisions consume a lot of energy",
+      "Responsibilities have become unclear",
+      "Internal processes are no longer transparent",
+      "Deviations between planning and reality occur"
+    ]
+  },
+  "whatYouGet": {
+    "heading": "What You Get",
+    "intro": "You receive:",
+    "items": [
+      "a structured business analysis",
+      "a plausibility check of the data basis",
+      "clearly formulated decision options",
+      "prioritized recommendations for action",
+      "transparency about structural weaknesses"
     ],
-    "conclusion1": "Without structure, uncertainty arises.",
-    "conclusion2": "With structure, controllability emerges."
+    "responsibility": "The entrepreneurial decision remains exclusively with you."
   },
-  "approach": {
-    "heading": "My Approach",
-    "text1": "StrukturKlar®️ is not traditional bookkeeping.",
-    "text2": "It is analytical, business-economic structural work.",
-    "text3": "I analyze existing numbers, processes, and decision paths",
-    "text4": "and develop a clear strategic action architecture.",
-    "focus": "The focus is on:",
-    "list": [
-      "Transparency",
-      "Stabilization",
-      "Controllability",
-      "sustainable development"
+  "collaborationModel": {
+    "heading": "3-Stage Collaboration Model",
+    "stage1": {
+      "title": "Structure Consultation",
+      "subtitle": "30 minutes, free",
+      "description": "Non-binding conversation to clarify your initial situation and assess the collaboration.",
+      "note": "The structure consultation does not include individual detailed analysis or tax/legal case-by-case advice."
+    },
+    "stage2": {
+      "title": "Structure & Deviation Analysis",
+      "description": "Comprehensive business analysis including evaluation meeting.",
+      "goal": "Establish structure, clarify decision logic, and make deviations visible."
+    },
+    "stage3": {
+      "title": "Strategic Support",
+      "subtitle": "optional",
+      "description": "Monthly decision support and monitoring based on the analysis.",
+      "note": "No operational implementation and no assumption of entrepreneurial responsibility."
+    }
+  },
+  "packages": {
+    "heading": "Packages & Pricing",
+    "package1": {
+      "name": "Structure Audit",
+      "subtitle": "Basic Analysis",
+      "price": "from €1,490 – €1,990",
+      "includes": "Included:",
+      "items": [
+        "Review of provided documents",
+        "Analysis of structure and decision logic",
+        "Plausibility check of business data basis",
+        "Results meeting (60–90 minutes)",
+        "written summary (1–2 pages)"
+      ]
+    },
+    "package2": {
+      "name": "In-depth Structure & Function Analysis",
+      "subtitle": "Extended analysis for noticeable deviations",
+      "price": "from €2,490 – €3,490",
+      "includes": "Additionally included:",
+      "items": [
+        "second evaluation loop",
+        "structured priority list",
+        "roadmap (30–60 days)",
+        "additional strategy meeting"
+      ]
+    },
+    "package3": {
+      "name": "Strategic Support",
+      "subtitle": "monthly",
+      "price1": "€590 – €990 / month",
+      "or": "or",
+      "price2": "€1,190 – €1,690 / month",
+      "note": "Only bookable after prior analysis."
+    }
+  },
+  "legalFramework": {
+    "heading": "Legal Framework",
+    "intro": "The consulting is exclusively business-economic.",
+    "notIncluded": "Not part of the service are:",
+    "items": [
+      "Tax advice within the meaning of the Tax Advisory Act (StBerG)",
+      "Legal advice within the meaning of the Legal Services Act (RDG)",
+      "Creation or assumption of ongoing bookkeeping",
+      "Preparation of tax returns or annual financial statements",
+      "Representation before authorities or courts"
     ],
-    "disclaimer": "No tax or legal advice is provided within the meaning of the Tax Advisory Act or Legal Services Act."
+    "disclaimer": "No specific economic success is owed."
   },
-  "targetAudience": {
-    "heading": "Who StrukturKlar®️ is suitable for",
-    "text": "For entrepreneurs and association leaders,",
-    "list": [
-      "who are already economically active",
-      "who take responsibility for their numbers",
-      "who want to work in a structured manner",
-      "who understand strategic clarity as an investment"
-    ],
-    "notSuitable": "The consultancy is not suitable for mere document sorting or ongoing bookkeeping work."
-  },
-  "strategyCheck": {
-    "heading": "The StrukturKlar®️ StrategyCheck",
-    "intro": "A clearly defined analysis process:",
-    "steps": [
-      "Structured review of existing documents",
-      "Analysis of business economic logic",
-      "Identification of structural weaknesses",
-      "Development of concrete, prioritized action steps"
-    ],
-    "goal1": "The goal is not short-term optimization.",
-    "goal2": "The goal is long-term controllability."
-  },
-  "stance": {
-    "heading": "Stance",
-    "text1": "I work objectively, analytically, and independently.",
-    "text2": "I do not promise quick solutions.",
-    "text3": "I develop sustainable structures.",
-    "responsibility": "The responsibility for entrepreneurial decisions remains with the client."
+  "liability": {
+    "heading": "Liability Notice",
+    "text1": "Liability is – except in cases of intent – limited to the coverage amount of the existing professional liability insurance.",
+    "text2": "No liability is assumed for damages based on incomplete or incorrect information."
   },
   "contact": {
     "heading": "Contact",
