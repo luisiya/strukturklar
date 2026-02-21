@@ -21,8 +21,9 @@ const Datenschutz = () => {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Verantwortliche Stelle</h2>
             <p className="text-gray-700 mb-2">Verantwortlich für die Datenverarbeitung auf dieser Website:</p>
-            <p className="text-gray-700 mb-2">[Ihr Name]</p>
-            <p className="text-gray-700 mb-2">[Adresse]</p>
+            <p className="text-gray-700 mb-2">Anastasiia Gurina</p>
+            <p className="text-gray-700 mb-2">Gorkistraße 109, 04347 Leipzig</p>
+            <p className="text-gray-700 mb-2">Telefon: +49 176 60836128</p>
             <p className="text-gray-700">E-Mail: anastasiia78@gmail.com</p>
           </section>
 

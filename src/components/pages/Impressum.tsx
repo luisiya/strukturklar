@@ -12,15 +12,15 @@ const Impressum = () => {
         <div className="bg-white rounded-lg p-8 shadow-md space-y-6">
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Angaben gemäß § 5 TMG</h2>
-            <p className="text-gray-700 mb-2">[Ihr vollständiger Name]</p>
-            <p className="text-gray-700 mb-2">[Straße, Hausnummer]</p>
-            <p className="text-gray-700 mb-4">[PLZ, Ort]</p>
+            <p className="text-gray-700 mb-2">Anastasiia Gurina</p>
+            <p className="text-gray-700 mb-2">Gorkistraße 109</p>
+            <p className="text-gray-700 mb-4">04347 Leipzig</p>
             <p className="text-gray-700">Deutschland</p>
           </section>
 
           <section>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Kontakt</h3>
-            <p className="text-gray-700 mb-2">Telefon: [optional]</p>
+            <p className="text-gray-700 mb-2">Telefon: +49 176 60836128</p>
             <p className="text-gray-700">E-Mail: anastasiia78@gmail.com</p>
           </section>
 
@@ -56,8 +56,8 @@ const Impressum = () => {
 
           <section>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h3>
-            <p className="text-gray-700 mb-2">[Ihr Name]</p>
-            <p className="text-gray-700">[Adresse]</p>
+            <p className="text-gray-700 mb-2">Anastasiia Gurina</p>
+            <p className="text-gray-700">Gorkistraße 109, 04347 Leipzig</p>
           </section>
         </div>
       </div>
