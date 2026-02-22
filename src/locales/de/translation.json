@@ -1,17 +1,18 @@
 {
   "nav": {
     "home": "Start",
-    "forWhom": "Für wen",
-    "whenUseful": "Wann sinnvoll",
-    "collaboration": "Ablauf",
-    "packages": "Pakete & Preise",
+    "premium": "Premium-Analyse",
+    "background": "Werdegang",
+    "founders": "Gründer & Vereine",
+    "terms": "Bedingungen",
     "contact": "Kontakt"
   },
   "hero": {
-    "title": "Struktur. Klarheit. Entscheidungslogik.",
-    "tagline": "Betriebswirtschaftliche Struktur- und Entscheidungsanalyse für Unternehmer, die Verantwortung tragen und wieder Übersicht gewinnen wollen.",
-    "button1": "Kostenloses Strukturgespräch buchen (30 Minuten)",
-    "button2": "Ablauf & Pakete ansehen"
+    "title": "Wissenschaftlich fundierte betriebswirtschaftliche Struktur- und Entscheidungsanalyse",
+    "tagline": "Analytische Arbeit auf Grundlage betriebswirtschaftlicher Theorie. Für Unternehmen mit Anspruch auf Klarheit, Struktur und belastbare Entscheidungsgrundlagen.",
+    "languages": "Beratung in deutscher, ukrainischer und russischer Sprache.",
+    "button1": "Kostenloses Erstgespräch (30 Minuten)",
+    "button2": "Leistungen & Honorar"
   },
   "introduction": {
     "heading": "Unternehmerischer Erfolg ist kein Zufall",
@@ -78,39 +79,135 @@
     "text3": "Ich entwickle tragfähige Strukturen.",
     "responsibility": "Die Verantwortung für unternehmerische Entscheidungen verbleibt beim Auftraggeber."
   },
-  "forWhom": {
-    "heading": "Für wen ist diese Beratung?",
-    "intro": "Diese Beratung richtet sich an Unternehmer:",
-    "items": [
-      "die unter dauerhaftem Entscheidungsdruck stehen",
-      "deren Kennzahlen nicht mehr klar erklärbar sind",
-      "deren Struktur historisch gewachsen und unübersichtlich geworden ist",
-      "die Verantwortung tragen und Klarheit statt Aktionismus suchen",
-      "die bereit sind, Entscheidungen auf Basis strukturierter Analyse zu treffen"
-    ]
+  "premiumService": {
+    "heading": "Premium Struktur- & Entscheidungsanalyse",
+    "positioning": {
+      "heading": "Positionierung",
+      "intro": "Diese Tätigkeit richtet sich an:",
+      "targetItems": [
+        "Geschäftsführungen",
+        "Unternehmen mit gewachsenen Strukturen",
+        "Organisationen mit komplexen Entscheidungsprozessen",
+        "Mandanten mit Bedarf an methodisch fundierter Analyse"
+      ],
+      "notSuitableIntro": "Nicht geeignet für:",
+      "notSuitableItems": [
+        "laufende Buchführung",
+        "Lohnabrechnung",
+        "Steuererklärungen",
+        "operative Finanzdienstleistungen"
+      ]
+    },
+    "services": {
+      "heading": "Leistung",
+      "items": [
+        "Analyse betriebswirtschaftlicher Strukturen",
+        "Untersuchung von Entscheidungslogiken",
+        "Systematische Bewertung von Finanzarchitekturen",
+        "Konzeptionelle Strukturentwicklung",
+        "Schriftliche Ergebnisdokumentation"
+      ],
+      "note": "Es erfolgt keine operative Umsetzung."
+    },
+    "pricing": {
+      "heading": "Honorar",
+      "title": "Struktur-Audit",
+      "price": "1.200 € – 1.800 €",
+      "dependsOn": "Abhängig von:",
+      "factors": [
+        "Komplexität der Struktur",
+        "Anzahl der Entscheidungs- und Steuerungsebenen",
+        "Analyseumfang der Daten",
+        "Grad der Modellbildung"
+      ]
+    },
+    "consultation": {
+      "heading": "Erstgespräch",
+      "duration": "30 Minuten kostenfrei",
+      "purpose": "Zweck:",
+      "items": [
+        "Einordnung des Analysebedarfs",
+        "Prüfung der Zusammenarbeit",
+        "Klärung der gesetzlichen Abgrenzung"
+      ],
+      "requirements": "Voraussetzungen:",
+      "checkboxes": [
+        "Kenntnisnahme der Allgemeinen Bedingungen",
+        "Bestätigung vollständiger und sachlich relevanter Informationsbereitstellung",
+        "Anerkennung der Tätigkeitsabgrenzung"
+      ]
+    }
   },
-  "whenUseful": {
-    "heading": "Wann ist eine Analyse sinnvoll?",
-    "intro": "Eine Analyse ist besonders dann sinnvoll, wenn:",
-    "items": [
-      "Ergebnisse stagnieren oder sinken",
-      "Entscheidungen viel Energie kosten",
-      "Verantwortlichkeiten unklar geworden sind",
-      "interne Prozesse nicht mehr transparent sind",
-      "Abweichungen zwischen Planung und Realität auftreten"
-    ]
+  "foundersService": {
+    "heading": "Strukturklärung für Gründer & Vereine",
+    "subtitle": "Wissenschaftlich fundierte Orientierung",
+    "intro": "Analyse der Ausgangssituation. Strukturierung betriebswirtschaftlicher Grundlagen. Konzeptionelle Vorbereitung organisatorischer Modelle.",
+    "languages": "Beratung in deutscher, ukrainischer und russischer Sprache.",
+    "services": {
+      "heading": "Leistung",
+      "items": [
+        "Analyse wirtschaftlicher Ausgangslage",
+        "Strukturierung von Entscheidungsprozessen",
+        "Konzeptionelle Vorbereitung von Organisationsmodellen",
+        "Methodische Bewertungsmodelle"
+      ],
+      "exclusions": [
+        "Keine Erstellung von Satzungen",
+        "Keine Rechtsberatung",
+        "Keine Steuerberatung"
+      ]
+    },
+    "pricing": {
+      "heading": "Honorar",
+      "option1": "Orientierungsanalyse: ab 480 €",
+      "option2": "Strukturkonzept: ab 750 €"
+    }
   },
-  "whatYouGet": {
-    "heading": "Was Sie bekommen",
-    "intro": "Sie erhalten:",
-    "items": [
-      "eine strukturierte betriebswirtschaftliche Analyse",
-      "eine Plausibilitätsprüfung der Datenbasis",
-      "klar formulierte Entscheidungsoptionen",
-      "priorisierte Handlungsempfehlungen",
-      "Transparenz über strukturelle Schwachstellen"
-    ],
-    "responsibility": "Die unternehmerische Entscheidung bleibt ausschließlich bei Ihnen."
+  "background": {
+    "heading": "Beruflicher Werdegang",
+    "profile": {
+      "title": "Kurzprofil",
+      "text": "Betriebswirtschaftlerin mit mehrjähriger Verantwortung in Konzern-, Mittelstands- und kommunalen Strukturen. Schwerpunkt: strukturierte Finanzanalyse, Entscheidungslogik, Systemintegration."
+    },
+    "experience": {
+      "heading": "Berufserfahrung",
+      "jobs": [
+        {
+          "title": "Amt für Sport (Kommunalverwaltung)",
+          "description": "Analyse von Förderstrukturen und Haushaltsmitteln. Bewertung finanzieller Entscheidungsprozesse."
+        },
+        {
+          "title": "FlexTrans GmbH – Hauptbuchhaltung",
+          "description": "Gesamtverantwortung für Finanzstruktur. Monatsabschlüsse, Steuerungslogik, interne Schulungen zu umsatzsteuerlicher Systematik. Optimierung von Entscheidungsabläufen."
+        },
+        {
+          "title": "Rechtsanwaltsgesellschaft (35 Mandanten)",
+          "description": "Hauptbuchhaltung und Lohnstrukturen (DATEV, LODAS). Strukturierung komplexer Mandantenarchitekturen. Systemintegration und Datenkonvertierung."
+        },
+        {
+          "title": "Aptera Konzern",
+          "description": "Anlagenbuchhaltung für drei Produktionsstandorte. SAP (HGB, IFRS). SAGE-Hauptbuchhaltung."
+        },
+        {
+          "title": "Steuerfachangestellte",
+          "description": "DATEV, digitale Buchführungssysteme. Analyse betriebswirtschaftlicher Auswertungen."
+        }
+      ]
+    },
+    "systems": {
+      "heading": "Systemkompetenz",
+      "items": [
+        "SAP FI / MM",
+        "DATEV (inkl. LODAS)",
+        "SAGE",
+        "Lexware",
+        "PSCD",
+        "FAMOS",
+        "ENAIO",
+        "Excel (inkl. Pivot)",
+        "Digitale Datenkonvertierung zwischen Systemen"
+      ]
+    }
   },
   "collaborationModel": {
     "heading": "3-Stufen-Modell der Zusammenarbeit",
@@ -168,23 +265,24 @@
       "note": "Nur nach vorheriger Analyse buchbar."
     }
   },
-  "legalFramework": {
-    "heading": "Rechtlicher Rahmen",
-    "intro": "Die Beratung erfolgt ausschließlich betriebswirtschaftlich.",
-    "notIncluded": "Nicht Bestandteil der Leistung sind:",
+  "terms": {
+    "heading": "Allgemeine Bedingungen",
     "items": [
-      "Steuerberatung im Sinne des Steuerberatungsgesetzes (StBerG)",
-      "Rechtsberatung im Sinne des Rechtsdienstleistungsgesetzes (RDG)",
-      "Erstellung oder Übernahme laufender Buchhaltung",
-      "Erstellung von Steuererklärungen oder Jahresabschlüssen",
-      "Vertretung gegenüber Behörden oder Gerichten"
-    ],
-    "disclaimer": "Ein bestimmter wirtschaftlicher Erfolg wird nicht geschuldet."
+      "Die Tätigkeit erfolgt als wissenschaftlich fundierte betriebswirtschaftliche Analyse.",
+      "Es werden keine steuerlichen oder rechtlichen Dienstleistungen erbracht.",
+      "Unternehmerische Entscheidungen verbleiben beim Auftraggeber.",
+      "Haftung – außer bei Vorsatz oder grober Fahrlässigkeit – begrenzt auf die Berufshaftpflichtversicherung.",
+      "Grundlage der Analyse sind vollständige und sachlich relevante Informationen des Auftraggebers."
+    ]
   },
   "liability": {
     "heading": "Haftungshinweis",
-    "text1": "Die Haftung ist – außer bei Vorsatz – auf die Deckungssumme der bestehenden Vermögensschadenhaftpflichtversicherung begrenzt.",
-    "text2": "Für Schäden, die auf unvollständigen oder fehlerhaften Angaben beruhen, wird keine Haftung übernommen."
+    "intro": "Keine Haftung für:",
+    "items": [
+      "unternehmerische Entscheidungen",
+      "unvollständige oder fehlerhafte Informationsbereitstellung",
+      "externe gesetzliche Änderungen"
+    ]
   },
   "contact": {
     "heading": "Kontakt",

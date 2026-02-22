@@ -1,17 +1,18 @@
 {
   "nav": {
     "home": "Home",
-    "forWhom": "For Whom",
-    "whenUseful": "When Useful",
-    "collaboration": "Process",
-    "packages": "Packages & Pricing",
+    "premium": "Premium Analysis",
+    "background": "Background",
+    "founders": "Founders & Associations",
+    "terms": "Terms",
     "contact": "Contact"
   },
   "hero": {
-    "title": "Structure. Clarity. Decision Logic.",
-    "tagline": "Business structure and decision analysis for entrepreneurs who take responsibility and want to regain overview.",
-    "button1": "Book Free Consultation (30 Minutes)",
-    "button2": "View Process & Packages"
+    "title": "Scientifically Founded Business Structure and Decision Analysis",
+    "tagline": "Analytical work based on business theory. For companies with high standards for clarity, structure, and reliable decision-making foundations.",
+    "languages": "Consulting in German, Ukrainian, and Russian.",
+    "button1": "Free Initial Consultation (30 Minutes)",
+    "button2": "Services & Fees"
   },
   "forWhom": {
     "heading": "Who is this consulting for?",

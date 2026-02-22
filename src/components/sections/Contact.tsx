@@ -35,7 +35,8 @@ const Contact = () => {
                     <img
                       src={`${import.meta.env.BASE_URL}images/contact-photo.jpg`}
                       alt="StrukturKlar Berater"
-                      className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full object-cover mx-auto"
+                      className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full object-cover object-top mx-auto"
+                      style={{ objectPosition: '50% 20%' }}
                       onError={() => setImageError(true)}
                     />
                   ) : (

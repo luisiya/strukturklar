@@ -3,13 +3,10 @@ import { useTranslation } from 'react-i18next'
 import { Routes, Route } from 'react-router-dom'
 import Navigation from './components/layout/Navigation'
 import Hero from './components/sections/Hero'
-import ForWhom from './components/sections/ForWhom'
-import WhenUseful from './components/sections/WhenUseful'
-import WhatYouGet from './components/sections/WhatYouGet'
-import CollaborationModel from './components/sections/CollaborationModel'
-import Packages from './components/sections/Packages'
-import LegalFramework from './components/sections/LegalFramework'
-import Liability from './components/sections/Liability'
+import PremiumService from './components/sections/PremiumService'
+import FoundersService from './components/sections/FoundersService'
+import ProfessionalBackground from './components/sections/ProfessionalBackground'
+import Terms from './components/sections/Terms'
 import Contact from './components/sections/Contact'
 import Footer from './components/layout/Footer'
 import Impressum from './components/pages/Impressum'
@@ -29,13 +26,10 @@ function App() {
         <Route path="/" element={
           <main>
             <Hero />
-            <ForWhom />
-            <WhenUseful />
-            <WhatYouGet />
-            <CollaborationModel />
-            <Packages />
-            <LegalFramework />
-            <Liability />
+            <PremiumService />
+            <ProfessionalBackground />
+            <FoundersService />
+            <Terms />
             <Contact />
           </main>
         } />
