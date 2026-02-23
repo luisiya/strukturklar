@@ -29,8 +29,11 @@ const Hero = () => {
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
             {t('hero.title')}
           </h1>
-          <p className="text-lg md:text-xl mb-6 text-white/90 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-base md:text-lg mb-4 text-white/90 max-w-4xl mx-auto leading-relaxed">
             {t('hero.tagline')}
+          </p>
+          <p className="text-lg md:text-xl mb-6 text-white font-semibold max-w-4xl mx-auto">
+            {t('hero.subtitle')}
           </p>
           <p className="text-base md:text-lg mb-12 text-white/80 italic">
             {t('hero.languages')}

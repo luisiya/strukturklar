@@ -41,7 +41,8 @@ const Footer = () => {
           {/* Column 3 - Contact */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Kontakt</h4>
-            <p className="text-white/80 text-sm mb-2">E-Mail: anastasiia78@gmail.com</p>
+            <p className="text-white/80 text-sm mb-2">E-Mail: kontakt@strukturklar.com</p>
+</invoke>
             <p className="text-white/80 text-sm">Gorkistraße 109, 04347 Leipzig</p>
           </div>
         </div>

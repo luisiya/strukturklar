@@ -33,7 +33,7 @@ const ContactFormModal = ({ isOpen, onClose }: ContactFormModalProps) => {
       formPayload.append('from_name', formData.name)
       formPayload.append('email', formData.email)
       formPayload.append('message', `Client Number: ${clientNumber}\n\nName: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.comment}`)
-      formPayload.append('to', 'anastasiia78@gmail.com')
+      formPayload.append('to', 'kontakt@strukturklar.com')
 
       // Check if Web3Forms is configured
       const isConfigured = formPayload.get('access_key') !== 'YOUR_WEB3FORMS_ACCESS_KEY'
@@ -54,7 +54,7 @@ const ContactFormModal = ({ isOpen, onClose }: ContactFormModalProps) => {
         // DEMO MODE: Log to console
         console.log('📧 DEMO MODE - Form submitted with this data:')
         console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-        console.log('To: anastasiia78@gmail.com')
+        console.log('To: kontakt@strukturklar.com')
         console.log('Subject:', `strukturklar-client-${clientNumber}`)
         console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         console.log('Name:', formData.name)
@@ -64,7 +64,7 @@ const ContactFormModal = ({ isOpen, onClose }: ContactFormModalProps) => {
         console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         console.log('⚠️  To receive REAL emails:')
         console.log('1. Go to https://web3forms.com')
-        console.log('2. Enter anastasiia78@gmail.com')
+        console.log('2. Enter kontakt@strukturklar.com')
         console.log('3. Get your Access Key')
         console.log('4. Replace YOUR_WEB3FORMS_ACCESS_KEY in ContactFormModal.tsx')
 

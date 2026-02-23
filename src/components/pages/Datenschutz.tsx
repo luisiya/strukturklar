@@ -24,7 +24,7 @@ const Datenschutz = () => {
             <p className="text-gray-700 mb-2">Anastasiia Gurina</p>
             <p className="text-gray-700 mb-2">Gorkistraße 109, 04347 Leipzig</p>
             <p className="text-gray-700 mb-2">Telefon: +49 176 60836128</p>
-            <p className="text-gray-700">E-Mail: anastasiia78@gmail.com</p>
+            <p className="text-gray-700">E-Mail: kontakt@strukturklar.com</p>
           </section>
 
           <section>

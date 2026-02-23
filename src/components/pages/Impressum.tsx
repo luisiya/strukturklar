@@ -21,7 +21,7 @@ const Impressum = () => {
           <section>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Kontakt</h3>
             <p className="text-gray-700 mb-2">Telefon: +49 176 60836128</p>
-            <p className="text-gray-700">E-Mail: anastasiia78@gmail.com</p>
+            <p className="text-gray-700">E-Mail: kontakt@strukturklar.com</p>
           </section>
 
           <section>

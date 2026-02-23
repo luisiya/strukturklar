@@ -9,7 +9,8 @@
   },
   "hero": {
     "title": "Wissenschaftlich fundierte betriebswirtschaftliche Struktur- und Entscheidungsanalyse",
-    "tagline": "Analytische Arbeit auf Grundlage betriebswirtschaftlicher Theorie. Für Unternehmen mit Anspruch auf Klarheit, Struktur und belastbare Entscheidungsgrundlagen.",
+    "tagline": "Komplexe Unternehmensstrukturen führen häufig zu intransparenten Entscheidungswegen und strategischer Unsicherheit. Die Analyse erfolgt systematisch und modellbasiert – mit dem Ziel, Entscheidungsgrundlagen nachvollziehbar und strukturell belastbar zu machen.",
+    "subtitle": "Für Unternehmen mit Anspruch auf Klarheit, Struktur und konsistente Entscheidungslogik.",
     "languages": "Beratung in deutscher, ukrainischer und russischer Sprache.",
     "button1": "Kostenloses Erstgespräch (30 Minuten)",
     "button2": "Leistungen & Honorar"
@@ -85,7 +86,7 @@
       "heading": "Positionierung",
       "intro": "Diese Tätigkeit richtet sich an:",
       "targetItems": [
-        "Geschäftsführungen",
+        "Geschäftsführungen und Entscheidungsträger",
         "Unternehmen mit gewachsenen Strukturen",
         "Organisationen mit komplexen Entscheidungsprozessen",
         "Mandanten mit Bedarf an methodisch fundierter Analyse"
@@ -95,19 +96,21 @@
         "laufende Buchführung",
         "Lohnabrechnung",
         "Steuererklärungen",
-        "operative Finanzdienstleistungen"
+        "operative Finanzdienstleistungen",
+        "Rechtsberatung",
+        "Steuerberatung"
       ]
     },
     "services": {
       "heading": "Leistung",
       "items": [
-        "Analyse betriebswirtschaftlicher Strukturen",
-        "Untersuchung von Entscheidungslogiken",
-        "Systematische Bewertung von Finanzarchitekturen",
-        "Konzeptionelle Strukturentwicklung",
-        "Schriftliche Ergebnisdokumentation"
+        "Analyse betriebswirtschaftlicher Strukturen zur Identifikation struktureller Engpässe",
+        "Untersuchung von Entscheidungslogiken zur Verbesserung strategischer Konsistenz",
+        "Systematische Bewertung von Finanzarchitekturen zur Erhöhung struktureller Transparenz",
+        "Modellbasierte Strukturentwicklung zur Stabilisierung von Entscheidungsprozessen",
+        "Schriftliche Ergebnisdokumentation mit klarer Struktur und Nachvollziehbarkeit"
       ],
-      "note": "Es erfolgt keine operative Umsetzung."
+      "note": "Es erfolgt keine operative Umsetzung und keine Übernahme administrativer Tätigkeiten."
     },
     "pricing": {
       "heading": "Honorar",
@@ -115,10 +118,10 @@
       "price": "1.200 € – 1.800 €",
       "dependsOn": "Abhängig von:",
       "factors": [
-        "Komplexität der Struktur",
+        "Komplexität der Unternehmensstruktur",
         "Anzahl der Entscheidungs- und Steuerungsebenen",
-        "Analyseumfang der Daten",
-        "Grad der Modellbildung"
+        "Umfang und Tiefe der Datenanalyse",
+        "Grad der erforderlichen Modellbildung"
       ]
     },
     "consultation": {
@@ -126,9 +129,9 @@
       "duration": "30 Minuten kostenfrei",
       "purpose": "Zweck:",
       "items": [
-        "Einordnung des Analysebedarfs",
-        "Prüfung der Zusammenarbeit",
-        "Klärung der gesetzlichen Abgrenzung"
+        "Einordnung des Analysebedarfs auf strategischer Ebene",
+        "Prüfung der methodischen Eignung und Zielkompatibilität",
+        "Klärung der gesetzlichen Tätigkeitsabgrenzung"
       ],
       "requirements": "Voraussetzungen:",
       "checkboxes": [
@@ -167,30 +170,30 @@
     "heading": "Beruflicher Werdegang",
     "profile": {
       "title": "Kurzprofil",
-      "text": "Betriebswirtschaftlerin mit mehrjähriger Verantwortung in Konzern-, Mittelstands- und kommunalen Strukturen. Schwerpunkt: strukturierte Finanzanalyse, Entscheidungslogik, Systemintegration."
+      "text": "Betriebswirtschaftlerin mit mehrjähriger Verantwortung in Konzern-, Mittelstands- und kommunalen Strukturen. Schwerpunkt: strukturierte Finanzanalyse, Entscheidungslogik, Systemintegration und modellbasierte Strukturentwicklung."
     },
     "experience": {
       "heading": "Berufserfahrung",
       "jobs": [
         {
           "title": "Amt für Sport (Kommunalverwaltung)",
-          "description": "Analyse von Förderstrukturen und Haushaltsmitteln. Bewertung finanzieller Entscheidungsprozesse."
+          "description": "Analyse von Förderstrukturen und Haushaltsmitteln. Bewertung finanzieller Entscheidungsprozesse und Mittelverwendung."
         },
         {
           "title": "FlexTrans GmbH – Hauptbuchhaltung",
-          "description": "Gesamtverantwortung für Finanzstruktur. Monatsabschlüsse, Steuerungslogik, interne Schulungen zu umsatzsteuerlicher Systematik. Optimierung von Entscheidungsabläufen."
+          "description": "Gesamtverantwortung für die Finanzstruktur. Monatsabschlüsse, interne Steuerungslogik, Schulungen zur umsatzsteuerlichen Systematik. Optimierung von Entscheidungs- und Dokumentationsprozessen."
         },
         {
-          "title": "Rechtsanwaltsgesellschaft (35 Mandanten)",
-          "description": "Hauptbuchhaltung und Lohnstrukturen (DATEV, LODAS). Strukturierung komplexer Mandantenarchitekturen. Systemintegration und Datenkonvertierung."
+          "title": "Rechtsanwalt Berggold (35 Mandanten)",
+          "description": "Verantwortung für Hauptbuchhaltung und Lohnstrukturen (DATEV inkl. LODAS). Strukturierung komplexer Mandantenarchitekturen. Digitale Systemintegration und Datenkonvertierung."
         },
         {
-          "title": "Aptera Konzern",
-          "description": "Anlagenbuchhaltung für drei Produktionsstandorte. SAP (HGB, IFRS). SAGE-Hauptbuchhaltung."
+          "title": "Optera Konzern",
+          "description": "Anlagenbuchhaltung für drei Produktionsstandorte. SAP FI/MM (HGB und IFRS). Hauptbuchhaltung in SAGE."
         },
         {
           "title": "Steuerfachangestellte",
-          "description": "DATEV, digitale Buchführungssysteme. Analyse betriebswirtschaftlicher Auswertungen."
+          "description": "Arbeit mit DATEV und digitalen Buchführungssystemen. Analyse betriebswirtschaftlicher Auswertungen."
         }
       ]
     },
@@ -204,7 +207,7 @@
         "PSCD",
         "FAMOS",
         "ENAIO",
-        "Excel (inkl. Pivot)",
+        "Excel (inkl. Pivot-Modelle)",
         "Digitale Datenkonvertierung zwischen Systemen"
       ]
     }
@@ -269,9 +272,9 @@
     "heading": "Allgemeine Bedingungen",
     "items": [
       "Die Tätigkeit erfolgt als wissenschaftlich fundierte betriebswirtschaftliche Analyse.",
-      "Es werden keine steuerlichen oder rechtlichen Dienstleistungen erbracht.",
+      "Es werden keine steuerlichen oder rechtlichen Dienstleistungen erbracht (§ StBerG, § RDG).",
       "Unternehmerische Entscheidungen verbleiben beim Auftraggeber.",
-      "Haftung – außer bei Vorsatz oder grober Fahrlässigkeit – begrenzt auf die Berufshaftpflichtversicherung.",
+      "Die Haftung – außer bei Vorsatz oder grober Fahrlässigkeit – ist auf die Deckungssumme der Berufshaftpflichtversicherung begrenzt.",
       "Grundlage der Analyse sind vollständige und sachlich relevante Informationen des Auftraggebers."
     ]
   },
@@ -281,19 +284,23 @@
     "items": [
       "unternehmerische Entscheidungen",
       "unvollständige oder fehlerhafte Informationsbereitstellung",
-      "externe gesetzliche Änderungen"
+      "externe gesetzliche Änderungen",
+      "wirtschaftliche Marktveränderungen"
     ]
   },
   "contact": {
     "heading": "Kontakt",
-    "text1": "Wenn Sie Ihre betriebswirtschaftliche Struktur auf ein",
-    "text2": "strategisch\u00A0tragfähiges Fundament stellen möchten,",
-    "text3": "vereinbaren Sie ein Erstgespräch.",
+    "name": "Anastasiia Gurina",
+    "text1": "Wenn Sie Ihre betriebswirtschaftliche Struktur auf ein strategisch tragfähiges Fundament stellen möchten,",
+    "text2": "vereinbaren Sie ein Erstgespräch.",
     "cta": "Erstgespräch vereinbaren",
     "photoAlt": "StrukturKlar Kontakt",
     "available": "Verfügbar für Erstgespräche",
-    "consultant": "Ihr StrukturKlar Berater",
-    "title": "Betriebswirtschaftliche Strukturentwicklung"
+    "title": "Betriebswirtschaftliche Strukturentwicklung",
+    "address": "Gorkistraße 109",
+    "city": "04347 Leipzig",
+    "phone": "+49 176 60836128",
+    "email": "kontakt@strukturklar.com"
   },
   "form": {
     "name": "Ihr Name",
