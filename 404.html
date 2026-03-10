@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // GitHub Pages SPA redirect:
+      // Saves the full URL to sessionStorage then redirects to /
+      // The main index.html reads it back and restores the path via history.replaceState
+      sessionStorage.setItem('spa_redirect', window.location.href);
+      window.location.replace('/');
+    </script>
+  </head>
+  <body></body>
+</html>
