@@ -1,0 +1,43 @@
+{
+  "published": true,
+  "featured": true,
+  "order": 1,
+  "title": "Budget consolidation and resource analysis",
+  "summary": "Conceptual analysis of possible links between employment, public expenditure, municipal revenue and social participation.",
+  "category": "Resources & finance",
+  "status": "scenarioAnalysis",
+  "tags": [
+    "Financial management",
+    "Resources",
+    "Scenarios"
+  ],
+  "models": [
+    "risiko-ressourcen-ziel"
+  ],
+  "sections": {
+    "fragestellung": {
+      "text": [
+        "What links exist between employment, public expenditure, municipal revenue and social participation?"
+      ]
+    },
+    "analyse": {
+      "text": [
+        "The analysis examines hypothetical links between employment, public expenditure, municipal revenue and social participation. The results are based on explicitly stated assumptions and serve as a conceptual consideration of possible scenarios. They constitute neither an official forecast nor an assessment of any specific public authority.",
+        "Based on publicly available statistical data, key figures were compared and hypothetical scenarios developed in order to examine the possible economic and social effects of alternative employment and resource models."
+      ]
+    },
+    "modell": {
+      "text": [
+        "The approach combines quantitative analysis with considerations of the significance of work, financial stability and social participation."
+      ]
+    },
+    "beitrag": {
+      "text": [
+        "Independent scenario analysis based on publicly available statistical data: selecting and comparing the key figures, formulating the assumptions and developing the scenarios."
+      ]
+    },
+    "status": {
+      "note": "Calculations and assumptions should be read as hypothetical scenarios, not as proven forecasts or realised savings."
+    }
+  }
+}

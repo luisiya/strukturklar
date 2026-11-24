@@ -1,0 +1,36 @@
+{
+  "published": false,
+  "order": 99,
+  "internalNote": "Muster für ein neues Denkmodell. Erscheint erst mit \"published\": true.",
+  "title": "Titel des Denkmodells",
+  "summary": "Kurzbeschreibung in einem Satz.",
+  "sections": {
+    "ausgangsproblem": {
+      "text": [
+        "Welches Problem löst das Modell?"
+      ]
+    },
+    "denkfrage": {
+      "text": [
+        "Zentrale Frage"
+      ]
+    },
+    "modell": {
+      "flow": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "beispiel": {
+      "text": [
+        "Beispiel"
+      ]
+    },
+    "grenzen": {
+      "text": [
+        "Grenzen des Modells"
+      ]
+    }
+  }
+}

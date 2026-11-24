@@ -1,0 +1,30 @@
+{
+  "published": true,
+  "order": 5,
+  "title": "Koordination ehrenamtlicher Unterstützungs- und Integrationsstrukturen",
+  "summary": "Praktische Erfahrung in der Organisation und Koordination ehrenamtlicher Unterstützungsangebote mit Bezug zu Integration, Bildung und gesellschaftlicher Teilhabe.",
+  "category": "Organisation & Teilhabe",
+  "status": "practicalCoordination",
+  "tags": [
+    "Organisation",
+    "Koordination",
+    "Teilhabe"
+  ],
+  "sections": {
+    "ausgangslage": {
+      "text": [
+        "Praktische Erfahrung in der Organisation und Koordination ehrenamtlicher Unterstützungsangebote mit Bezug zu Integration, Bildung und gesellschaftlicher Teilhabe."
+      ]
+    },
+    "struktur": {
+      "text": [
+        "Der Schwerpunkt liegt auf der Strukturierung von Aufgaben, der Koordination von Beteiligten und der Entwicklung unterstützender organisatorischer Abläufe."
+      ]
+    },
+    "beitrag": {
+      "text": [
+        "Praktische Koordination: Strukturierung von Aufgaben, Abstimmung zwischen Beteiligten und Aufbau unterstützender organisatorischer Abläufe im ehrenamtlichen Bereich."
+      ]
+    }
+  }
+}

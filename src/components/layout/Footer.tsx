@@ -1,56 +1,83 @@
 import { Link } from 'react-router-dom'
+import { useT } from '../../i18n'
+import { site } from '../../config/site'
+import { localePath, type PageKey } from '../../lib/paths'
+import { Logo } from './Logo'
+
+const LEGAL: PageKey[] = ['impressum', 'datenschutz', 'scope']
+
+// Footer navigation; services and method are sections of the home page.
+const NAV: { key: string; page: PageKey; hash?: string }[] = [
+  { key: 'about', page: 'about' },
+  { key: 'services', page: 'home', hash: 'leistungen' },
+  { key: 'method', page: 'home', hash: 'arbeitsweise' },
+  { key: 'models', page: 'models' },
+  { key: 'projects', page: 'projects' },
+  { key: 'contact', page: 'contact' },
+]
 
 const Footer = () => {
+  const { t, lang } = useT()
+  const social = site.social.filter((s) => s.url)
+  const linkClass = 'text-ink-soft hover:text-ink'
+
   return (
-    <footer
-      className="text-white py-12"
-      style={{ backgroundColor: 'rgb(3 105 161 / var(--tw-text-opacity, 1))' }}
-    >
-      <div className="max-w-6xl mx-auto px-4 md:px-8">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
-          {/* Column 1 - Brand */}
-          <div>
-            <h3 className="text-xl font-bold mb-4">StrukturKlar</h3>
-            <p className="text-white/80 text-sm">
-              Betriebswirtschaftliche Struktur- und Entscheidungsanalyse
-            </p>
-          </div>
-
-          {/* Column 2 - Links */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Rechtliches</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link to="/impressum" className="text-white/80 hover:text-white transition-colors">
-                  Impressum
-                </Link>
-              </li>
-              <li>
-                <Link to="/datenschutz" className="text-white/80 hover:text-white transition-colors">
-                  Datenschutz
-                </Link>
-              </li>
-              <li>
-                <a href="#contact" className="text-white/80 hover:text-white transition-colors">
-                  Kontakt
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Column 3 - Contact */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Kontakt</h4>
-            <p className="text-white/80 text-sm mb-2">E-Mail: kontakt@strukturklar.com</p>
-            <p className="text-white/80 text-sm">Gorkistraße 109, 04347 Leipzig</p>
-          </div>
-        </div>
-
-        <div className="border-t border-white/20 pt-6 text-center">
-          <p className="text-white/80 text-sm">
-            &copy; {new Date().getFullYear()} StrukturKlar. Alle Rechte vorbehalten.
+    <footer className="mt-auto border-t border-line bg-surface">
+      <div className="container-page grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="sm:col-span-2 lg:col-span-1">
+          <Logo />
+          <p className="mt-4 max-w-xs text-sm font-medium leading-relaxed text-ink-soft">{t('footer.tagline')}</p>
+          <p className="mt-3 max-w-xs text-sm leading-relaxed text-ink-muted">{t('footer.text')}</p>
+          <p className="mt-4 text-sm text-ink-muted">
+            {site.person.name} · {site.person.city}
           </p>
         </div>
+
+        <nav aria-label={t('footer.navigation')}>
+          <h2 className="label mb-4 text-ink-muted">{t('footer.navigation')}</h2>
+          <ul className="space-y-2.5 text-sm">
+            {NAV.map(({ key, page, hash }) => (
+              <li key={key}>
+                <Link to={localePath(lang, page) + (hash ? `#${hash}` : '')} className={linkClass}>
+                  {t(`nav.${key}`)}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        <nav aria-label={t('footer.legal')}>
+          <h2 className="label mb-4 text-ink-muted">{t('footer.legal')}</h2>
+          <ul className="space-y-2.5 text-sm">
+            {LEGAL.map((page) => (
+              <li key={page}>
+                <Link to={localePath(lang, page)} className={linkClass}>
+                  {t(`footer.${page}`)}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        {social.length > 0 && (
+          <div>
+            <h2 className="label mb-4 text-ink-muted">{t('footer.social')}</h2>
+            <ul className="space-y-2.5 text-sm">
+              {social.map((s) => (
+                <li key={s.key}>
+                  <a href={s.url} target="_blank" rel="noopener noreferrer me" className={linkClass}>
+                    {s.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+      <div className="border-t border-line">
+        <p className="container-page py-6 text-xs text-ink-muted">
+          © {new Date().getFullYear()} {site.name}. {t('footer.rights')}
+        </p>
       </div>
     </footer>
   )

@@ -1,127 +1,163 @@
-import { Link } from 'react-router-dom'
+import type { ReactNode } from 'react'
+import { useT } from '../../i18n'
+import { Seo } from '../../lib/seo'
+import { localePath } from '../../lib/paths'
+import { breadcrumbs } from '../../lib/breadcrumbs'
+import { site } from '../../config/site'
+import LegalNotice from '../ui/LegalNotice'
+import PageHeader from '../ui/PageHeader'
+
+const Part = ({ title, children }: { title: string; children: ReactNode }) => (
+  <section>
+    <h2 className="h3 mb-3">{title}</h2>
+    <div className="space-y-3">{children}</div>
+  </section>
+)
+
+const List = ({ items }: { items: string[] }) => (
+  <ul className="list-disc space-y-1 pl-5">
+    {items.map((item) => (
+      <li key={item}>{item}</li>
+    ))}
+  </ul>
+)
 
 const Datenschutz = () => {
+  const { t, lang } = useT()
+  const crumbs = breadcrumbs(t, lang, 'datenschutz')
+  const { person, address } = site
   return (
-    <div className="min-h-screen bg-gray-50 py-20">
-      <div className="max-w-4xl mx-auto px-4 md:px-8">
-        <Link to="/" className="inline-flex items-center text-primary-700 hover:text-primary-800 mb-6 font-semibold">
-          ← Zurück zur Startseite
-        </Link>
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">Datenschutzerklärung</h1>
+    <>
+      <Seo
+        lang={lang}
+        path={localePath(lang, 'datenschutz')}
+        title={t('meta.datenschutz.title')}
+        description={t('meta.datenschutz.description')}
+        breadcrumbs={crumbs}
+      />
+      <PageHeader title="Datenschutzerklärung" breadcrumbs={crumbs} />
+      <LegalNotice />
+      <div className="container-page py-14 sm:py-20" lang="de">
+        <div className="max-w-prose space-y-10 leading-relaxed text-ink-soft">
+          <Part title="1. Verantwortliche">
+            <p>
+              {person.name}
+              <br />
+              {address.street}, {address.postalCode} {address.city}
+              <br />
+              E-Mail: <a href={`mailto:${person.email}`}>{person.email}</a>
+            </p>
+          </Part>
 
-        <div className="bg-white rounded-lg p-8 shadow-md space-y-8">
-          <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Allgemeine Hinweise</h2>
-            <p className="text-gray-700">
-              Der Schutz Ihrer personenbezogenen Daten ist mir wichtig.
-              Die Verarbeitung erfolgt ausschließlich im Rahmen der gesetzlichen Bestimmungen (DSGVO, BDSG).
+          <Part title="2. Allgemeines">
+            <p>
+              Die Nutzung dieser Website ist ohne Angabe personenbezogener Daten möglich. Personenbezogene Daten werden
+              nur verarbeitet, soweit dies für die Bereitstellung der Website oder die Bearbeitung einer Anfrage
+              erforderlich ist. Es werden keine Cookies, keine Analyse- oder Tracking-Dienste und keine extern
+              geladenen Schriftarten eingesetzt.
             </p>
-          </section>
+          </Part>
 
-          <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Verantwortliche Stelle</h2>
-            <p className="text-gray-700 mb-2">Verantwortlich für die Datenverarbeitung auf dieser Website:</p>
-            <p className="text-gray-700 mb-2">Anastasiia Gurina</p>
-            <p className="text-gray-700 mb-2">Gorkistraße 109, 04347 Leipzig</p>
-            <p className="text-gray-700 mb-2">Telefon: +49 176 60836128</p>
-            <p className="text-gray-700">E-Mail: kontakt@strukturklar.com</p>
-          </section>
+          <Part title="3. Hosting und Server-Logfiles">
+            <p>
+              Die Website wird über GitHub Pages bereitgestellt (GitHub, Inc., 88 Colin P. Kelly Jr. Street, San
+              Francisco, CA 94107, USA). Beim Aufruf der Website verarbeitet der Hosting-Anbieter technisch
+              erforderliche Daten, insbesondere:
+            </p>
+            <List items={['IP-Adresse', 'Datum und Uhrzeit des Zugriffs', 'aufgerufene Seite', 'Browsertyp und Betriebssystem']} />
+            <p>
+              Die Verarbeitung dient der sicheren und stabilen Bereitstellung der Website; darin liegt zugleich das
+              berechtigte Interesse. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Eine Übermittlung in die USA erfolgt auf Grundlage des Angemessenheitsbeschlusses
+              der EU-Kommission zum EU-U.S. Data Privacy Framework, dem GitHub, Inc. angeschlossen ist.
+            </p>
+          </Part>
 
-          <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Erhebung und Speicherung personenbezogener Daten</h2>
-            <p className="text-gray-700 mb-3">Beim Besuch dieser Website werden automatisch folgende Daten erfasst:</p>
-            <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-              <li>IP-Adresse</li>
-              <li>Datum und Uhrzeit des Zugriffs</li>
-              <li>Browsertyp</li>
-              <li>Betriebssystem</li>
-            </ul>
-            <p className="text-gray-700 mt-3">
-              Diese Daten dienen ausschließlich der technischen Sicherheit der Website.
+          <Part title="4. Kontaktaufnahme per E-Mail und Anfrage zum Erstgespräch">
+            <p>
+              Diese Website enthält kein Kontaktformular. Bei einer Kontaktaufnahme per E-Mail, auch mit einer Anfrage
+              zum kostenfreien Erstgespräch, werden die Angaben verarbeitet, die Sie in Ihrer E-Mail machen,
+              insbesondere Name, E-Mail-Adresse und Inhalt der Nachricht. Die Daten werden ausschließlich verwendet, um
+              Ihre Anfrage zu prüfen, mit Ihnen Kontakt aufzunehmen und gegebenenfalls einen Termin für ein
+              Erstgespräch abzustimmen. Eine automatische Terminbestätigung erfolgt nicht.
             </p>
-          </section>
+            <p>
+              <strong className="font-medium text-ink">Empfänger.</strong> Empfängerin der Daten ist ausschließlich die
+              Verantwortliche ({person.name}) unter der E-Mail-Adresse {person.email}. Die Übermittlung erfolgt über
+              Ihren E-Mail-Anbieter; eingehende E-Mails werden beim E-Mail-Dienst der Verantwortlichen ({site.mailProvider}
+              ) gespeichert.
+            </p>
+            <p>
+              Bei einer telefonischen Kontaktaufnahme werden Ihre Telefonnummer und die Inhalte des Gesprächs
+              ausschließlich zur Bearbeitung der Anfrage verarbeitet.
+            </p>
+            <p>
+              <strong className="font-medium text-ink">Rechtsgrundlage.</strong> Art. 6 Abs. 1 lit. b DSGVO, soweit
+              Ihre Anfrage der Anbahnung eines Vertrags dient (vorvertragliche Maßnahmen auf Ihre Anfrage hin), im
+              Übrigen Art. 6 Abs. 1 lit. f DSGVO; das berechtigte Interesse liegt in der Beantwortung Ihrer Anfrage.
+            </p>
+            <p>
+              <strong className="font-medium text-ink">Speicherdauer.</strong> Die Daten werden gelöscht, sobald Ihre
+              Anfrage abschließend bearbeitet und die dazu erforderliche Korrespondenz abgeschlossen ist, sofern keine
+              gesetzliche Grundlage für eine weitere Speicherung besteht. Kommt ein Vertrag zustande, werden die
+              Unterlagen, die gesetzlichen Aufbewahrungspflichten unterliegen, für die Dauer dieser Fristen aufbewahrt
+              (insbesondere § 257 HGB und § 147 AO: bis zu zehn Jahre).
+            </p>
+            <p>
+              Die Angabe Ihrer Daten ist weder gesetzlich noch vertraglich vorgeschrieben. Ohne Name, E-Mail-Adresse
+              und eine kurze Beschreibung kann eine Anfrage jedoch nicht bearbeitet werden. Bitte übermitteln Sie keine
+              vertraulichen Unterlagen oder personenbezogenen Daten Dritter.
+            </p>
+          </Part>
 
-          <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">4. Kontaktformular</h2>
-            <p className="text-gray-700 mb-3">Wenn Sie das Kontaktformular nutzen, werden folgende Daten verarbeitet:</p>
-            <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-              <li>Name</li>
-              <li>E-Mail-Adresse</li>
-              <li>Unternehmensangaben</li>
-              <li>freiwillige Angaben im Freitextfeld</li>
-            </ul>
-            <p className="text-gray-700 mt-3">
-              Die Verarbeitung erfolgt zur Bearbeitung Ihrer Anfrage.
+          <Part title="5. Links zu sozialen Netzwerken">
+            <p>
+              Diese Website enthält einfache Links zu Profilen in sozialen Netzwerken (z. B. LinkedIn). Es werden keine
+              Plugins oder Inhalte dieser Netzwerke eingebunden. Daten werden erst übertragen, wenn Sie einen Link
+              anklicken; dann gilt die Datenschutzerklärung des jeweiligen Netzwerks.
             </p>
-          </section>
+          </Part>
 
-          <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Online-Terminbuchung</h2>
-            <p className="text-gray-700 mb-3">
-              Für die Terminbuchung wird ein externer Dienstleister verwendet.
+          <Part title="6. Speicherdauer">
+            <p>
+              Für Anfragen gelten die Angaben unter Ziffer 4. Server-Logfiles werden vom Hosting-Anbieter nach dessen
+              Vorgaben gespeichert.
             </p>
-            <p className="text-gray-700 mb-3">Dabei werden folgende Daten verarbeitet:</p>
-            <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-              <li>Name</li>
-              <li>E-Mail-Adresse</li>
-              <li>ggf. weitere freiwillige Angaben</li>
-            </ul>
-            <p className="text-gray-700 mt-3">
-              Die Datenverarbeitung erfolgt zum Zweck der Terminorganisation.
-              Der jeweilige Anbieter verarbeitet Daten gemäß seinen Datenschutzbestimmungen.
-            </p>
-            <p className="text-sm text-gray-600 italic mt-2">
-              (Hinweis: Hier später konkreten Anbieter einsetzen, z. B.: "Die Terminbuchung erfolgt über Calendly LLC, USA.")
-            </p>
-          </section>
+          </Part>
 
-          <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Rechtsgrundlage der Verarbeitung</h2>
-            <p className="text-gray-700">
-              Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. b DSGVO (Vertrag bzw. Vertragsanbahnung).
+          <Part title="7. Ihre Rechte">
+            <p>Sie haben das Recht auf:</p>
+            <List
+              items={[
+                'Auskunft (Art. 15 DSGVO)',
+                'Berichtigung (Art. 16 DSGVO)',
+                'Löschung (Art. 17 DSGVO)',
+                'Einschränkung der Verarbeitung (Art. 18 DSGVO)',
+                'Datenübertragbarkeit (Art. 20 DSGVO)',
+              ]}
+            />
+            <p className="font-medium text-ink">
+              Widerspruchsrecht: Sie können einer Verarbeitung, die auf Art. 6 Abs. 1 lit. f DSGVO beruht, aus Gründen,
+              die sich aus Ihrer besonderen Situation ergeben, jederzeit widersprechen (Art. 21 DSGVO). Eine formlose
+              Nachricht an die oben genannte E-Mail-Adresse genügt.
             </p>
-          </section>
+            <p>
+              Sie können sich außerdem bei einer Datenschutz-Aufsichtsbehörde beschweren (Art. 77 DSGVO), zum Beispiel
+              bei der Sächsischen Datenschutz- und Transparenzbeauftragten, Devrientstraße 5, 01067 Dresden.
+            </p>
+          </Part>
 
-          <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Speicherdauer</h2>
-            <p className="text-gray-700">
-              Personenbezogene Daten werden nur so lange gespeichert, wie es für die jeweiligen Zwecke erforderlich ist
-              oder gesetzliche Aufbewahrungspflichten bestehen.
-            </p>
-          </section>
+          <Part title="8. Automatisierte Entscheidungen">
+            <p>Eine automatisierte Entscheidungsfindung einschließlich Profiling (Art. 22 DSGVO) findet nicht statt.</p>
+          </Part>
 
-          <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Ihre Rechte</h2>
-            <p className="text-gray-700 mb-3">Sie haben das Recht:</p>
-            <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-              <li>auf Auskunft über Ihre gespeicherten Daten</li>
-              <li>auf Berichtigung</li>
-              <li>auf Löschung</li>
-              <li>auf Einschränkung der Verarbeitung</li>
-              <li>auf Datenübertragbarkeit</li>
-              <li>auf Widerruf einer Einwilligung</li>
-            </ul>
-            <p className="text-gray-700 mt-3">
-              Beschwerden können bei der zuständigen Datenschutzaufsichtsbehörde eingereicht werden.
-            </p>
-          </section>
+          <Part title="9. Verschlüsselung">
+            <p>Die Verbindung zu dieser Website ist per TLS verschlüsselt.</p>
+          </Part>
 
-          <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">9. SSL- bzw. TLS-Verschlüsselung</h2>
-            <p className="text-gray-700">
-              Diese Website nutzt aus Sicherheitsgründen eine SSL- bzw. TLS-Verschlüsselung.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Keine Weitergabe an Dritte</h2>
-            <p className="text-gray-700">
-              Eine Weitergabe Ihrer Daten an Dritte erfolgt nur, wenn dies gesetzlich zulässig oder zur Vertragserfüllung erforderlich ist.
-            </p>
-          </section>
+          <p className="text-sm text-ink-muted">Stand: November 2026</p>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

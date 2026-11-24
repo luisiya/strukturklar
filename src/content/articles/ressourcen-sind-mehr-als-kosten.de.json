@@ -1,0 +1,39 @@
+{
+  "published": true,
+  "order": 2,
+  "title": "Ressourcen sind mehr als Kosten",
+  "date": "2026-07-08",
+  "category": "Kompetenzorientierte Ressourcenallokation",
+  "intro": "Personal wird in Organisationen häufig primär als Kostenfaktor betrachtet. Gleichzeitig verfügen Menschen über Erfahrung, Wissen, Fähigkeiten, Qualifikationen und Entwicklungspotenzial.",
+  "sections": {
+    "hauptgedanke": {
+      "text": [
+        "Die entscheidende Frage lautet nicht nur: „Wie viele Stellen haben wir?“",
+        "Sondern: „Welche Kompetenzen und Kapazitäten stehen zur Verfügung – und wo werden sie tatsächlich gebraucht?“"
+      ]
+    },
+    "modell": {
+      "flow": [
+        "Vorhandene Ressourcen",
+        "Kompetenzen",
+        "organisatorischer Bedarf",
+        "Matching",
+        "GAP",
+        "Handlungsmöglichkeiten"
+      ]
+    },
+    "beispiel": {
+      "text": [
+        "Eine Organisation verfügt über Mitarbeitende mit unterschiedlichen Erfahrungen und Kompetenzen, während gleichzeitig in anderen Bereichen bestimmte Fähigkeiten fehlen.",
+        "Statt ausschließlich neue Ressourcen aufzubauen, kann zunächst geprüft werden, ob vorhandene Kompetenzen anders eingesetzt, weiterentwickelt oder miteinander kombiniert werden können."
+      ]
+    },
+    "ziel": {
+      "text": [
+        "Ressourcen nicht nur verwalten, sondern sinnvoll einsetzen und entwickeln."
+      ]
+    }
+  },
+  "project": "kompetenzorientierte-personalentwicklung",
+  "model": "kompetenzorientierte-ressourcenallokation"
+}

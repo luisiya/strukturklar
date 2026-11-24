@@ -1,0 +1,83 @@
+{
+  "published": true,
+  "order": 2,
+  "title": "Risk – Resources – Goal",
+  "summary": "A model for examining business decisions in the context of objectives, available resources and possible risks.",
+  "project": "ressourcensteuerung-szenarioanalyse",
+  "sections": {
+    "ausgangsproblem": {
+      "text": [
+        "The model helps to avoid looking at decisions in isolation. A measure can achieve a goal while at the same time creating new risks or a high demand for resources."
+      ]
+    },
+    "denkfrage": {
+      "text": [
+        "What goal should be achieved, what resources are available and what risks arise?"
+      ]
+    },
+    "modell": {
+      "flow": [
+        "Goal ↔ Resources ↔ Risks",
+        "Options",
+        "Impact"
+      ]
+    },
+    "elemente": {
+      "stages": [
+        {
+          "title": "Goal",
+          "items": [
+            "What should be achieved?",
+            "What impact is expected?",
+            "How is success measured?"
+          ]
+        },
+        {
+          "title": "Resources",
+          "items": [
+            "Staff",
+            "Time",
+            "Budget",
+            "Information",
+            "Technical options",
+            "Existing competencies"
+          ]
+        },
+        {
+          "title": "Risks",
+          "items": [
+            "Errors",
+            "Delays",
+            "Dependencies",
+            "Lack of capacity",
+            "Interface problems",
+            "Quality risks",
+            "Financial effects"
+          ]
+        }
+      ]
+    },
+    "beispiel": {
+      "text": [
+        "An organisation wants to make a process faster."
+      ],
+      "items": [
+        "Option A: more staff",
+        "Option B: restructure the process",
+        "Option C: partial automation",
+        "Option D: redistribute tasks"
+      ],
+      "note": "Each option has a different resource requirement, different risks and a different expected impact."
+    },
+    "wirkung": {
+      "text": [
+        "Decisions become easier to compare."
+      ]
+    },
+    "grenzen": {
+      "text": [
+        "The model provides a structured economic basis for decisions. It does not guarantee that a particular impact will actually occur."
+      ]
+    }
+  }
+}

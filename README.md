@@ -1,162 +1,52 @@
-# StrukturKlar®️ Portfolio Website
+# StrukturKlar
 
-A professional, single-page portfolio website for StrukturKlar®️ - Strategic Business Structure Development.
+Website von StrukturKlar: eine wachsende Wissens- und Projektplattform mit Projekten, Denkmodellen und Denkwerkstatt.
 
-## Features
+## Technik
 
-- ✅ **Responsive Design** - Mobile-first approach with breakpoints for tablet and desktop
-- ✅ **Multi-language Support** - German (main), English, Ukrainian, and Russian
-- ✅ **Smooth Scrolling Navigation** - Fixed navigation with active section highlighting
-- ✅ **Mobile Menu** - Slide-in hamburger menu for mobile devices
-- ✅ **Professional Design** - Business-focused aesthetic with clean typography
-- ✅ **8 Content Sections** - Hero, Introduction, Problem, Approach, Target Audience, Strategy Check, Stance, and Contact
+- Vite, React 18, TypeScript, Tailwind CSS, React Router
+- Mehrsprachige URLs: `/de/`, `/en/`, `/ru/`, `/uk/` (Hauptsprache Deutsch)
+- Jede Seite wird beim Build als statisches HTML vorgerendert (`scripts/prerender.js`) und im Browser hydriert: Meta-Tags, Canonical, hreflang, Open Graph und JSON-LD stehen direkt im HTML.
+- Der Build erzeugt außerdem `sitemap.xml`, `robots.txt` und `404.html`.
+- Schrift Inter wird lokal ausgeliefert (keine Google Fonts).
 
-## Technology Stack
-
-- **Vite** - Fast build tool and dev server
-- **React 18** - Modern UI library
-- **TypeScript** - Type-safe development
-- **Tailwind CSS** - Utility-first styling
-- **react-i18next** - Internationalization
-- **react-scroll** - Smooth scrolling navigation
-- **react-icons** - Icon library
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+ and npm
-
-### Installation
+## Befehle
 
 ```bash
-# Install dependencies
 npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
+npm run dev       # Entwicklungsserver
+npm run build     # Build + Prerendering nach dist/
+npm run preview   # gebaute Seite lokal ansehen
+npm run deploy    # Build und Veröffentlichung auf GitHub Pages
 ```
 
-### Development Server
+## Konfiguration
 
-The development server will start at `http://localhost:5173/`
+| Variable | Zweck | Standard |
+| --- | --- | --- |
+| `BASE_PATH` | Pfad, unter dem die Seite liegt | `/` (Domain strukturklar.com, siehe `public/CNAME`) |
+| `VITE_SITE_URL` | Öffentliche Adresse für Canonical, Sitemap, Open Graph | `https://strukturklar.com` |
+| `VITE_WEB3FORMS_KEY` | Schlüssel für das Kontaktformular | leer = Formular öffnet das E-Mail-Programm |
 
-## Project Structure
+Kontaktdaten, Social-Media-Links und veröffentlichte Sprachen: `src/config/site.ts`.
+
+## Struktur
 
 ```
-StrukturKlar/
-├── public/
-│   └── images/           # Place contact photo here
-├── src/
-│   ├── components/
-│   │   ├── layout/       # Navigation components
-│   │   ├── sections/     # Page sections
-│   │   └── common/       # Reusable components
-│   ├── locales/          # Translation files (de, en, uk, ru)
-│   ├── App.tsx           # Main app component
-│   └── main.tsx          # Entry point
-├── tailwind.config.js    # Tailwind configuration
-└── package.json
+src/
+  config/site.ts        Kontakt, Social Media, Sprachen
+  content/              Projekte, Denkmodelle, Beiträge als JSON (siehe CONTENT.md)
+  i18n/                 Seitentexte je Sprache
+  pages/                Seiten
+  components/home/      Abschnitte der Startseite
+  components/ui/        Bausteine und Templates
+  components/layout/    Navigation, Footer, Layout
+  lib/                  URLs, SEO, Breadcrumbs
+  entry-server.tsx      Rendering für das Prerendering
+scripts/prerender.js    statische Seiten, Sitemap, robots.txt
 ```
 
-## Adding a Contact Photo
+## Inhalte und Deployment
 
-To add a professional contact photo:
-
-1. Place your image in `public/images/contact-photo.jpg`
-2. Update the Contact component at `src/components/sections/Contact.tsx`
-3. Replace the placeholder SVG with:
-   ```tsx
-   <img
-     src="/images/contact-photo.jpg"
-     alt={t('contact.photoAlt')}
-     className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-2xl border-4 border-white/20"
-   />
-   ```
-
-## Translations
-
-Translation files are located in `src/locales/`:
-- `de/translation.json` - German (main language)
-- `en/translation.json` - English
-- `uk/translation.json` - Ukrainian
-- `ru/translation.json` - Russian
-
-To edit content, update the appropriate translation file.
-
-## Navigation Sections
-
-The website has 8 main sections accessible via navigation:
-
-1. **Hero** - Title and tagline with CTA
-2. **Introduction** - About entrepreneurial success
-3. **Problem** - When numbers exist but no control
-4. **Approach** - StrukturKlar methodology
-5. **Target Audience** - Who benefits from services
-6. **Strategy Check** - The 4-step analysis process
-7. **Stance** - Professional philosophy
-8. **Contact** - Contact information and photo
-
-## Design System
-
-### Colors
-- **Primary**: Deep blue (#0369a1) - Trust and professionalism
-- **Secondary**: Light blue (#0ea5e9) - Modern and approachable
-- **Accent**: Gold/Amber (#f59e0b) - Highlights and CTAs
-
-### Typography
-- **Font**: Inter (via Google Fonts)
-- **Scale**: Responsive from mobile to desktop
-
-### Responsive Breakpoints
-- **Mobile**: < 768px
-- **Tablet**: 768px - 1024px
-- **Desktop**: > 1024px
-
-## Scripts
-
-```bash
-npm run dev         # Start development server
-npm run build       # Build for production
-npm run preview     # Preview production build
-npm run lint        # Run ESLint
-npm run type-check  # TypeScript type checking
-```
-
-## Deployment
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist/` directory.
-
-### Deployment Options
-
-- **Vercel**: Recommended for Vite projects (auto-deploy from GitHub)
-- **Netlify**: Simple drag-and-drop deployment
-- **GitHub Pages**: Static hosting
-- **AWS S3 + CloudFront**: Enterprise hosting
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## License
-
-Copyright © 2026 StrukturKlar®️. All rights reserved.
-
-## Contact
-
-For questions or support regarding this website, please refer to the contact section of the website.
+- Inhalte bearbeiten: Verwaltung unter `/admin/` (Sveltia CMS, Anmeldung mit GitHub-Token) oder direkt die JSON-Dateien, siehe [CONTENT.md](CONTENT.md).
+- Jeder Push auf `main` (auch Speichern im CMS) baut die Seite und veröffentlicht sie über `.github/workflows/deploy.yml` auf dem Branch `gh-pages`. `npm run deploy` geht weiterhin manuell.

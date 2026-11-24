@@ -1,0 +1,79 @@
+{
+  "published": true,
+  "order": 1,
+  "title": "IST – SOLL – GAP",
+  "summary": "Ein Modell zur strukturierten Identifikation von Abweichungen zwischen der bestehenden und der angestrebten Situation.",
+  "sections": {
+    "ausgangsproblem": {
+      "text": [
+        "Das Modell hilft dabei, komplexe Probleme zunächst zu strukturieren, bevor konkrete Maßnahmen entwickelt werden."
+      ]
+    },
+    "denkfrage": {
+      "text": [
+        "Wo stehen wir heute – wo wollen wir hin – und was verhindert die Zielerreichung?"
+      ]
+    },
+    "elemente": {
+      "stages": [
+        {
+          "title": "IST",
+          "items": [
+            "aktuelle Situation",
+            "bestehende Prozesse",
+            "vorhandene Ressourcen",
+            "Daten und Informationen",
+            "Zuständigkeiten",
+            "aktuelle Ergebnisse"
+          ]
+        },
+        {
+          "title": "SOLL",
+          "items": [
+            "gewünschter Zustand",
+            "Ziel",
+            "Anforderungen",
+            "erwartete Wirkung"
+          ]
+        },
+        {
+          "title": "GAP",
+          "items": [
+            "Abweichungen",
+            "fehlende Ressourcen",
+            "Prozessprobleme",
+            "Schnittstellen",
+            "Informationsdefizite",
+            "strukturelle Ursachen"
+          ]
+        }
+      ]
+    },
+    "anwendung": {
+      "text": [
+        "Das Modell kann bei organisatorischen, wirtschaftlichen und administrativen Fragestellungen eingesetzt werden."
+      ]
+    },
+    "beispiel": {
+      "text": [
+        "Ein Prozess benötigt deutlich länger als vorgesehen."
+      ],
+      "items": [
+        "IST: Der Prozess dauert 15 Tage.",
+        "SOLL: Der Prozess soll innerhalb von 7 Tagen abgeschlossen werden.",
+        "GAP: 8 Tage Differenz."
+      ],
+      "note": "Danach wird nicht sofort eine Lösung festgelegt, sondern untersucht, warum diese Differenz entsteht."
+    },
+    "wirkung": {
+      "text": [
+        "Das Problem wird von einer allgemeinen Wahrnehmung zu einer strukturierten Fragestellung."
+      ]
+    },
+    "grenzen": {
+      "text": [
+        "Das Modell ersetzt keine fachrechtliche Prüfung und keine detaillierte Spezialanalyse, wenn für eine Fragestellung besondere rechtliche oder fachliche Expertise erforderlich ist."
+      ]
+    }
+  }
+}

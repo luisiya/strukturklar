@@ -1,44 +1,55 @@
-import { useEffect } from 'react'
-import { useTranslation } from 'react-i18next'
-import { Routes, Route } from 'react-router-dom'
-import Navigation from './components/layout/Navigation'
-import Hero from './components/sections/Hero'
-import PremiumService from './components/sections/PremiumService'
-import FoundersService from './components/sections/FoundersService'
-import ProfessionalBackground from './components/sections/ProfessionalBackground'
-import Terms from './components/sections/Terms'
-import Contact from './components/sections/Contact'
-import Footer from './components/layout/Footer'
+import { Navigate, Route, Routes } from 'react-router-dom'
+import { DEFAULT_LANG } from './config/site'
+import { PAGES, localePath } from './lib/paths'
+import Layout, { Shell } from './components/layout/Layout'
+import Home from './pages/Home'
+import About from './pages/About'
+import Models from './pages/Models'
+import ModelDetail from './pages/ModelDetail'
+import Projects from './pages/Projects'
+import ProjectDetail from './pages/ProjectDetail'
+import Workshop from './pages/Workshop'
+import ArticleDetail from './pages/ArticleDetail'
+import Development from './pages/Development'
+import Contact from './pages/Contact'
+import Scope from './pages/Scope'
 import Impressum from './components/pages/Impressum'
 import Datenschutz from './components/pages/Datenschutz'
+import NotFound from './pages/NotFound'
 
-function App() {
-  const { i18n } = useTranslation()
+const App = () => (
+  <Routes>
+    <Route path="/" element={<Navigate to={localePath(DEFAULT_LANG)} replace />} />
+    {/* Old URLs without language prefix */}
+    <Route path="/impressum" element={<Navigate to={localePath(DEFAULT_LANG, 'impressum')} replace />} />
+    <Route path="/datenschutz" element={<Navigate to={localePath(DEFAULT_LANG, 'datenschutz')} replace />} />
 
-  useEffect(() => {
-    document.documentElement.lang = i18n.language
-  }, [i18n.language])
+    <Route path="/:lang" element={<Layout />}>
+      <Route index element={<Home />} />
+      <Route path={PAGES.about} element={<About />} />
+      <Route path={PAGES.models} element={<Models />} />
+      <Route path={`${PAGES.models}/:slug`} element={<ModelDetail />} />
+      <Route path={PAGES.projects} element={<Projects />} />
+      <Route path={`${PAGES.projects}/:slug`} element={<ProjectDetail />} />
+      <Route path={PAGES.workshop} element={<Workshop />} />
+      <Route path={`${PAGES.workshop}/:slug`} element={<ArticleDetail />} />
+      <Route path={PAGES.development} element={<Development />} />
+      <Route path={PAGES.contact} element={<Contact />} />
+      <Route path={PAGES.scope} element={<Scope />} />
+      <Route path={PAGES.impressum} element={<Impressum />} />
+      <Route path={PAGES.datenschutz} element={<Datenschutz />} />
+      <Route path="*" element={<NotFound />} />
+    </Route>
 
-  return (
-    <div className="min-h-screen">
-      <Navigation />
-      <Routes>
-        <Route path="/" element={
-          <main>
-            <Hero />
-            <PremiumService />
-            <ProfessionalBackground />
-            <FoundersService />
-            <Terms />
-            <Contact />
-          </main>
-        } />
-        <Route path="/impressum" element={<Impressum />} />
-        <Route path="/datenschutz" element={<Datenschutz />} />
-      </Routes>
-      <Footer />
-    </div>
-  )
-}
+    <Route
+      path="*"
+      element={
+        <Shell lang={DEFAULT_LANG}>
+          <NotFound />
+        </Shell>
+      }
+    />
+  </Routes>
+)
 
 export default App

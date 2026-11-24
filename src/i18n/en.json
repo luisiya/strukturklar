@@ -1,0 +1,677 @@
+{
+  "meta": {
+    "home": {
+      "title": "StrukturKlar – Economic analysis and decision-making foundations",
+      "description": "Economic analysis, systemic thinking and sound decision-making foundations: StrukturKlar analyses structures, processes, resources and risks and develops comprehensible courses of action."
+    },
+    "about": {
+      "title": "About me",
+      "description": "Anastasiia Gurina – finance and controlling expert with an academic background in international economics and finance and many years of experience in finance, accounting, controlling and administration."
+    },
+    "models": {
+      "title": "Thinking models",
+      "description": "Models for structuring, comparing and developing complex organisational and economic relationships."
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "Projects by StrukturKlar: conceptual analyses, scenario analyses and practical coordination relating to resources, processes, risks, competencies and social participation."
+    },
+    "workshop": {
+      "title": "Thinking workshop",
+      "description": "Observations, short reflections and models on resources, competencies, process quality, digitalisation and decision-making."
+    },
+    "development": {
+      "title": "In development",
+      "description": "Moving on from finance, controlling and public administration towards business analysis, requirements engineering, data, business intelligence and digitalisation."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "A complex question? Let's start with a clear structure. Contact StrukturKlar – Anastasiia Gurina, Leipzig."
+    },
+    "scope": {
+      "title": "Scope of services",
+      "description": "What StrukturKlar does – and what it does not: economic, organisational and conceptual analyses, no tax or legal advice."
+    },
+    "impressum": {
+      "title": "Legal notice",
+      "description": "Legal notice (Impressum) of StrukturKlar."
+    },
+    "datenschutz": {
+      "title": "Privacy",
+      "description": "Privacy policy of StrukturKlar."
+    },
+    "notFound": {
+      "title": "Page not found",
+      "description": "The requested page could not be found."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About me",
+    "models": "Thinking models",
+    "projects": "Projects",
+    "workshop": "Thinking workshop",
+    "development": "In development",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skip": "Skip to content",
+    "language": "Language",
+    "main": "Main navigation",
+    "homeLink": "StrukturKlar – Home",
+    "services": "Services",
+    "method": "Approach"
+  },
+  "footer": {
+    "tagline": "Understand complexity. Recognise structures. Develop possibilities.",
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "social": "Channels",
+    "impressum": "Legal notice",
+    "datenschutz": "Privacy",
+    "scope": "Scope of services",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "text": "Economic and organisational analysis as a basis for conscious decisions and sustainable development."
+  },
+  "common": {
+    "viewModel": "View model",
+    "viewProject": "View project",
+    "allProjects": "All projects",
+    "allModels": "All thinking models",
+    "readArticle": "Read article",
+    "inDevelopment": "In development / further training",
+    "inPreparation": "Detailed description in preparation",
+    "status": "Status",
+    "relatedModels": "Related thinking models",
+    "relatedProject": "Related project",
+    "relatedModel": "Related thinking model",
+    "languageNotice": "This translation is a draft. The German version is authoritative.",
+    "breadcrumb": "Breadcrumb",
+    "statusLabels": {
+      "conceptualAnalysis": "Conceptual analysis",
+      "scenarioAnalysis": "Scenario analysis",
+      "practicalCoordination": "Practical coordination",
+      "implemented": "Implemented project"
+    },
+    "legalGermanOnly": "The legal texts are available in German only; the German version is authoritative.",
+    "draft": "Draft"
+  },
+  "home": {
+    "hero": {
+      "label": "StrukturKlar",
+      "claim": "Understand complexity. Recognise structures. Develop possibilities.",
+      "subtitle": "Economic analysis. Systemic thinking. Sound decision-making foundations.",
+      "text": [
+        "Companies and organisations today face a particular challenge: limited resources, rising demands, increasing complexity and a dynamic competitive environment.",
+        "What matters, therefore, is not only managing existing tasks. What matters is understanding interrelationships, using resources wisely and setting the right priorities.",
+        "StrukturKlar makes complex economic and organisational situations understandable and creates a sound basis for better decisions and sustainable development."
+      ],
+      "focus": "I analyse structures, processes, resources and risks. From this, I develop comprehensible courses of action and conceptual solution approaches.",
+      "closing": "From analysis to perspective. From perspective to decision.",
+      "cta": "Book a free initial consultation"
+    },
+    "when": {
+      "label": "When StrukturKlar makes sense",
+      "heading": "When individual problems are part of a bigger picture.",
+      "text": [
+        "Perhaps you are facing an important business decision. Perhaps processes no longer work the way they should. Perhaps costs have risen, resources are scarce or responsibilities are unclear.",
+        "Often the real challenge does not lie in a single problem, but in the interrelationships between different areas.",
+        "StrukturKlar helps you make these interrelationships visible and examine them systematically."
+      ],
+      "situationsHeading": "Typical starting situations",
+      "situations": [
+        "You want to start a business or develop an existing business activity further.",
+        "You have to manage limited financial and human resources economically.",
+        "You want to compare several locations, offers or investment options.",
+        "You know that processes can be improved, but not yet exactly where the causes lie.",
+        "You want to identify risks before they turn into bigger problems.",
+        "You need a structured basis for an important decision.",
+        "You want to use existing resources more purposefully and identify new development opportunities."
+      ],
+      "goal": "The goal: not just looking at individual symptoms, but understanding the entire starting situation."
+    },
+    "services": {
+      "label": "What StrukturKlar does",
+      "heading": "Complex interrelationships become clear decision-making foundations.",
+      "intro": "StrukturKlar combines business thinking, financial analysis and a systematic view of organisational interrelationships.",
+      "items": [
+        {
+          "title": "Economic analysis",
+          "text": "Making figures and economic interrelationships understandable.",
+          "items": [
+            "Analysis of economic starting situations",
+            "Review of cost and financing structures",
+            "Key figure and profitability analyses",
+            "Cost-benefit assessments",
+            "Scenario and comparative analyses",
+            "Identification of economic risks and potential"
+          ]
+        },
+        {
+          "title": "Structures and processes",
+          "text": "Recognising how tasks, information, responsibilities and workflows interact.",
+          "items": [
+            "Analysis of organisational structures",
+            "Process and interface analyses",
+            "Review of tasks and responsibilities",
+            "Identification of structural weaknesses",
+            "Analysis of dependencies and process risks",
+            "Development of conceptual improvement approaches"
+          ]
+        },
+        {
+          "title": "Resources and potential",
+          "text": "Recognising existing possibilities and assessing them from an economic perspective.",
+          "items": [
+            "Analysis of existing resources",
+            "Review of capacities and tasks",
+            "Matching competencies and requirements",
+            "Analysis of resource deployment and cost-effectiveness",
+            "Identification of development and improvement potential",
+            "Assessment of the possible effects of different resource scenarios"
+          ]
+        },
+        {
+          "title": "Business decisions",
+          "text": "Developing a comprehensible basis for decision-making from different options.",
+          "items": [
+            "Structuring complex questions",
+            "Comparison of different courses of action",
+            "Location and premises questions from an economic perspective",
+            "Investment and cost assessments",
+            "Comparison of offers",
+            "Risk and impact analyses",
+            "Preparation of business discussions and decisions"
+          ]
+        }
+      ],
+      "scopeLabel": "Scope of services:",
+      "scopeNote": "The services listed relate to economic, organisational and conceptual analyses. They do not include tax advice, legal advice, real estate brokerage or the operational performance of specialist services. The specific service is defined individually before the project begins."
+    },
+    "method": {
+      "label": "How I work",
+      "heading": "From the facts to a basis for decision-making.",
+      "intro": "Every question is different. The analytical approach, however, follows a clear structure.",
+      "steps": [
+        {
+          "title": "Understand the IST (as-is)",
+          "question": "What actually exists? What information, figures and framework conditions are available?"
+        },
+        {
+          "title": "Recognise interrelationships",
+          "question": "How are processes, tasks, people, resources and information connected?"
+        },
+        {
+          "title": "Define the goal",
+          "question": "What should be achieved, improved or changed?"
+        },
+        {
+          "title": "Identify the GAP",
+          "question": "What differences exist between the current and the desired situation?"
+        },
+        {
+          "title": "Examine risks",
+          "question": "Which factors can influence or hinder achieving the goal?"
+        },
+        {
+          "title": "Develop options",
+          "question": "What different courses of action are there?"
+        },
+        {
+          "title": "Consider the impact",
+          "question": "What economic, organisational and practical effects may arise?"
+        },
+        {
+          "title": "Create a basis for decision-making",
+          "question": "The results are structured comprehensibly and prepared in a suitable form."
+        }
+      ],
+      "closing": "Good decisions do not come from individual figures. They come from understanding how those figures are connected."
+    },
+    "decision": {
+      "label": "Preparing decisions",
+      "heading": "A good decision starts with the right questions.",
+      "text": [
+        "Not every business question starts with a finished business plan. Often it starts with a specific situation, several open questions and different possibilities.",
+        "StrukturKlar helps you to organise the question, analyse the relevant factors and make possible courses of action comparable."
+      ],
+      "examples": [
+        {
+          "title": "Example: You are planning to start a business.",
+          "questions": [
+            "What financial prerequisites are in place?",
+            "What running costs will arise?",
+            "What resources are needed?",
+            "What investments need to be considered?",
+            "Which location or premises option fits the economic framework?",
+            "What risks and dependencies exist?",
+            "What information is still missing for a well-founded decision?"
+          ]
+        },
+        {
+          "title": "Example: You want to improve existing processes.",
+          "questions": [
+            "Where do delays or unnecessary work steps occur?",
+            "What information is missing?",
+            "Where are responsibilities or interfaces unclear?",
+            "What resources are tied up?",
+            "What structural changes might make sense?"
+          ]
+        },
+        {
+          "title": "Example: You have to choose between several options.",
+          "questions": [
+            "Which criteria are relevant for the comparison?",
+            "What costs and effects arise?",
+            "Which risks distinguish the options?",
+            "Which option best fits the available resources and goals?"
+          ]
+        }
+      ],
+      "note": "The result is not a guarantee of success, but a comprehensible analytical basis that supports your own decision-making."
+    },
+    "support": {
+      "label": "Analytical project support",
+      "heading": "Complex questions sometimes need more than a single analysis step.",
+      "text": [
+        "Some challenges cannot be captured in one conversation or a single evaluation.",
+        "StrukturKlar can support analytical and conceptual projects over several steps – from the initial structuring of a question to the development and assessment of possible courses of action."
+      ],
+      "flowHeading": "Possible project flow",
+      "flow": [
+        "Question",
+        "Initial analysis",
+        "Structuring",
+        "Assessment",
+        "Options",
+        "Basis for decision-making"
+      ],
+      "notes": [
+        "The specific scope, the information required, the results and the individual work steps are agreed together in advance.",
+        "The focus is on analysis, structuring and conceptual support – not on taking over the company's operational responsibility."
+      ]
+    },
+    "models": {
+      "label": "Thinking models",
+      "heading": "Making complexity visible.",
+      "intro": "Practical and academically informed questions give rise to thinking models that help to examine interrelationships systematically.",
+      "note": "The thinking models serve conceptual analysis and development. They are not standardised or certified procedures.",
+      "cta": "View all thinking models"
+    },
+    "projects": {
+      "label": "Selected analytical work",
+      "heading": "Understand questions. Develop structures. Make possibilities visible.",
+      "intro": "The following examples show selected topics of my conceptual work. They are presented in abstract form and contain no confidential company, personal or administrative data.",
+      "items": [
+        {
+          "category": "Resources and cost-effectiveness",
+          "title": "Budget consolidation through task and resource analysis",
+          "text": "Conceptual approach for examining task structures, resource deployment and economic improvement potential."
+        },
+        {
+          "category": "Processes and risk structures",
+          "title": "Payment processes and organisational control structures",
+          "text": "Analytical review of payment-related workflows, possible sources of error and organisational control options."
+        },
+        {
+          "category": "Administration and resources",
+          "title": "Structuring funding processes",
+          "text": "Conceptual approaches to improving transparency, traceability and organisational workflows."
+        },
+        {
+          "category": "Organisation and competencies",
+          "title": "Competency-based resource management",
+          "text": "Development of an analytical approach linking tasks, competency profiles and organisational requirements."
+        },
+        {
+          "category": "Process and organisational development",
+          "title": "Structured analysis of administrative workflows",
+          "text": "Conceptual review of interfaces, responsibilities, process risks and possible improvement approaches."
+        }
+      ],
+      "note": "The examples shown describe conceptual topics and working approaches. They do not disclose internal work results of former employers or clients.",
+      "cta": "View more thinking models and projects"
+    },
+    "audience": {
+      "label": "Who StrukturKlar is for",
+      "heading": "For people and organisations who want to understand interrelationships and develop them consciously.",
+      "intro": "The focus is not on a particular industry, but on the economic or organisational question.",
+      "items": [
+        {
+          "title": "Self-employed people and founders",
+          "text": "If you want to structure a project economically, compare different options or plan your next steps on a sounder basis."
+        },
+        {
+          "title": "Small and medium-sized enterprises",
+          "text": "If you want to better understand processes, resources and economic interrelationships and identify development potential."
+        },
+        {
+          "title": "Organisations and institutions",
+          "text": "If complex tasks, resource structures or administrative workflows are to be examined systematically."
+        },
+        {
+          "title": "Business decision-makers",
+          "text": "If you need an additional analytical perspective to structure a complex question comprehensibly."
+        }
+      ]
+    },
+    "about": {
+      "label": "About me",
+      "heading": "From figures to structures. From structures to decisions.",
+      "text": "I am Anastasiia Gurina – a finance and controlling expert with an academic background in international economics and finance and many years of professional experience in finance, accounting, controlling and organisational management processes.",
+      "cta": "More about me",
+      "developmentCta": "My development"
+    },
+    "check": {
+      "label": "Initial consultation",
+      "heading": "30 minutes to structure your question.",
+      "text": [
+        "You have an economic or organisational challenge but do not yet know exactly where to start?",
+        "In the free StrukturKlar initial consultation, we first look at your starting situation."
+      ],
+      "stepsHeading": "Together we clarify:",
+      "steps": [
+        "What exactly is it about?",
+        "Which question is at the centre?",
+        "What information is relevant for an initial assessment?",
+        "Which interrelationships could be examined more closely?",
+        "Does the request fit StrukturKlar's scope of services?",
+        "Could a further analysis make sense?"
+      ],
+      "format": "The initial consultation lasts up to 30 minutes and takes place online or by phone."
+    }
+  },
+  "about": {
+    "label": "About me",
+    "heading": "From figures to structures. From structures to decisions.",
+    "text": [
+      "I am Anastasiia Gurina – a finance and controlling expert with an academic background in international economics and finance and many years of professional experience in finance, accounting, controlling and organisational management processes.",
+      "My professional career began in Ukraine in 1996. Germany has been my home since 2003, and I have continuously developed my professional qualifications and experience here.",
+      "My professional positions include work in finance and accounting, responsibility for general ledger and fixed asset accounting processes, support for various corporate structures, and tasks in controlling and municipal administration."
+    ],
+    "tasksHeading": "In my work to date, I have, among other things:",
+    "tasks": [
+      "been responsible for and coordinated financial processes and closing work;",
+      "managed extensive client portfolios with different requirements;",
+      "prepared monthly closings, evaluations and management reports;",
+      "analysed financial and organisational interrelationships;",
+      "worked with controlling, management, administration and external specialist bodies;",
+      "coordinated staff professionally and structured work processes;",
+      "developed concepts and decision-making foundations for economic and organisational questions."
+    ],
+    "keyPhrase": "What has shaped me most is the combination of financial analysis and organisational thinking: figures never stand in isolation. They reflect processes, decisions, resources and how they interact.",
+    "photoAlt": "Portrait of Anastasiia Gurina",
+    "backgroundHeading": "Academic and professional background",
+    "background": [
+      {
+        "title": "International economics and finance",
+        "text": "Specialist Diploma in Economics and Finance (Diplom-Spezialistin), Kyiv, 2006. Academic degree with honours; credential evaluation by the Central Office for Foreign Education (ZAB). In Germany, the degree is classified at bachelor's level."
+      },
+      {
+        "title": "Tax clerk (Steuerfachangestellte)",
+        "text": "Professional qualification in the German tax field, 2015."
+      },
+      {
+        "title": "Professional experience",
+        "text": "Many years of work in finance, accounting, controlling and administration, including tasks in group structures and municipal organisations."
+      }
+    ],
+    "growthHeading": "Continuous development",
+    "growth": [
+      "Economic interrelationships change. Analytical methods and digital possibilities are also constantly evolving.",
+      "That is why I continuously expand my knowledge, particularly in data management, data-based process analysis, reporting and digital evaluation methods.",
+      "Further topics such as SQL, data quality and business intelligence applications are part of my ongoing professional development."
+    ],
+    "claim": "My aim: to combine economic experience with analytical thinking and new methodological possibilities.",
+    "systemsHeading": "Systems",
+    "systems": [
+      "SAP",
+      "Excel",
+      "DATEV",
+      "DATEV Unternehmen online",
+      "LODAS",
+      "Sage",
+      "enaio",
+      "FAMOS"
+    ],
+    "languagesHeading": "Languages",
+    "languages": [
+      "German",
+      "English",
+      "Ukrainian",
+      "Russian"
+    ]
+  },
+  "development": {
+    "label": "In development",
+    "heading": "My development",
+    "subtitle": "From analysing a problem to developing data-based solution and decision models.",
+    "base": [
+      "Finance",
+      "Accounting",
+      "Controlling",
+      "Public administration",
+      "Processes",
+      "Risks"
+    ],
+    "baseLabel": "Foundation",
+    "path": [
+      "Business analysis",
+      "Business processes & organisation",
+      "Requirements engineering",
+      "Data analysis / SQL",
+      "Power BI / business intelligence",
+      "Python",
+      "Digitalisation & AI",
+      "Project management"
+    ],
+    "pathLabel": "Further development",
+    "keyPhrase": "Not a new profession – but the next level of my previous work.",
+    "dataField": {
+      "title": "Data & digitalisation",
+      "items": [
+        "Data-based process analysis",
+        "KPI and reporting structures",
+        "Data quality",
+        "Business intelligence",
+        "Power BI",
+        "Requirements for digital solutions",
+        "Automation potential",
+        "AI potential in business processes",
+        "Data-based decision models"
+      ]
+    }
+  },
+  "models": {
+    "label": "Thinking models",
+    "heading": "Thinking models",
+    "intro": "Practical questions give rise to models that can be used to structure, compare and further develop complex relationships.",
+    "sections": {
+      "ausgangsproblem": "Initial problem",
+      "denkfrage": "Guiding question",
+      "modell": "Model",
+      "elemente": "Elements",
+      "anwendung": "Application",
+      "beispiel": "Example",
+      "wirkung": "Possible impact",
+      "grenzen": "Limitations",
+      "weiterentwicklung": "Further development"
+    }
+  },
+  "projects": {
+    "label": "Projects",
+    "heading": "Projects",
+    "intro": "Specific questions from finance, public administration, processes and resources – structured according to a consistent approach.",
+    "sections": {
+      "ausgangslage": "Initial situation",
+      "fragestellung": "Question",
+      "ist": "Current state",
+      "analyse": "Analytical approach",
+      "struktur": "Structure",
+      "risiken": "Risks / GAP",
+      "optionen": "Options",
+      "modell": "Model / method",
+      "beitrag": "My contribution",
+      "wirkung": "Impact",
+      "status": "Status",
+      "weiterentwicklung": "Further development"
+    },
+    "statusHeading": "How projects are labelled",
+    "statusTypes": [
+      {
+        "status": "conceptualAnalysis",
+        "text": "independent examination and development of an approach."
+      },
+      {
+        "status": "scenarioAnalysis",
+        "text": "calculation or comparison of hypothetical options under explicitly stated assumptions."
+      },
+      {
+        "status": "practicalCoordination",
+        "text": "practical work actually carried out, such as organisational coordination."
+      },
+      {
+        "status": "implemented",
+        "text": "only where implementation has actually taken place."
+      }
+    ],
+    "statusDisclaimer": "Hypothetical calculations should be read as scenarios based on assumptions, not as reliable forecasts or proven effects.",
+    "methodHeading": "How I work in practice",
+    "method": "In my practical work I analyse processes systematically, identify causes of errors and risks, structure work steps and develop my own checklists that support quality and reliability."
+  },
+  "workshop": {
+    "label": "Thinking workshop",
+    "heading": "Thinking workshop",
+    "intro": "Not every interesting question starts with an assignment. Some start with an observation.",
+    "topicsHeading": "Topics",
+    "topics": [
+      "People and potential",
+      "Resource allocation",
+      "Future of work",
+      "Competency development",
+      "Data-based public administration",
+      "Digitalisation",
+      "AI and decision-making",
+      "Sustainable use of resources",
+      "Process quality",
+      "Long-term system stability"
+    ],
+    "postsHeading": "Articles",
+    "empty": "The first articles are in preparation.",
+    "channelsHeading": "Short reflections and videos",
+    "channelsText": "Selected reflections also appear as short posts on LinkedIn.",
+    "sections": {
+      "hauptgedanke": "Main idea",
+      "analyse": "Analysis",
+      "beispiel": "Example",
+      "modell": "Model",
+      "ziel": "Goal"
+    },
+    "video": "Watch video",
+    "ctaDefault": "Do you have a similar question? A short description is enough.",
+    "lead": "This is where you can see how complex organisational, economic and social questions are analysed and structured."
+  },
+  "contact": {
+    "label": "Contact",
+    "heading": "A complex question? Let's start with a clear structure.",
+    "text": "Briefly describe your economic or organisational situation and the question you are dealing with. After an initial assessment, we can clarify whether your request fits StrukturKlar's area of work.",
+    "cta": "Get in touch",
+    "detailsHeading": "Contact details",
+    "email": "Email",
+    "scopeHint": "On the scope of services:",
+    "detailsName": "StrukturKlar – Anastasiia Gurina",
+    "detailsLine": "Economic analysis · Structures · Decision-making foundations"
+  },
+  "form": {
+    "heading": "Describe your question",
+    "name": "Name",
+    "email": "Email",
+    "message": "Your question",
+    "messageHint": "A few sentences are enough: what is it about, and what needs to be clarified? Please do not send confidential documents or sensitive data.",
+    "privacy": "Your details will be used solely to process your enquiry. More information in the",
+    "privacyLink": "privacy policy",
+    "submit": "Get in touch",
+    "sending": "Sending …",
+    "success": "Thank you. Your message has been received.",
+    "error": "The message could not be sent. Please try again or write directly by email.",
+    "organisation": "Company / organisation",
+    "optional": "optional",
+    "contactPreference": "Preferred method of contact",
+    "contactOptions": [
+      "Email",
+      "Phone",
+      "Video call"
+    ],
+    "phone": "Phone number",
+    "phoneHint": "only for a call-back or video call",
+    "mailto": "Your email program has been opened with the prepared message. Please send it from there. If nothing opened, write directly to",
+    "subject": "StrukturKlar: Enquiry from"
+  },
+  "scope": {
+    "label": "Legal",
+    "heading": "Scope of services",
+    "subheading": "What StrukturKlar does – and what it does not.",
+    "text": [
+      "StrukturKlar offers independent economic, organisational and conceptual analysis services.",
+      "The focus is on the systematic examination of economic and organisational interrelationships, the structuring of complex questions, the development of possible courses of action and the preparation of comprehensible decision-making foundations."
+    ],
+    "focusHeading": "Subject of the services",
+    "focusIntro": "Depending on the individual agreement, these may include in particular:",
+    "focus": [
+      "economic and business analyses;",
+      "analysis of cost, resource and process structures;",
+      "organisational and conceptual studies;",
+      "scenario, risk and comparative analyses;",
+      "structuring of business questions;",
+      "development of conceptual solution and management approaches;",
+      "preparation of analytical evaluations and decision-making foundations."
+    ],
+    "notOfferedHeading": "Not part of the services",
+    "notOfferedIntro": "StrukturKlar does not provide:",
+    "notOffered": [
+      "tax advice or other professional assistance in tax matters, insofar as this is subject to the German Tax Advisory Act (Steuerberatungsgesetz);",
+      "legal advice or legal review of individual cases, insofar as this is subject to the German Legal Services Act (Rechtsdienstleistungsgesetz);",
+      "preparation of tax returns or annual financial statements for third parties;",
+      "ongoing financial, payroll or fixed asset accounting as a stand-alone service;",
+      "payroll processing;",
+      "auditing or statutory audits of financial statements;",
+      "real estate brokerage or agency activities;",
+      "representation before authorities, courts, landlords or other third parties in legal or tax matters;",
+      "assumption of operational management or of responsibility for business decisions."
+    ],
+    "closing": [
+      "The analysis is based on the information provided by the client and the agreed scope of services.",
+      "The results are analytical assessments and conceptual courses of action. They do not replace specialised services of licensed professions. The business decision and its implementation remain with the client.",
+      "The specific scope of services is agreed in writing before a project begins."
+    ]
+  },
+  "notFound": {
+    "heading": "This page does not exist.",
+    "text": "It may have moved. All sections can be reached from the home page.",
+    "cta": "Go to home page"
+  },
+  "inquiry": {
+    "heading": "Request a free initial consultation",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email address",
+    "address": "Address / company location",
+    "message": "What is your enquiry about?",
+    "availability": "When is the best time to reach you?",
+    "availabilityOptions": [
+      "Weekday mornings",
+      "Weekday afternoons",
+      "Weekdays, flexible",
+      "Individual times"
+    ],
+    "submit": "Send request",
+    "subject": "StrukturKlar: initial consultation request from",
+    "success": "Thank you. Your request has arrived. I will get back to you after reviewing it.",
+    "notes": [
+      "The free initial consultation lasts up to 30 minutes and serves as a first orientation and clarification of the assignment. It does not include a full analysis, individual specialist advice or a worked-out recommendation.",
+      "Submitting your request does not yet confirm an appointment. After reviewing your request, we will get in touch to arrange a possible date.",
+      "Please do not send confidential documents or personal data of third parties by email."
+    ]
+  }
+}

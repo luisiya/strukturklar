@@ -1,0 +1,1269 @@
+# Content editor at /admin/. Sign in with a GitHub token; every save is a commit to main,
+# which the deploy workflow (.github/workflows/deploy.yml) publishes automatically.
+backend:
+  name: github
+  repo: luisiya/strukturklar
+  branch: main
+locale: de
+media_folder: public/images
+public_folder: /images
+i18n:
+  structure: multiple_files
+  locales:
+    - de
+    - en
+    - ru
+    - uk
+  default_locale: de
+collections:
+  - name: projects
+    label: Projekte
+    label_singular: Projekt
+    folder: src/content/projects
+    extension: json
+    format: json
+    create: true
+    i18n: true
+    identifier_field: title
+    summary: '{{title}}'
+    sortable_fields:
+      - order
+      - title
+    fields:
+      - label: Veröffentlicht
+        name: published
+        widget: boolean
+        default: false
+        i18n: true
+        hint: Nur mit Haken erscheint der Eintrag auf der Website. Ohne Haken bleibt er ein Entwurf.
+      - label: Auf der Startseite zeigen
+        name: featured
+        widget: boolean
+        default: false
+        required: false
+        i18n: duplicate
+      - label: Reihenfolge
+        name: order
+        widget: number
+        value_type: int
+        i18n: duplicate
+      - label: Titel
+        name: title
+        widget: string
+        i18n: true
+      - label: Untertitel
+        name: subtitle
+        widget: text
+        required: false
+        i18n: true
+      - label: Kurzbeschreibung
+        name: summary
+        widget: text
+        i18n: true
+      - label: Kategorie
+        name: category
+        widget: string
+        i18n: true
+      - label: Status
+        name: status
+        widget: select
+        i18n: duplicate
+        options:
+          - label: Konzeptionelle Analyse
+            value: conceptualAnalysis
+          - label: Szenarioanalyse
+            value: scenarioAnalysis
+          - label: Praktische Koordination
+            value: practicalCoordination
+          - label: Umgesetztes Projekt (nur bei tatsächlicher Umsetzung)
+            value: implemented
+      - label: Schlagworte
+        name: tags
+        widget: list
+        required: false
+        i18n: true
+      - label: Zugehörige Denkmodelle
+        name: models
+        widget: relation
+        collection: models
+        value_field: '{{slug}}'
+        search_fields:
+          - title
+        display_fields:
+          - title
+        multiple: true
+        required: false
+        i18n: duplicate
+      - label: Abschnitte
+        name: sections
+        widget: object
+        i18n: true
+        fields:
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: 1. Ausgangslage
+            name: ausgangslage
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: 2. Fragestellung
+            name: fragestellung
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: 3. IST
+            name: ist
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: 4. Analytischer Ansatz
+            name: analyse
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: 5. Struktur
+            name: struktur
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: 6. Risiken / GAP
+            name: risiken
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: 7. Optionen
+            name: optionen
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: 8. Modell / Methode
+            name: modell
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Eigener Beitrag (konzeptionell oder praktisch)
+            name: beitrag
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: 9. Wirkung
+            name: wirkung
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: 'Status: Hinweis (z. B. Annahmen, Quellen; das Status-Label erscheint automatisch)'
+            name: status
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: 11. Weiterentwicklung
+            name: weiterentwicklung
+      - label: Interne Notiz (wird nie veröffentlicht)
+        name: internalNote
+        widget: text
+        required: false
+        i18n: duplicate
+  - name: models
+    label: Denkmodelle
+    label_singular: Denkmodell
+    folder: src/content/models
+    extension: json
+    format: json
+    create: true
+    i18n: true
+    identifier_field: title
+    summary: '{{title}}'
+    sortable_fields:
+      - order
+      - title
+    fields:
+      - label: Veröffentlicht
+        name: published
+        widget: boolean
+        default: false
+        i18n: true
+        hint: Nur mit Haken erscheint der Eintrag auf der Website. Ohne Haken bleibt er ein Entwurf.
+      - label: Reihenfolge
+        name: order
+        widget: number
+        value_type: int
+        i18n: duplicate
+      - label: Titel
+        name: title
+        widget: string
+        i18n: true
+      - label: Kurzbeschreibung
+        name: summary
+        widget: text
+        i18n: true
+      - label: Verknüpftes Projekt
+        name: project
+        widget: relation
+        collection: projects
+        value_field: '{{slug}}'
+        search_fields:
+          - title
+        display_fields:
+          - title
+        required: false
+        i18n: duplicate
+      - label: Abschnitte (leer = keine eigene Seite)
+        name: sections
+        widget: object
+        required: false
+        i18n: true
+        fields:
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Ausgangsproblem
+            name: ausgangsproblem
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Denkfrage
+            name: denkfrage
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Modell
+            name: modell
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Elemente
+            name: elemente
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Anwendung
+            name: anwendung
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Beispiel
+            name: beispiel
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Mögliche Wirkung
+            name: wirkung
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Grenzen
+            name: grenzen
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Weiterentwicklung
+            name: weiterentwicklung
+      - label: Interne Notiz (wird nie veröffentlicht)
+        name: internalNote
+        widget: text
+        required: false
+        i18n: duplicate
+  - name: articles
+    label: Denkwerkstatt
+    label_singular: Beitrag
+    folder: src/content/articles
+    extension: json
+    format: json
+    create: true
+    i18n: true
+    identifier_field: title
+    summary: '{{date}} – {{title}}'
+    sortable_fields:
+      - date
+      - title
+    fields:
+      - label: Veröffentlicht
+        name: published
+        widget: boolean
+        default: false
+        i18n: true
+        hint: Nur mit Haken erscheint der Eintrag auf der Website. Ohne Haken bleibt er ein Entwurf.
+      - label: Titel
+        name: title
+        widget: string
+        i18n: true
+      - label: Datum
+        name: date
+        widget: datetime
+        time_format: false
+        format: YYYY-MM-DD
+        i18n: duplicate
+      - label: Reihenfolge bei gleichem Datum
+        name: order
+        widget: number
+        value_type: int
+        required: false
+        i18n: duplicate
+      - label: Kurzer Einstieg
+        name: intro
+        widget: text
+        i18n: true
+      - label: Abschnitte
+        name: sections
+        widget: object
+        i18n: true
+        fields:
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Hauptgedanke
+            name: hauptgedanke
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Analyse
+            name: analyse
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Modell
+            name: modell
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Beispiel
+            name: beispiel
+          - widget: object
+            required: false
+            collapsed: true
+            i18n: true
+            fields:
+              - label: Absätze
+                name: text
+                widget: list
+                required: false
+                field:
+                  label: Absatz
+                  name: p
+                  widget: text
+              - label: Aufzählung
+                name: items
+                widget: list
+                required: false
+              - label: Ablauf (A → B → C)
+                name: flow
+                widget: list
+                required: false
+              - label: Stufen-Diagramm
+                name: stages
+                widget: list
+                required: false
+                fields:
+                  - label: Titel
+                    name: title
+                    widget: string
+                  - label: Punkte
+                    name: items
+                    widget: list
+                    required: false
+              - label: Hinweis
+                name: note
+                widget: text
+                required: false
+            label: Ziel
+            name: ziel
+      - label: Video
+        name: video
+        widget: object
+        required: false
+        i18n: duplicate
+        fields:
+          - label: Plattform
+            name: platform
+            widget: select
+            options:
+              - LinkedIn
+              - Instagram
+              - TikTok
+              - YouTube
+          - label: Link
+            name: url
+            widget: string
+      - label: Weiterführendes Projekt
+        name: project
+        widget: relation
+        collection: projects
+        value_field: '{{slug}}'
+        search_fields:
+          - title
+        display_fields:
+          - title
+        required: false
+        i18n: duplicate
+      - label: Zugehöriges Denkmodell
+        name: model
+        widget: relation
+        collection: models
+        value_field: '{{slug}}'
+        search_fields:
+          - title
+        display_fields:
+          - title
+        required: false
+        i18n: duplicate
+      - label: Abschlusssatz (CTA)
+        name: cta
+        widget: string
+        required: false
+        i18n: true
+      - label: Interne Notiz (wird nie veröffentlicht)
+        name: internalNote
+        widget: text
+        required: false
+        i18n: duplicate

@@ -1,0 +1,37 @@
+{
+  "published": true,
+  "order": 1,
+  "title": "IST – SOLL – GAP (as-is – target – gap): Why problems often do not arise where they become visible",
+  "date": "2026-09-16",
+  "category": "Structural analysis and problem identification",
+  "intro": "Many organisational problems are first perceived as isolated problems: costs that are too high, processing times that are too long, lack of capacity or recurring errors.",
+  "sections": {
+    "hauptgedanke": {
+      "text": [
+        "The first step should not be to look for a quick solution, but to ask the structured question: what does the current situation actually look like?",
+        "Between the current state and the desired state there is often a gap. What matters is not only recognising this gap, but understanding its causes and interactions."
+      ]
+    },
+    "modell": {
+      "flow": [
+        "As-is",
+        "Target",
+        "Gap",
+        "Causes",
+        "Options",
+        "Impact"
+      ]
+    },
+    "beispiel": {
+      "text": [
+        "If a process is regularly completed late, the cause does not necessarily lie with the person who carries out the last processing step. The cause may lie at an earlier interface, in missing information, unclear responsibilities or an unsuitable process structure."
+      ]
+    },
+    "ziel": {
+      "text": [
+        "Not managing symptoms, but understanding structures."
+      ]
+    }
+  },
+  "model": "ist-soll-gap"
+}

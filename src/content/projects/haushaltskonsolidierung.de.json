@@ -1,0 +1,43 @@
+{
+  "published": true,
+  "featured": true,
+  "order": 1,
+  "title": "Haushaltskonsolidierung und Ressourcenanalyse",
+  "summary": "Konzeptionelle Analyse möglicher Zusammenhänge zwischen Beschäftigung, öffentlichen Ausgaben, kommunalen Einnahmen und gesellschaftlicher Teilhabe.",
+  "category": "Ressourcen & Finanzen",
+  "status": "scenarioAnalysis",
+  "tags": [
+    "Finanzielle Steuerung",
+    "Ressourcen",
+    "Szenarien"
+  ],
+  "models": [
+    "risiko-ressourcen-ziel"
+  ],
+  "sections": {
+    "fragestellung": {
+      "text": [
+        "Welche Zusammenhänge bestehen zwischen Beschäftigung, öffentlichen Ausgaben, kommunalen Einnahmen und gesellschaftlicher Teilhabe?"
+      ]
+    },
+    "analyse": {
+      "text": [
+        "Die Analyse untersucht hypothetische Zusammenhänge zwischen Beschäftigung, öffentlichen Ausgaben, kommunalen Einnahmen und gesellschaftlicher Teilhabe. Die Ergebnisse beruhen auf ausdrücklich gesetzten Annahmen und dienen der konzeptionellen Betrachtung möglicher Szenarien. Sie stellen weder eine amtliche Prognose noch eine Bewertung einer konkreten Behörde dar.",
+        "Auf Grundlage öffentlich zugänglicher statistischer Daten wurden Kennzahlen miteinander verglichen und hypothetische Szenarien entwickelt, um mögliche wirtschaftliche und gesellschaftliche Auswirkungen alternativer Beschäftigungs- und Ressourcenmodelle zu untersuchen."
+      ]
+    },
+    "modell": {
+      "text": [
+        "Der Ansatz verbindet quantitative Betrachtungen mit Überlegungen zur Bedeutung von Arbeit, finanzieller Stabilität und gesellschaftlicher Teilhabe."
+      ]
+    },
+    "beitrag": {
+      "text": [
+        "Eigenständige Szenarioanalyse auf Basis öffentlich zugänglicher statistischer Daten: Auswahl und Vergleich der Kennzahlen, Formulierung der Annahmen und Entwicklung der Szenarien."
+      ]
+    },
+    "status": {
+      "note": "Berechnungen und Annahmen sind als hypothetische Szenarien zu verstehen, nicht als nachgewiesene Prognosen oder realisierte Einsparungen."
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "published": true,
+  "order": 1,
+  "title": "IST – SOLL – GAP (as-is – target – gap)",
+  "summary": "A model for the structured identification of deviations between the existing and the desired situation.",
+  "sections": {
+    "ausgangsproblem": {
+      "text": [
+        "The model helps to structure complex problems first, before specific measures are developed."
+      ]
+    },
+    "denkfrage": {
+      "text": [
+        "Where are we today – where do we want to go – and what is preventing us from reaching the goal?"
+      ]
+    },
+    "elemente": {
+      "stages": [
+        {
+          "title": "As-is",
+          "items": [
+            "current situation",
+            "existing processes",
+            "available resources",
+            "data and information",
+            "responsibilities",
+            "current results"
+          ]
+        },
+        {
+          "title": "Target",
+          "items": [
+            "desired state",
+            "goal",
+            "requirements",
+            "expected impact"
+          ]
+        },
+        {
+          "title": "Gap",
+          "items": [
+            "deviations",
+            "missing resources",
+            "process problems",
+            "interfaces",
+            "information gaps",
+            "structural causes"
+          ]
+        }
+      ]
+    },
+    "anwendung": {
+      "text": [
+        "The model can be used for organisational, economic and administrative questions."
+      ]
+    },
+    "beispiel": {
+      "text": [
+        "A process takes considerably longer than planned."
+      ],
+      "items": [
+        "As-is: the process takes 15 days.",
+        "Target: the process should be completed within 7 days.",
+        "Gap: a difference of 8 days."
+      ],
+      "note": "The next step is not to decide on a solution straight away, but to examine why this difference arises."
+    },
+    "wirkung": {
+      "text": [
+        "The problem turns from a general perception into a structured question."
+      ]
+    },
+    "grenzen": {
+      "text": [
+        "The model does not replace a specialist legal review or a detailed specialist analysis where a question requires particular legal or technical expertise."
+      ]
+    }
+  }
+}

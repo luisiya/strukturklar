@@ -1,0 +1,34 @@
+{
+  "published": true,
+  "featured": true,
+  "order": 3,
+  "title": "Resource management and scenario analysis",
+  "summary": "Conceptual approaches to the systematic consideration of available resources, possible courses of action and their effects.",
+  "category": "Resources & decisions",
+  "status": "conceptualAnalysis",
+  "tags": [
+    "Resources",
+    "Scenarios",
+    "Basis for decisions"
+  ],
+  "models": [
+    "risiko-ressourcen-ziel"
+  ],
+  "sections": {
+    "analyse": {
+      "text": [
+        "Development of conceptual approaches to the systematic consideration of available resources, possible courses of action and their effects."
+      ]
+    },
+    "optionen": {
+      "text": [
+        "The analysis serves to compare different scenarios in a transparent way, take risks into account and present decision options in a structured form."
+      ]
+    },
+    "beitrag": {
+      "text": [
+        "Independently developed conceptual approach to analysing resources, risks and courses of action."
+      ]
+    }
+  }
+}

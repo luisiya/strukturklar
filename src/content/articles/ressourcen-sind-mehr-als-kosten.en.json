@@ -1,0 +1,39 @@
+{
+  "published": true,
+  "order": 2,
+  "title": "Resources are more than costs",
+  "date": "2026-07-08",
+  "category": "Competency-based resource allocation",
+  "intro": "In organisations, staff are often seen primarily as a cost factor. At the same time, people have experience, knowledge, skills, qualifications and development potential.",
+  "sections": {
+    "hauptgedanke": {
+      "text": [
+        "The key question is not only: “How many positions do we have?”",
+        "But: “What competencies and capacities are available – and where are they actually needed?”"
+      ]
+    },
+    "modell": {
+      "flow": [
+        "Existing resources",
+        "Competencies",
+        "Organisational needs",
+        "Matching",
+        "Gap",
+        "Options for action"
+      ]
+    },
+    "beispiel": {
+      "text": [
+        "An organisation has employees with different experience and competencies, while certain skills are lacking in other areas.",
+        "Instead of building up new resources only, it can first be examined whether existing competencies can be deployed differently, developed further or combined."
+      ]
+    },
+    "ziel": {
+      "text": [
+        "Not only managing resources, but deploying and developing them sensibly."
+      ]
+    }
+  },
+  "project": "kompetenzorientierte-personalentwicklung",
+  "model": "kompetenzorientierte-ressourcenallokation"
+}

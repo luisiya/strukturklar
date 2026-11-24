@@ -1,0 +1,60 @@
+{
+  "published": true,
+  "order": 3,
+  "title": "Kompetenzorientierte Ressourcenallokation",
+  "summary": "Ein konzeptioneller Ansatz zur Betrachtung vorhandener Kompetenzen, Aufgabenanforderungen und organisatorischer Bedarfe.",
+  "project": "kompetenzorientierte-personalentwicklung",
+  "sections": {
+    "ausgangsproblem": {
+      "text": [
+        "Das Modell unterstützt die Frage, wie vorhandene personelle Ressourcen sinnvoller eingesetzt und vorhandene Kompetenzen besser genutzt werden können."
+      ]
+    },
+    "denkfrage": {
+      "text": [
+        "Welche Kompetenzen sind vorhanden – welche Kompetenzen werden benötigt – und wie können beide Seiten besser zusammengebracht werden?"
+      ]
+    },
+    "modell": {
+      "flow": [
+        "Vorhandene Ressourcen",
+        "Kompetenzprofil",
+        "organisatorischer Bedarf",
+        "Matching",
+        "GAP",
+        "Optionen"
+      ],
+      "note": "Mögliche Optionen: Transfer, Weiterentwicklung, Aufgabenveränderung, neue Zusammenarbeit, Neueinstellung, andere organisatorische Lösung."
+    },
+    "elemente": {
+      "items": [
+        "vorhandene Mitarbeitende",
+        "Qualifikationen",
+        "Erfahrung",
+        "Fähigkeiten",
+        "Aufgaben",
+        "Kapazitäten",
+        "organisatorischer Bedarf",
+        "Entwicklungsfähigkeit",
+        "Kosten",
+        "zeitliche Anforderungen"
+      ]
+    },
+    "beispiel": {
+      "text": [
+        "Eine Organisation benötigt zusätzliche Kapazität in einem bestimmten Aufgabenbereich. Gleichzeitig gibt es intern Mitarbeitende mit passenden Grundkompetenzen, die derzeit überwiegend andere Aufgaben ausführen.",
+        "Dann kann zunächst untersucht werden, ob eine interne Veränderung wirtschaftlich und organisatorisch sinnvoll wäre."
+      ]
+    },
+    "wirkung": {
+      "text": [
+        "Die Entscheidung über Ressourcen wird nicht ausschließlich über Stellenanzahl und Kosten betrachtet, sondern auch über Kompetenzen, Bedarf und Wirkung."
+      ]
+    },
+    "grenzen": {
+      "text": [
+        "Das Modell ist eine betriebswirtschaftliche und organisatorische Betrachtung und keine arbeitsrechtliche Beratung."
+      ]
+    }
+  }
+}

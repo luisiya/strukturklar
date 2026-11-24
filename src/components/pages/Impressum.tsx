@@ -1,67 +1,70 @@
-import { Link } from 'react-router-dom'
+import { useT } from '../../i18n'
+import { Seo } from '../../lib/seo'
+import { localePath } from '../../lib/paths'
+import { breadcrumbs } from '../../lib/breadcrumbs'
+import { site } from '../../config/site'
+import LegalNotice from '../ui/LegalNotice'
+import PageHeader from '../ui/PageHeader'
+import PageLink from '../ui/PageLink'
 
 const Impressum = () => {
+  const { t, lang } = useT()
+  const crumbs = breadcrumbs(t, lang, 'impressum')
+  const { person, address } = site
   return (
-    <div className="min-h-screen bg-gray-50 py-20">
-      <div className="max-w-4xl mx-auto px-4 md:px-8">
-        <Link to="/" className="inline-flex items-center text-primary-700 hover:text-primary-800 mb-6 font-semibold">
-          ← Zurück zur Startseite
-        </Link>
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">Impressum</h1>
-
-        <div className="bg-white rounded-lg p-8 shadow-md space-y-6">
+    <>
+      <Seo
+        lang={lang}
+        path={localePath(lang, 'impressum')}
+        title={t('meta.impressum.title')}
+        description={t('meta.impressum.description')}
+        breadcrumbs={crumbs}
+      />
+      <PageHeader title={t('meta.impressum.title')} breadcrumbs={crumbs} />
+      <LegalNotice />
+      <div className="container-page py-14 sm:py-20" lang="de">
+        <div className="max-w-prose space-y-10 leading-relaxed text-ink-soft">
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Angaben gemäß § 5 TMG</h2>
-            <p className="text-gray-700 mb-2">Anastasiia Gurina</p>
-            <p className="text-gray-700 mb-2">Gorkistraße 109</p>
-            <p className="text-gray-700 mb-4">04347 Leipzig</p>
-            <p className="text-gray-700">Deutschland</p>
-          </section>
-
-          <section>
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Kontakt</h3>
-            <p className="text-gray-700 mb-2">Telefon: +49 176 60836128</p>
-            <p className="text-gray-700">E-Mail: kontakt@strukturklar.com</p>
-          </section>
-
-          <section>
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Berufsbezeichnung</h3>
-            <p className="text-gray-700">Freiberufliche betriebswirtschaftliche Beraterin</p>
-          </section>
-
-          <section>
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Tätigkeitsbeschreibung</h3>
-            <p className="text-gray-700">
-              Betriebswirtschaftliche Struktur- und Entscheidungsanalyse ohne Steuerberatung im Sinne des Steuerberatungsgesetzes (StBerG)
-              und ohne Rechtsberatung im Sinne des Rechtsdienstleistungsgesetzes (RDG).
+            <h2 className="h3 mb-3">Angaben gemäß § 5 DDG</h2>
+            <p>
+              {person.name}
+              <br />
+              {site.name}
+              <br />
+              {address.street}
+              <br />
+              {address.postalCode} {address.city}
+              <br />
+              {address.country}
             </p>
           </section>
 
           <section>
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Berufshaftpflichtversicherung</h3>
-            <p className="text-gray-700 mb-2">Name der Versicherung: [Versicherung einfügen]</p>
-            <p className="text-gray-700 mb-2">Anschrift der Versicherung: [Adresse einfügen]</p>
-            <p className="text-gray-700">Räumlicher Geltungsbereich: Deutschland</p>
-            <p className="text-sm text-gray-600 italic mt-2">
-              (Hinweis: Dieser Abschnitt ist vorübergehend, bis die Versicherung abgeschlossen ist)
+            <h2 className="mb-2 text-base font-semibold text-ink">Kontakt</h2>
+            <p>
+              Telefon: <a href={`tel:${person.phoneHref}`}>{person.phone}</a>
+              <br />
+              E-Mail: <a href={`mailto:${person.email}`}>{person.email}</a>
             </p>
           </section>
 
-          <section>
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Umsatzsteuer</h3>
-            <p className="text-gray-700">
-              Gemäß § 19 UStG wird keine Umsatzsteuer berechnet (Kleinunternehmerregelung).
-            </p>
-          </section>
+          {/* Add a "Berufshaftpflichtversicherung" section (insurer, address, territorial scope) once a policy exists. */}
+          {/* § 5 Abs. 1 Nr. 6 DDG: add USt-IdNr. or Wirtschafts-Identifikationsnummer here once one is assigned. */}
 
           <section>
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h3>
-            <p className="text-gray-700 mb-2">Anastasiia Gurina</p>
-            <p className="text-gray-700">Gorkistraße 109, 04347 Leipzig</p>
+            <h2 className="mb-2 text-base font-semibold text-ink">Umfang der Tätigkeit</h2>
+            <p>
+              Es wird keine Rechtsberatung und keine Hilfeleistung in Steuersachen erbracht, soweit diese gesetzlich
+              befugten Personen vorbehalten ist. Einzelheiten:{' '}
+              <PageLink page="scope" className="link">
+                {t('scope.heading')}
+              </PageLink>
+              .
+            </p>
           </section>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

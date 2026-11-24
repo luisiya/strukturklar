@@ -1,0 +1,44 @@
+{
+  "published": true,
+  "featured": true,
+  "order": 2,
+  "title": "Process analysis and risk minimisation",
+  "summary": "Conceptual approaches to examining business and organisational processes – with a focus on interfaces, improvement potential and risks.",
+  "category": "Processes & organisation",
+  "status": "conceptualAnalysis",
+  "tags": [
+    "Processes & organisation",
+    "Risk",
+    "Transparency"
+  ],
+  "models": [
+    "ist-soll-gap"
+  ],
+  "sections": {
+    "analyse": {
+      "text": [
+        "Conceptual approaches to examining business and organisational processes. The focus is on interfaces, improvement potential, risks and starting points for improving transparency and process quality."
+      ]
+    },
+    "modell": {
+      "flow": [
+        "As-is",
+        "Risks",
+        "Interfaces",
+        "Control points",
+        "Improvement",
+        "Transparency"
+      ]
+    },
+    "beitrag": {
+      "text": [
+        "Independently developed conceptual analytical approach for business and organisational processes."
+      ]
+    },
+    "wirkung": {
+      "text": [
+        "The aim is to make connections visible and to develop a structured basis for decisions on possible improvements."
+      ]
+    }
+  }
+}

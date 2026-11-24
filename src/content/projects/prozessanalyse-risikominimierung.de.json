@@ -1,0 +1,44 @@
+{
+  "published": true,
+  "featured": true,
+  "order": 2,
+  "title": "Prozessanalyse und Risikominimierung",
+  "summary": "Konzeptionelle Ansätze zur Untersuchung betriebswirtschaftlicher und organisatorischer Abläufe – mit Fokus auf Schnittstellen, Verbesserungspotenziale und Risiken.",
+  "category": "Prozesse & Organisation",
+  "status": "conceptualAnalysis",
+  "tags": [
+    "Prozesse & Organisation",
+    "Risiko",
+    "Transparenz"
+  ],
+  "models": [
+    "ist-soll-gap"
+  ],
+  "sections": {
+    "analyse": {
+      "text": [
+        "Konzeptionelle Ansätze zur Untersuchung betriebswirtschaftlicher und organisatorischer Abläufe. Im Mittelpunkt stehen Schnittstellen, Verbesserungspotenziale, Risiken und Ansatzpunkte für mehr Transparenz und Prozessqualität."
+      ]
+    },
+    "modell": {
+      "flow": [
+        "IST",
+        "Risiken",
+        "Schnittstellen",
+        "Kontrollpunkte",
+        "Verbesserung",
+        "Transparenz"
+      ]
+    },
+    "beitrag": {
+      "text": [
+        "Eigenständig entwickelter konzeptioneller Analyseansatz für betriebswirtschaftliche und organisatorische Abläufe."
+      ]
+    },
+    "wirkung": {
+      "text": [
+        "Ziel ist es, Zusammenhänge sichtbar zu machen und strukturierte Entscheidungsgrundlagen für mögliche Verbesserungen zu entwickeln."
+      ]
+    }
+  }
+}

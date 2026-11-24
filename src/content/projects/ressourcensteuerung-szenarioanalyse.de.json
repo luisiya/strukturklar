@@ -1,0 +1,34 @@
+{
+  "published": true,
+  "featured": true,
+  "order": 3,
+  "title": "Ressourcensteuerung und Szenarioanalyse",
+  "summary": "Konzeptionelle Ansätze zur systematischen Betrachtung verfügbarer Ressourcen, möglicher Handlungsoptionen und ihrer Auswirkungen.",
+  "category": "Ressourcen & Entscheidungen",
+  "status": "conceptualAnalysis",
+  "tags": [
+    "Ressourcen",
+    "Szenarien",
+    "Entscheidungsgrundlagen"
+  ],
+  "models": [
+    "risiko-ressourcen-ziel"
+  ],
+  "sections": {
+    "analyse": {
+      "text": [
+        "Entwicklung konzeptioneller Ansätze zur systematischen Betrachtung verfügbarer Ressourcen, möglicher Handlungsoptionen und ihrer Auswirkungen."
+      ]
+    },
+    "optionen": {
+      "text": [
+        "Die Analyse dient dazu, unterschiedliche Szenarien nachvollziehbar zu vergleichen, Risiken zu berücksichtigen und Entscheidungsoptionen strukturiert aufzubereiten."
+      ]
+    },
+    "beitrag": {
+      "text": [
+        "Eigenständig entwickelter konzeptioneller Ansatz zur Analyse von Ressourcen, Risiken und Handlungsoptionen."
+      ]
+    }
+  }
+}

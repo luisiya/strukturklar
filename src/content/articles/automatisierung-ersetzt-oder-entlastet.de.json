@@ -1,0 +1,22 @@
+{
+  "published": true,
+  "order": 4,
+  "title": "Wenn Automatisierung Menschen ersetzt – oder von Arbeit entlastet",
+  "date": "2026-03-11",
+  "category": "Technologie, Arbeit und gesellschaftliche Entwicklung",
+  "intro": "Automatisierung muss nicht automatisch bedeuten, Menschen aus Arbeit auszuschließen.",
+  "sections": {
+    "hauptgedanke": {
+      "text": [
+        "Technologie sollte repetitive, standardisierte und zeitintensive Aufgaben übernehmen und dadurch menschliche Arbeit entlasten.",
+        "KI sollte Aufgaben ersetzen – nicht zwangsläufig Menschen."
+      ]
+    },
+    "analyse": {
+      "text": [
+        "Der Gedanke knüpft an eine konzeptionelle Arbeit zur Gesellschaft der Teilhabe an. Ein Bestandteil davon ist die Weiterentwicklung und der Transfer vorhandener Kompetenzen."
+      ]
+    }
+  },
+  "project": "teilhabe-technologie-zukunft-der-arbeit"
+}

@@ -1,0 +1,94 @@
+{
+  "published": true,
+  "featured": true,
+  "order": 4,
+  "title": "Competency-based staff and organisational development",
+  "summary": "Conceptual considerations on how existing competencies, tasks and organisational requirements can be systematically aligned with one another.",
+  "category": "Resources & organisation",
+  "status": "conceptualAnalysis",
+  "tags": [
+    "Resources & staff",
+    "Competencies",
+    "Organisation"
+  ],
+  "models": [
+    "kompetenzorientierte-ressourcenallokation",
+    "personaltransferverfahren"
+  ],
+  "sections": {
+    "fragestellung": {
+      "text": [
+        "Why does a company sometimes need not more staff, but a better allocation of its existing resources?"
+      ]
+    },
+    "analyse": {
+      "text": [
+        "Conceptual considerations on how existing competencies, tasks and organisational requirements can be systematically aligned with one another.",
+        "The focus is on identifying existing potential, assigning tasks transparently and developing possible approaches to the effective use of resources."
+      ]
+    },
+    "modell": {
+      "stages": [
+        {
+          "title": "Existing staff resources",
+          "items": [
+            "competencies",
+            "experience",
+            "qualifications",
+            "previous tasks",
+            "development potential",
+            "costs",
+            "capacity"
+          ]
+        },
+        {
+          "title": "Organisational needs",
+          "items": [
+            "tasks",
+            "functions",
+            "required competencies",
+            "capacities",
+            "priorities",
+            "time requirements"
+          ]
+        },
+        {
+          "title": "Matching"
+        },
+        {
+          "title": "Gap"
+        },
+        {
+          "title": "Possible options",
+          "items": [
+            "transfer",
+            "development",
+            "reallocation",
+            "new hiring",
+            "another organisational solution"
+          ]
+        },
+        {
+          "title": "Expected impact",
+          "items": [
+            "better use of resources",
+            "fewer competency gaps",
+            "better distribution of tasks",
+            "greater transparency",
+            "possible reduction of avoidable staff shortages"
+          ]
+        }
+      ]
+    },
+    "beitrag": {
+      "text": [
+        "Independent conceptual considerations and development of an allocation model. No specific staffing decisions, employee data or internal HR procedures are presented."
+      ]
+    },
+    "weiterentwicklung": {
+      "text": [
+        "In future, the conceptual basis can be developed into a data-based model."
+      ]
+    }
+  }
+}

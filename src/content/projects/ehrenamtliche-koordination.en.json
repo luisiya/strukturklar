@@ -1,0 +1,30 @@
+{
+  "published": true,
+  "order": 5,
+  "title": "Coordination of volunteer support and integration structures",
+  "summary": "Practical experience in organising and coordinating volunteer support services related to integration, education and social participation.",
+  "category": "Organisation & social participation",
+  "status": "practicalCoordination",
+  "tags": [
+    "Organisation",
+    "Coordination",
+    "Social participation"
+  ],
+  "sections": {
+    "ausgangslage": {
+      "text": [
+        "Practical experience in organising and coordinating volunteer support services related to integration, education and social participation."
+      ]
+    },
+    "struktur": {
+      "text": [
+        "The focus is on structuring tasks, coordinating the people involved and developing supporting organisational processes."
+      ]
+    },
+    "beitrag": {
+      "text": [
+        "Practical coordination: structuring tasks, coordinating between the people involved and setting up supporting organisational processes in the voluntary sector."
+      ]
+    }
+  }
+}

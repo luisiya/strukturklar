@@ -1,0 +1,33 @@
+{
+  "published": true,
+  "order": 6,
+  "title": "Gesellschaftliche Teilhabe, Technologie und Zukunft der Arbeit",
+  "summary": "Eigenständiger konzeptioneller Ansatz zu der Frage, wie technologische Entwicklung, Bildung und gesellschaftliche Teilhabe zusammenwirken können.",
+  "category": "Gesellschaft & Zukunft der Arbeit",
+  "status": "conceptualAnalysis",
+  "tags": [
+    "Zukunft der Arbeit",
+    "Digitalisierung",
+    "Teilhabe"
+  ],
+  "models": [
+    "kompetenzorientierte-ressourcenallokation"
+  ],
+  "sections": {
+    "fragestellung": {
+      "text": [
+        "Wie können technologische Entwicklung, Bildung und gesellschaftliche Teilhabe zusammenwirken?"
+      ]
+    },
+    "analyse": {
+      "text": [
+        "Im Mittelpunkt stehen die Rolle des Menschen in einer zunehmend digitalisierten Gesellschaft, die Entlastung von repetitiven Tätigkeiten, die Bedeutung sinnvoller Arbeit und die langfristige Entwicklung menschlicher Fähigkeiten."
+      ]
+    },
+    "beitrag": {
+      "text": [
+        "Eigenständige konzeptionelle Arbeit, ohne offizielle Beauftragung oder Umsetzung."
+      ]
+    }
+  }
+}

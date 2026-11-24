@@ -1,0 +1,38 @@
+{
+  "published": true,
+  "order": 3,
+  "title": "Digitalisation does not start with software",
+  "date": "2026-05-20",
+  "category": "Processes, data and digitalisation",
+  "intro": "When a process does not work, the first step is often to look for a digital solution. However, software cannot automatically improve a poorly structured process.",
+  "sections": {
+    "hauptgedanke": {
+      "text": [
+        "Analysis comes before digitalisation:"
+      ],
+      "items": [
+        "What happens today?",
+        "What information is needed?",
+        "Where do errors occur?",
+        "What interfaces are there?",
+        "What data is available?",
+        "What requirements must a digital solution meet?"
+      ]
+    },
+    "modell": {
+      "flow": [
+        "Process",
+        "Information",
+        "Data",
+        "Requirements",
+        "Digital solution",
+        "Measurable impact"
+      ]
+    },
+    "ziel": {
+      "text": [
+        "Not simply digitalising, but digitalising sensibly."
+      ]
+    }
+  }
+}

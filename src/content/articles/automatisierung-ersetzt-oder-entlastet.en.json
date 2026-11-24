@@ -1,0 +1,22 @@
+{
+  "published": true,
+  "order": 4,
+  "title": "When automation replaces people – or relieves them of work",
+  "date": "2026-03-11",
+  "category": "Technology, work and social development",
+  "intro": "Automation does not have to mean excluding people from work.",
+  "sections": {
+    "hauptgedanke": {
+      "text": [
+        "Technology should take over repetitive, standardised and time-consuming tasks and thereby relieve human work.",
+        "AI should replace tasks – not necessarily people."
+      ]
+    },
+    "analyse": {
+      "text": [
+        "The idea builds on a conceptual work on a society of participation. One part of it is the further development and transfer of existing competencies."
+      ]
+    }
+  },
+  "project": "teilhabe-technologie-zukunft-der-arbeit"
+}

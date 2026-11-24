@@ -1,47 +1,61 @@
-import { useTranslation } from 'react-i18next'
-import { HiGlobe } from 'react-icons/hi'
-
-const languages = [
-  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
-  { code: 'en', name: 'English', flag: '🇬🇧' },
-  { code: 'uk', name: 'Українська', flag: '🇺🇦' },
-  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
-]
+import { useEffect, useRef, useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
+import { useT } from '../../i18n'
+import { LANGUAGES, LANGUAGE_NAMES } from '../../config/site'
+import { switchLangPath } from '../../lib/paths'
 
 const LanguageSwitcher = () => {
-  const { i18n } = useTranslation()
+  const { t, lang } = useT()
+  const { pathname } = useLocation()
+  const [open, setOpen] = useState(false)
+  const ref = useRef<HTMLDivElement>(null)
 
-  const handleLanguageChange = (langCode: string) => {
-    i18n.changeLanguage(langCode)
-  }
+  useEffect(() => setOpen(false), [pathname])
 
-  const currentLanguage = languages.find((lang) => lang.code === i18n.language) || languages[0]
+  useEffect(() => {
+    if (!open) return
+    const onClick = (e: MouseEvent) => !ref.current?.contains(e.target as Node) && setOpen(false)
+    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setOpen(false)
+    document.addEventListener('click', onClick)
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.removeEventListener('click', onClick)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [open])
 
   return (
-    <div className="relative group">
+    <div ref={ref} className="relative">
       <button
-        className="flex items-center space-x-2 px-3 py-2 text-gray-700 hover:text-primary-700 transition-colors rounded-lg hover:bg-gray-100"
-        aria-label="Change language"
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        aria-haspopup="true"
+        aria-label={`${t('nav.language')}: ${LANGUAGE_NAMES[lang]}`}
+        className="flex h-11 min-w-[44px] items-center justify-center rounded-md px-2 text-sm font-medium uppercase tracking-wide text-ink-soft hover:text-ink"
       >
-        <HiGlobe className="w-5 h-5" />
-        <span className="text-sm font-medium hidden md:inline">{currentLanguage.flag}</span>
+        {lang}
       </button>
-
-      {/* Dropdown */}
-      <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-        {languages.map((lang) => (
-          <button
-            key={lang.code}
-            onClick={() => handleLanguageChange(lang.code)}
-            className={`w-full flex items-center space-x-3 px-4 py-3 text-left hover:bg-primary-50 transition-colors first:rounded-t-lg last:rounded-b-lg ${
-              i18n.language === lang.code ? 'bg-primary-50 text-primary-700 font-semibold' : 'text-gray-700'
-            }`}
-          >
-            <span className="text-xl">{lang.flag}</span>
-            <span className="text-sm">{lang.name}</span>
-          </button>
-        ))}
-      </div>
+      {open && (
+        <ul className="absolute right-0 mt-1 w-44 overflow-hidden rounded-md border border-line bg-surface py-1 shadow-lg">
+          {LANGUAGES.map((l) => (
+            <li key={l}>
+              <Link
+                to={switchLangPath(pathname, l)}
+                hrefLang={l}
+                lang={l}
+                aria-current={l === lang ? 'true' : undefined}
+                className={`flex min-h-[44px] items-center justify-between px-4 text-sm hover:bg-paper ${
+                  l === lang ? 'font-medium text-ink' : 'text-ink-soft'
+                }`}
+              >
+                {LANGUAGE_NAMES[l]}
+                <span className="text-xs uppercase text-ink-muted">{l}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   )
 }

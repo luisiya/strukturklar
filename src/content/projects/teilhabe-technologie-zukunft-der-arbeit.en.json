@@ -1,0 +1,33 @@
+{
+  "published": true,
+  "order": 6,
+  "title": "Social participation, technology and the future of work",
+  "summary": "An independent conceptual approach to the question of how technological development, education and social participation can interact.",
+  "category": "Society & the future of work",
+  "status": "conceptualAnalysis",
+  "tags": [
+    "Future of work",
+    "Digitalisation",
+    "Social participation"
+  ],
+  "models": [
+    "kompetenzorientierte-ressourcenallokation"
+  ],
+  "sections": {
+    "fragestellung": {
+      "text": [
+        "How can technological development, education and social participation interact?"
+      ]
+    },
+    "analyse": {
+      "text": [
+        "The focus is on the role of people in an increasingly digital society, relief from repetitive tasks, the importance of meaningful work and the long-term development of human abilities."
+      ]
+    },
+    "beitrag": {
+      "text": [
+        "Independent conceptual work, without an official commission or implementation."
+      ]
+    }
+  }
+}

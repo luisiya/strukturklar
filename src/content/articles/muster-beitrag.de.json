@@ -1,0 +1,28 @@
+{
+  "published": false,
+  "order": 1,
+  "internalNote": "Muster für einen neuen Beitrag. Erscheint erst mit \"published\": true.",
+  "title": "Titel des Beitrags",
+  "date": "2026-12-01",
+  "category": "Thema",
+  "intro": "Kurzer Einstieg in zwei Sätzen.",
+  "sections": {
+    "hauptgedanke": {
+      "text": [
+        "Hauptgedanke"
+      ]
+    },
+    "modell": {
+      "flow": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "ziel": {
+      "text": [
+        "Ziel"
+      ]
+    }
+  }
+}

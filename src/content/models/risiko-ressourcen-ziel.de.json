@@ -1,0 +1,83 @@
+{
+  "published": true,
+  "order": 2,
+  "title": "Risiko – Ressourcen – Ziel",
+  "summary": "Ein Modell zur Betrachtung unternehmerischer Entscheidungen im Zusammenhang von Zielsetzung, verfügbaren Ressourcen und möglichen Risiken.",
+  "project": "ressourcensteuerung-szenarioanalyse",
+  "sections": {
+    "ausgangsproblem": {
+      "text": [
+        "Das Modell hilft, Entscheidungen nicht isoliert zu betrachten. Eine Maßnahme kann ein Ziel erreichen, gleichzeitig aber neue Risiken oder einen hohen Ressourcenbedarf erzeugen."
+      ]
+    },
+    "denkfrage": {
+      "text": [
+        "Welches Ziel soll erreicht werden, welche Ressourcen stehen zur Verfügung und welche Risiken entstehen?"
+      ]
+    },
+    "modell": {
+      "flow": [
+        "Ziel ↔ Ressourcen ↔ Risiken",
+        "Optionen",
+        "Wirkung"
+      ]
+    },
+    "elemente": {
+      "stages": [
+        {
+          "title": "Ziel",
+          "items": [
+            "Was soll erreicht werden?",
+            "Welche Wirkung wird erwartet?",
+            "Woran wird Erfolg gemessen?"
+          ]
+        },
+        {
+          "title": "Ressourcen",
+          "items": [
+            "Personal",
+            "Zeit",
+            "Budget",
+            "Informationen",
+            "technische Möglichkeiten",
+            "vorhandene Kompetenzen"
+          ]
+        },
+        {
+          "title": "Risiken",
+          "items": [
+            "Fehler",
+            "Verzögerungen",
+            "Abhängigkeiten",
+            "fehlende Kapazitäten",
+            "Schnittstellenprobleme",
+            "Qualitätsrisiken",
+            "finanzielle Auswirkungen"
+          ]
+        }
+      ]
+    },
+    "beispiel": {
+      "text": [
+        "Eine Organisation möchte einen Prozess schneller machen."
+      ],
+      "items": [
+        "Option A: mehr Personal",
+        "Option B: Prozess neu strukturieren",
+        "Option C: Teilautomatisierung",
+        "Option D: Aufgaben anders verteilen"
+      ],
+      "note": "Jede Option hat einen anderen Ressourcenbedarf, andere Risiken und eine andere erwartete Wirkung."
+    },
+    "wirkung": {
+      "text": [
+        "Entscheidungen werden vergleichbarer."
+      ]
+    },
+    "grenzen": {
+      "text": [
+        "Das Modell liefert eine strukturierte wirtschaftliche Entscheidungsgrundlage. Es ist keine Garantie für den tatsächlichen Eintritt einer bestimmten Wirkung."
+      ]
+    }
+  }
+}

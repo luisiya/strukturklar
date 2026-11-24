@@ -4,10 +4,85 @@
 
 @layer base {
   html {
-    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 5.5rem;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
   }
 
   body {
-    @apply text-gray-900 bg-neutral-50;
+    @apply bg-paper text-ink antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply tracking-tight text-ink;
+    text-wrap: balance;
+    /* Long German compounds must break on small screens */
+    hyphens: auto;
+    overflow-wrap: break-word;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-petrol;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+
+  .label {
+    @apply text-xs font-semibold uppercase tracking-[0.16em] text-petrol;
+  }
+
+  .h1 {
+    @apply text-[2.25rem] font-semibold leading-[1.1] sm:text-5xl lg:text-[3.5rem];
+  }
+
+  .h2 {
+    @apply text-[1.75rem] font-semibold leading-tight sm:text-4xl;
+  }
+
+  .h3 {
+    @apply text-lg font-semibold leading-snug sm:text-xl;
+  }
+
+  .lead {
+    @apply text-lg leading-relaxed text-ink-soft sm:text-xl;
+  }
+
+  .body {
+    @apply leading-relaxed text-ink-soft;
+  }
+
+  .btn {
+    @apply inline-flex min-h-[48px] items-center justify-center gap-2 rounded-md px-6 text-[0.95rem] font-medium transition-colors;
+  }
+
+  .btn-primary {
+    @apply btn bg-petrol text-white hover:bg-petrol-dark;
+  }
+
+  .btn-secondary {
+    @apply btn border border-ink/20 text-ink hover:border-ink/40 hover:bg-surface;
+  }
+
+  .link {
+    @apply font-medium text-petrol underline decoration-petrol/30 underline-offset-4 hover:decoration-petrol;
+  }
+
+  .card {
+    @apply rounded-lg border border-line bg-surface;
   }
 }

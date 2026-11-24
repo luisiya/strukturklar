@@ -1,32 +1,38 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
+    // Legacy components, no longer used
+    '!./src/components/sections/**',
+    '!./src/components/common/**',
   ],
   theme: {
     extend: {
       colors: {
-        primary: {
-          50: '#f0f9ff',
-          100: '#e0f2fe',
-          500: '#0ea5e9',
-          600: '#0284c7',
-          700: '#0369a1',
-          800: '#075985',
-          900: '#0c4a6e',
+        paper: '#F7F6F2',
+        surface: '#FFFFFF',
+        ink: {
+          DEFAULT: '#16191D',
+          soft: '#3A4048',
+          muted: '#5E656E',
         },
-        accent: {
-          DEFAULT: '#f59e0b',
-          50: '#fffbeb',
-          100: '#fef3c7',
-          500: '#f59e0b',
-          600: '#d97706',
-          700: '#b45309',
+        line: {
+          DEFAULT: '#DCD9D0',
+          strong: '#B9B5AA',
+        },
+        petrol: {
+          DEFAULT: '#1F5C5A',
+          dark: '#164443',
+          soft: '#E4EDEB',
+        },
+        ochre: {
+          DEFAULT: '#8A5A1F',
+          soft: '#F3EBDD',
         },
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+        sans: ['"Inter Variable"', 'system-ui', '-apple-system', 'sans-serif'],
       },
     },
   },

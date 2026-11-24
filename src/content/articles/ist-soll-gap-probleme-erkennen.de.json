@@ -1,0 +1,37 @@
+{
+  "published": true,
+  "order": 1,
+  "title": "IST – SOLL – GAP: Warum Probleme häufig nicht dort entstehen, wo sie sichtbar werden",
+  "date": "2026-09-16",
+  "category": "Strukturanalyse und Problemerkennung",
+  "intro": "Viele organisatorische Probleme werden zunächst als Einzelproblem wahrgenommen: zu hohe Kosten, zu lange Bearbeitungszeiten, fehlende Kapazitäten oder wiederkehrende Fehler.",
+  "sections": {
+    "hauptgedanke": {
+      "text": [
+        "Der erste Schritt sollte nicht die Suche nach einer schnellen Lösung sein, sondern die strukturierte Frage: Wie sieht die aktuelle Situation tatsächlich aus?",
+        "Zwischen IST und gewünschtem Zustand liegt häufig ein GAP. Entscheidend ist nicht nur, dieses GAP zu erkennen, sondern seine Ursachen und Wechselwirkungen zu verstehen."
+      ]
+    },
+    "modell": {
+      "flow": [
+        "IST",
+        "SOLL",
+        "GAP",
+        "Ursachen",
+        "Optionen",
+        "Wirkung"
+      ]
+    },
+    "beispiel": {
+      "text": [
+        "Wenn ein Prozess regelmäßig verspätet abgeschlossen wird, liegt die Ursache nicht zwangsläufig bei der Person, die den letzten Bearbeitungsschritt durchführt. Die Ursache kann bereits an einer früheren Schnittstelle, bei fehlenden Informationen, unklaren Zuständigkeiten oder einer ungeeigneten Prozessstruktur liegen."
+      ]
+    },
+    "ziel": {
+      "text": [
+        "Nicht Symptome verwalten, sondern Strukturen verstehen."
+      ]
+    }
+  },
+  "model": "ist-soll-gap"
+}

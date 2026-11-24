@@ -1,0 +1,60 @@
+{
+  "published": true,
+  "order": 3,
+  "title": "Competency-based resource allocation",
+  "summary": "A conceptual approach for examining existing competencies, task requirements and organisational needs.",
+  "project": "kompetenzorientierte-personalentwicklung",
+  "sections": {
+    "ausgangsproblem": {
+      "text": [
+        "The model addresses the question of how existing staff resources can be deployed more sensibly and existing competencies used better."
+      ]
+    },
+    "denkfrage": {
+      "text": [
+        "Which competencies are available – which competencies are needed – and how can the two be brought together more effectively?"
+      ]
+    },
+    "modell": {
+      "flow": [
+        "Existing resources",
+        "Competency profile",
+        "Organisational needs",
+        "Matching",
+        "Gap",
+        "Options"
+      ],
+      "note": "Possible options: transfer, further development, change of tasks, new forms of cooperation, new hiring, another organisational solution."
+    },
+    "elemente": {
+      "items": [
+        "existing employees",
+        "qualifications",
+        "experience",
+        "skills",
+        "tasks",
+        "capacities",
+        "organisational needs",
+        "development potential",
+        "costs",
+        "time requirements"
+      ]
+    },
+    "beispiel": {
+      "text": [
+        "An organisation needs additional capacity in a particular area of work. At the same time, there are employees internally with suitable core competencies who currently mainly carry out other tasks.",
+        "It can then first be examined whether an internal change would make economic and organisational sense."
+      ]
+    },
+    "wirkung": {
+      "text": [
+        "Decisions about resources are considered not only in terms of headcount and costs, but also in terms of competencies, needs and impact."
+      ]
+    },
+    "grenzen": {
+      "text": [
+        "The model is a business and organisational review and not employment law advice."
+      ]
+    }
+  }
+}

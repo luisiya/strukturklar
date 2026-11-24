@@ -1,0 +1,94 @@
+{
+  "published": true,
+  "featured": true,
+  "order": 4,
+  "title": "Kompetenzorientierte Personal- und Organisationsentwicklung",
+  "summary": "Konzeptionelle Überlegungen dazu, wie vorhandene Kompetenzen, Aufgaben und organisatorische Anforderungen systematisch aufeinander abgestimmt werden können.",
+  "category": "Ressourcen & Organisation",
+  "status": "conceptualAnalysis",
+  "tags": [
+    "Ressourcen & Personal",
+    "Kompetenzen",
+    "Organisation"
+  ],
+  "models": [
+    "kompetenzorientierte-ressourcenallokation",
+    "personaltransferverfahren"
+  ],
+  "sections": {
+    "fragestellung": {
+      "text": [
+        "Warum braucht ein Unternehmen manchmal nicht mehr Personal, sondern eine bessere Zuordnung der vorhandenen Ressourcen?"
+      ]
+    },
+    "analyse": {
+      "text": [
+        "Konzeptionelle Überlegungen dazu, wie vorhandene Kompetenzen, Aufgaben und organisatorische Anforderungen systematisch aufeinander abgestimmt werden können.",
+        "Im Mittelpunkt stehen die Erkennung vorhandener Potenziale, die transparente Zuordnung von Aufgaben und die Entwicklung möglicher Ansätze für einen wirksamen Ressourceneinsatz."
+      ]
+    },
+    "modell": {
+      "stages": [
+        {
+          "title": "Vorhandene Personalressourcen",
+          "items": [
+            "Kompetenzen",
+            "Erfahrung",
+            "Qualifikation",
+            "bisherige Aufgaben",
+            "Entwicklungspotenzial",
+            "Kosten",
+            "Kapazität"
+          ]
+        },
+        {
+          "title": "Organisationaler Bedarf",
+          "items": [
+            "Aufgaben",
+            "Funktionen",
+            "benötigte Kompetenzen",
+            "Kapazitäten",
+            "Prioritäten",
+            "zeitlicher Bedarf"
+          ]
+        },
+        {
+          "title": "Matching"
+        },
+        {
+          "title": "GAP"
+        },
+        {
+          "title": "Mögliche Optionen",
+          "items": [
+            "Transfer",
+            "Entwicklung",
+            "Neuverteilung",
+            "Neueinstellung",
+            "andere organisatorische Lösung"
+          ]
+        },
+        {
+          "title": "Erwartete Wirkung",
+          "items": [
+            "bessere Ressourcennutzung",
+            "Verringerung von Kompetenzlücken",
+            "bessere Aufgabenverteilung",
+            "höhere Transparenz",
+            "mögliche Reduktion unnötiger Personalengpässe"
+          ]
+        }
+      ]
+    },
+    "beitrag": {
+      "text": [
+        "Eigenständige konzeptionelle Überlegungen und Entwicklung eines Zuordnungsmodells. Es werden keine konkreten Personalentscheidungen, Beschäftigtendaten oder internen Personalverfahren dargestellt."
+      ]
+    },
+    "weiterentwicklung": {
+      "text": [
+        "Die konzeptionelle Grundlage lässt sich perspektivisch in ein datenbasiertes Modell überführen."
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "published": true,
+  "order": 3,
+  "title": "Digitalisierung beginnt nicht mit Software",
+  "date": "2026-05-20",
+  "category": "Prozesse, Daten und Digitalisierung",
+  "intro": "Wenn ein Prozess nicht funktioniert, wird häufig zuerst nach einer digitalen Lösung gesucht. Eine Software kann jedoch einen schlecht strukturierten Prozess nicht automatisch verbessern.",
+  "sections": {
+    "hauptgedanke": {
+      "text": [
+        "Vor der Digitalisierung steht die Analyse:"
+      ],
+      "items": [
+        "Was passiert heute?",
+        "Welche Informationen werden benötigt?",
+        "Wo entstehen Fehler?",
+        "Welche Schnittstellen gibt es?",
+        "Welche Daten stehen zur Verfügung?",
+        "Welche Anforderungen muss eine digitale Lösung erfüllen?"
+      ]
+    },
+    "modell": {
+      "flow": [
+        "Prozess",
+        "Informationen",
+        "Daten",
+        "Anforderungen",
+        "digitale Lösung",
+        "messbare Wirkung"
+      ]
+    },
+    "ziel": {
+      "text": [
+        "Nicht einfach digitalisieren, sondern sinnvoll digitalisieren."
+      ]
+    }
+  }
+}

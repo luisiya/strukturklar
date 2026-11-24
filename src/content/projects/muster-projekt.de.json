@@ -1,0 +1,40 @@
+{
+  "published": false,
+  "featured": false,
+  "order": 99,
+  "internalNote": "Muster: Diese Datei kopieren, umbenennen (z. B. mein-projekt.de.json) und ausfüllen. Dieses Feld erscheint nie auf der Website.",
+  "title": "Titel des Projekts",
+  "summary": "Ein bis zwei Sätze: Worum geht es?",
+  "category": "Prozesse & Organisation",
+  "status": "conceptualAnalysis",
+  "models": [
+    "ist-soll-gap"
+  ],
+  "sections": {
+    "fragestellung": {
+      "text": [
+        "Welche Frage wird untersucht?"
+      ]
+    },
+    "analyse": {
+      "text": [
+        "Analytischer Ansatz: Wie wurde die Frage untersucht? Welche Daten oder Informationen (z. B. öffentlich zugängliche Statistiken) wurden verwendet?"
+      ]
+    },
+    "modell": {
+      "flow": [
+        "Schritt 1",
+        "Schritt 2",
+        "Schritt 3"
+      ]
+    },
+    "beitrag": {
+      "text": [
+        "Eigener konzeptioneller bzw. praktischer Beitrag."
+      ]
+    },
+    "status": {
+      "note": "Bei Berechnungen: Quellen und Annahmen nennen; Ergebnisse als Szenarien kennzeichnen."
+    }
+  }
+}

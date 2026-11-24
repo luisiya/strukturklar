@@ -1,0 +1,677 @@
+{
+  "meta": {
+    "home": {
+      "title": "StrukturKlar – Wirtschaftliche Analyse und Entscheidungsgrundlagen",
+      "description": "Wirtschaftliche Analyse, systemisches Denken und fundierte Entscheidungsgrundlagen: StrukturKlar analysiert Strukturen, Prozesse, Ressourcen und Risiken und entwickelt nachvollziehbare Handlungsmöglichkeiten."
+    },
+    "about": {
+      "title": "Über mich",
+      "description": "Anastasiia Gurina – Finanz- und Controllingexpertin mit akademischem Hintergrund in internationaler Wirtschaft und Finanzen und langjähriger Erfahrung in Finanzwirtschaft, Rechnungswesen, Controlling und Verwaltung."
+    },
+    "models": {
+      "title": "Denkmodelle",
+      "description": "Modelle, mit denen komplexe organisatorische und wirtschaftliche Zusammenhänge strukturiert, verglichen und weiterentwickelt werden können."
+    },
+    "projects": {
+      "title": "Projekte",
+      "description": "Projekte von StrukturKlar: konzeptionelle Analysen, Szenarioanalysen und praktische Koordination zu Ressourcen, Prozessen, Risiken, Kompetenzen und gesellschaftlicher Teilhabe."
+    },
+    "workshop": {
+      "title": "Denkwerkstatt",
+      "description": "Beobachtungen, kurze Gedanken und Modelle zu Ressourcen, Kompetenzen, Prozessqualität, Digitalisierung und Entscheidungsprozessen."
+    },
+    "development": {
+      "title": "In Entwicklung",
+      "description": "Weiterentwicklung von Finance, Controlling und Verwaltung in Richtung Business Analysis, Requirements Engineering, Daten, Business Intelligence und Digitalisierung."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Eine komplexe Fragestellung? Beginnen wir mit einer klaren Struktur. Kontakt zu StrukturKlar – Anastasiia Gurina, Leipzig."
+    },
+    "scope": {
+      "title": "Leistungsabgrenzung",
+      "description": "Was StrukturKlar leistet – und was nicht: wirtschaftliche, organisatorische und konzeptionelle Analysen, keine Steuer- oder Rechtsberatung."
+    },
+    "impressum": {
+      "title": "Impressum",
+      "description": "Impressum von StrukturKlar."
+    },
+    "datenschutz": {
+      "title": "Datenschutz",
+      "description": "Datenschutzerklärung von StrukturKlar."
+    },
+    "notFound": {
+      "title": "Seite nicht gefunden",
+      "description": "Die angeforderte Seite wurde nicht gefunden."
+    }
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "models": "Denkmodelle",
+    "projects": "Projekte",
+    "workshop": "Denkwerkstatt",
+    "development": "In Entwicklung",
+    "contact": "Kontakt",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "skip": "Zum Inhalt springen",
+    "language": "Sprache",
+    "main": "Hauptnavigation",
+    "homeLink": "StrukturKlar – Startseite",
+    "services": "Leistungen",
+    "method": "Arbeitsweise"
+  },
+  "footer": {
+    "tagline": "Komplexität verstehen. Strukturen erkennen. Möglichkeiten entwickeln.",
+    "navigation": "Navigation",
+    "legal": "Rechtliches",
+    "social": "Kanäle",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "scope": "Leistungsabgrenzung",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten.",
+    "text": "Wirtschaftliche und organisatorische Analyse als Grundlage für bewusste Entscheidungen und nachhaltige Weiterentwicklung."
+  },
+  "common": {
+    "viewModel": "Modell ansehen",
+    "viewProject": "Projekt ansehen",
+    "allProjects": "Alle Projekte",
+    "allModels": "Alle Denkmodelle",
+    "readArticle": "Beitrag lesen",
+    "inDevelopment": "In Entwicklung / Weiterbildung",
+    "inPreparation": "Ausführliche Darstellung in Vorbereitung",
+    "status": "Status",
+    "relatedModels": "Zugehörige Denkmodelle",
+    "relatedProject": "Weiterführendes Projekt",
+    "relatedModel": "Zugehöriges Denkmodell",
+    "languageNotice": "Diese Übersetzung ist ein Entwurf. Maßgeblich ist die deutsche Fassung.",
+    "breadcrumb": "Brotkrumennavigation",
+    "statusLabels": {
+      "conceptualAnalysis": "Konzeptionelle Analyse",
+      "scenarioAnalysis": "Szenarioanalyse",
+      "practicalCoordination": "Praktische Koordination",
+      "implemented": "Umgesetztes Projekt"
+    },
+    "legalGermanOnly": "Die rechtlichen Texte sind nur auf Deutsch verfügbar; maßgeblich ist die deutsche Fassung.",
+    "draft": "Entwurf"
+  },
+  "home": {
+    "hero": {
+      "label": "StrukturKlar",
+      "claim": "Komplexität verstehen. Strukturen erkennen. Möglichkeiten entwickeln.",
+      "subtitle": "Wirtschaftliche Analyse. Systemisches Denken. Fundierte Entscheidungsgrundlagen.",
+      "text": [
+        "Unternehmen und Organisationen stehen heute vor einer besonderen Herausforderung: begrenzte Ressourcen, steigende Anforderungen, zunehmende Komplexität und ein dynamisches Wettbewerbsumfeld.",
+        "Entscheidend ist deshalb nicht nur, vorhandene Aufgaben zu bewältigen. Entscheidend ist, Zusammenhänge zu verstehen, Ressourcen sinnvoll einzusetzen und die richtigen Prioritäten zu setzen.",
+        "StrukturKlar macht komplexe wirtschaftliche und organisatorische Situationen verständlich und schafft eine fundierte Grundlage für bessere Entscheidungen und nachhaltige Weiterentwicklung."
+      ],
+      "focus": "Ich analysiere Strukturen, Prozesse, Ressourcen und Risiken. Daraus entwickle ich nachvollziehbare Handlungsmöglichkeiten und konzeptionelle Lösungsansätze.",
+      "closing": "Von der Analyse zur Perspektive. Von der Perspektive zur Entscheidung.",
+      "cta": "Kostenfreies Erstgespräch vereinbaren"
+    },
+    "when": {
+      "label": "Wann StrukturKlar sinnvoll ist",
+      "heading": "Wenn einzelne Probleme Teil eines größeren Zusammenhangs sind.",
+      "text": [
+        "Vielleicht stehen Sie vor einer wichtigen unternehmerischen Entscheidung. Vielleicht funktionieren Abläufe nicht mehr so, wie sie sollten. Vielleicht sind Kosten gestiegen, Ressourcen knapp oder Zuständigkeiten unklar.",
+        "Oft liegt die eigentliche Herausforderung nicht in einem einzelnen Problem, sondern in den Zusammenhängen zwischen verschiedenen Bereichen.",
+        "StrukturKlar unterstützt Sie dabei, diese Zusammenhänge sichtbar zu machen und systematisch zu untersuchen."
+      ],
+      "situationsHeading": "Typische Ausgangssituationen",
+      "situations": [
+        "Sie möchten ein Unternehmen gründen oder eine bestehende Geschäftstätigkeit weiterentwickeln.",
+        "Sie müssen mit begrenzten finanziellen und personellen Ressourcen wirtschaftlich umgehen.",
+        "Sie möchten mehrere Standorte, Angebote oder Investitionsmöglichkeiten vergleichen.",
+        "Sie wissen, dass Prozesse verbessert werden können, aber noch nicht genau, wo die Ursachen liegen.",
+        "Sie möchten Risiken erkennen, bevor daraus größere Probleme entstehen.",
+        "Sie benötigen eine strukturierte Grundlage für eine wichtige Entscheidung.",
+        "Sie möchten vorhandene Ressourcen gezielter einsetzen und neue Entwicklungsmöglichkeiten erkennen."
+      ],
+      "goal": "Das Ziel: Nicht nur einzelne Symptome betrachten, sondern die gesamte Ausgangssituation verstehen."
+    },
+    "services": {
+      "label": "Was StrukturKlar macht",
+      "heading": "Aus komplexen Zusammenhängen werden klare Entscheidungsgrundlagen.",
+      "intro": "StrukturKlar verbindet betriebswirtschaftliches Denken, finanzwirtschaftliche Analyse und systematische Betrachtung organisatorischer Zusammenhänge.",
+      "items": [
+        {
+          "title": "Wirtschaftliche Analyse",
+          "text": "Zahlen und wirtschaftliche Zusammenhänge verständlich machen.",
+          "items": [
+            "Analyse wirtschaftlicher Ausgangssituationen",
+            "Betrachtung von Kosten- und Finanzierungsstrukturen",
+            "Kennzahlen- und Wirtschaftlichkeitsanalysen",
+            "Kosten-Nutzen-Betrachtungen",
+            "Szenario- und Vergleichsanalysen",
+            "Identifikation wirtschaftlicher Risiken und Potenziale"
+          ]
+        },
+        {
+          "title": "Strukturen und Prozesse",
+          "text": "Erkennen, wie Aufgaben, Informationen, Verantwortlichkeiten und Abläufe zusammenwirken.",
+          "items": [
+            "Analyse organisatorischer Strukturen",
+            "Prozess- und Schnittstellenanalysen",
+            "Betrachtung von Aufgaben und Verantwortlichkeiten",
+            "Identifikation struktureller Schwachstellen",
+            "Analyse von Abhängigkeiten und Prozessrisiken",
+            "Entwicklung konzeptioneller Verbesserungsansätze"
+          ]
+        },
+        {
+          "title": "Ressourcen und Potenziale",
+          "text": "Vorhandene Möglichkeiten erkennen und wirtschaftlich sinnvoll betrachten.",
+          "items": [
+            "Analyse vorhandener Ressourcen",
+            "Betrachtung von Kapazitäten und Aufgaben",
+            "Kompetenz- und Anforderungsabgleich",
+            "Analyse von Ressourceneinsatz und Wirtschaftlichkeit",
+            "Identifikation von Entwicklungs- und Verbesserungspotenzialen",
+            "Betrachtung möglicher Auswirkungen unterschiedlicher Ressourcenszenarien"
+          ]
+        },
+        {
+          "title": "Unternehmerische Entscheidungen",
+          "text": "Aus verschiedenen Möglichkeiten eine nachvollziehbare Entscheidungsgrundlage entwickeln.",
+          "items": [
+            "Strukturierung komplexer Fragestellungen",
+            "Vergleich unterschiedlicher Handlungsoptionen",
+            "Standort- und Raumfragen aus wirtschaftlicher Perspektive",
+            "Investitions- und Kostenbetrachtungen",
+            "Angebotsvergleiche",
+            "Risiko- und Folgenanalysen",
+            "Vorbereitung unternehmerischer Gespräche und Entscheidungen"
+          ]
+        }
+      ],
+      "scopeLabel": "Leistungsabgrenzung:",
+      "scopeNote": "Die genannten Leistungen beziehen sich auf wirtschaftliche, organisatorische und konzeptionelle Analysen. Sie umfassen keine Steuerberatung, Rechtsberatung, Immobilienvermittlung oder operative Ausführung von Fachleistungen. Die konkrete Leistung wird vor Projektbeginn individuell festgelegt."
+    },
+    "method": {
+      "label": "Wie ich arbeite",
+      "heading": "Vom Sachverhalt zur Entscheidungsgrundlage.",
+      "intro": "Jede Fragestellung ist anders. Die analytische Vorgehensweise folgt jedoch einer klaren Struktur.",
+      "steps": [
+        {
+          "title": "IST verstehen",
+          "question": "Was ist tatsächlich vorhanden? Welche Informationen, Zahlen und Rahmenbedingungen liegen vor?"
+        },
+        {
+          "title": "Zusammenhänge erkennen",
+          "question": "Wie hängen Prozesse, Aufgaben, Menschen, Ressourcen und Informationen zusammen?"
+        },
+        {
+          "title": "Ziel definieren",
+          "question": "Was soll erreicht, verbessert oder verändert werden?"
+        },
+        {
+          "title": "GAP identifizieren",
+          "question": "Welche Unterschiede bestehen zwischen der aktuellen und der angestrebten Situation?"
+        },
+        {
+          "title": "Risiken untersuchen",
+          "question": "Welche Faktoren können die Zielerreichung beeinflussen oder behindern?"
+        },
+        {
+          "title": "Optionen entwickeln",
+          "question": "Welche unterschiedlichen Handlungsmöglichkeiten gibt es?"
+        },
+        {
+          "title": "Wirkung betrachten",
+          "question": "Welche wirtschaftlichen, organisatorischen und praktischen Auswirkungen können entstehen?"
+        },
+        {
+          "title": "Entscheidungsgrundlage schaffen",
+          "question": "Die Ergebnisse werden nachvollziehbar strukturiert und in einer geeigneten Form aufbereitet."
+        }
+      ],
+      "closing": "Gute Entscheidungen entstehen nicht aus einzelnen Zahlen. Sie entstehen aus dem Verständnis ihrer Zusammenhänge."
+    },
+    "decision": {
+      "label": "Entscheidungen vorbereiten",
+      "heading": "Eine gute Entscheidung beginnt mit den richtigen Fragen.",
+      "text": [
+        "Nicht jede unternehmerische Frage beginnt mit einem fertigen Businessplan. Oft beginnt sie mit einer konkreten Situation, mehreren offenen Fragen und unterschiedlichen Möglichkeiten.",
+        "StrukturKlar unterstützt Sie dabei, die Fragestellung zu ordnen, relevante Faktoren zu analysieren und mögliche Handlungsoptionen vergleichbar zu machen."
+      ],
+      "examples": [
+        {
+          "title": "Beispiel: Sie planen eine Unternehmensgründung.",
+          "questions": [
+            "Welche finanziellen Voraussetzungen sind vorhanden?",
+            "Welche laufenden Kosten entstehen?",
+            "Welche Ressourcen werden benötigt?",
+            "Welche Investitionen sind zu berücksichtigen?",
+            "Welche Standort- oder Raumvariante passt zu den wirtschaftlichen Rahmenbedingungen?",
+            "Welche Risiken und Abhängigkeiten bestehen?",
+            "Welche Informationen fehlen noch für eine fundierte Entscheidung?"
+          ]
+        },
+        {
+          "title": "Beispiel: Sie möchten bestehende Abläufe verbessern.",
+          "questions": [
+            "Wo entstehen Verzögerungen oder unnötige Arbeitsschritte?",
+            "Welche Informationen fehlen?",
+            "Wo sind Zuständigkeiten oder Schnittstellen unklar?",
+            "Welche Ressourcen werden gebunden?",
+            "Welche strukturellen Veränderungen könnten sinnvoll sein?"
+          ]
+        },
+        {
+          "title": "Beispiel: Sie müssen zwischen mehreren Möglichkeiten wählen.",
+          "questions": [
+            "Welche Kriterien sind für den Vergleich relevant?",
+            "Welche Kosten und Auswirkungen entstehen?",
+            "Welche Risiken unterscheiden die Varianten?",
+            "Welche Option passt am besten zu den vorhandenen Ressourcen und Zielen?"
+          ]
+        }
+      ],
+      "note": "Das Ergebnis ist keine Erfolgsgarantie, sondern eine nachvollziehbare analytische Grundlage, die Ihre eigene Entscheidungsfindung unterstützt."
+    },
+    "support": {
+      "label": "Analytische Projektbegleitung",
+      "heading": "Komplexe Fragestellungen brauchen manchmal mehr als einen einzelnen Analyseschritt.",
+      "text": [
+        "Manche Herausforderungen lassen sich nicht in einem Gespräch oder einer einzelnen Auswertung erfassen.",
+        "StrukturKlar kann analytische und konzeptionelle Projekte über mehrere Schritte begleiten – von der ersten Strukturierung einer Fragestellung bis zur Entwicklung und Bewertung möglicher Handlungsoptionen."
+      ],
+      "flowHeading": "Möglicher Projektablauf",
+      "flow": [
+        "Fragestellung",
+        "Ausgangsanalyse",
+        "Strukturierung",
+        "Bewertung",
+        "Optionen",
+        "Entscheidungsgrundlage"
+      ],
+      "notes": [
+        "Der konkrete Umfang, die benötigten Informationen, die Ergebnisse und die einzelnen Arbeitsschritte werden vorab gemeinsam festgelegt.",
+        "Im Mittelpunkt stehen Analyse, Strukturierung und konzeptionelle Begleitung – nicht die Übernahme der operativen Verantwortung des Unternehmens."
+      ]
+    },
+    "models": {
+      "label": "Denkmodelle",
+      "heading": "Komplexität sichtbar machen.",
+      "intro": "Aus praktischen und wissenschaftlich geprägten Fragestellungen entstehen Denkmodelle, die helfen, Zusammenhänge systematisch zu betrachten.",
+      "note": "Die Denkmodelle dienen der konzeptionellen Analyse und Weiterentwicklung. Sie stellen keine standardisierten oder zertifizierten Verfahren dar.",
+      "cta": "Alle Denkmodelle ansehen"
+    },
+    "projects": {
+      "label": "Ausgewählte analytische Arbeiten",
+      "heading": "Fragestellungen verstehen. Strukturen entwickeln. Möglichkeiten sichtbar machen.",
+      "intro": "Die folgenden Beispiele zeigen ausgewählte Themenfelder meiner konzeptionellen Arbeit. Sie sind abstrahiert dargestellt und enthalten keine vertraulichen Unternehmens-, Personen- oder Verwaltungsdaten.",
+      "items": [
+        {
+          "category": "Ressourcen und Wirtschaftlichkeit",
+          "title": "Haushaltskonsolidierung durch Aufgaben- und Ressourcenanalyse",
+          "text": "Konzeptioneller Ansatz zur Untersuchung von Aufgabenstrukturen, Ressourceneinsatz und wirtschaftlichen Verbesserungspotenzialen."
+        },
+        {
+          "category": "Prozesse und Risikostrukturen",
+          "title": "Zahlungsprozesse und organisatorische Kontrollstrukturen",
+          "text": "Analytische Betrachtung zahlungsrelevanter Abläufe, möglicher Fehlerquellen und organisatorischer Kontrollmöglichkeiten."
+        },
+        {
+          "category": "Verwaltung und Ressourcen",
+          "title": "Strukturierung von Fördermittelprozessen",
+          "text": "Konzeptionelle Ansätze zur Verbesserung von Transparenz, Nachverfolgbarkeit und organisatorischen Abläufen."
+        },
+        {
+          "category": "Organisation und Kompetenzen",
+          "title": "Kompetenzorientierte Ressourcensteuerung",
+          "text": "Entwicklung eines Analyseansatzes zur Verbindung von Aufgaben, Kompetenzprofilen und organisatorischen Anforderungen."
+        },
+        {
+          "category": "Prozess- und Organisationsentwicklung",
+          "title": "Strukturierte Analyse administrativer Abläufe",
+          "text": "Konzeptionelle Betrachtung von Schnittstellen, Verantwortlichkeiten, Prozessrisiken und möglichen Verbesserungsansätzen."
+        }
+      ],
+      "note": "Die dargestellten Beispiele beschreiben konzeptionelle Themen und Arbeitsansätze. Sie sind keine Offenlegung interner Arbeitsergebnisse früherer Arbeitgeber oder Auftraggeber.",
+      "cta": "Weitere Denkmodelle und Projekte ansehen"
+    },
+    "audience": {
+      "label": "Für wen StrukturKlar passt",
+      "heading": "Für Menschen und Organisationen, die Zusammenhänge verstehen und bewusst weiterentwickeln möchten.",
+      "intro": "Der Schwerpunkt liegt nicht auf einer bestimmten Branche, sondern auf der wirtschaftlichen oder organisatorischen Fragestellung.",
+      "items": [
+        {
+          "title": "Selbstständige und Gründerinnen und Gründer",
+          "text": "Wenn Sie ein Vorhaben wirtschaftlich strukturieren, verschiedene Möglichkeiten vergleichen oder Ihre nächsten Schritte fundierter planen möchten."
+        },
+        {
+          "title": "Kleine und mittlere Unternehmen",
+          "text": "Wenn Sie Prozesse, Ressourcen und wirtschaftliche Zusammenhänge besser verstehen und Entwicklungspotenziale erkennen möchten."
+        },
+        {
+          "title": "Organisationen und Institutionen",
+          "text": "Wenn komplexe Aufgaben, Ressourcenstrukturen oder administrative Abläufe systematisch betrachtet werden sollen."
+        },
+        {
+          "title": "Unternehmerische Entscheidungsträger",
+          "text": "Wenn Sie eine zusätzliche analytische Perspektive benötigen, um eine komplexe Fragestellung nachvollziehbar zu strukturieren."
+        }
+      ]
+    },
+    "about": {
+      "label": "Über mich",
+      "heading": "Von Zahlen zu Strukturen. Von Strukturen zu Entscheidungen.",
+      "text": "Ich bin Anastasiia Gurina – Finanz- und Controllingexpertin mit akademischem Hintergrund in internationaler Wirtschaft und Finanzen und langjähriger Berufserfahrung in Finanzwirtschaft, Rechnungswesen, Controlling und organisatorischen Steuerungsprozessen.",
+      "cta": "Mehr über mich",
+      "developmentCta": "Meine Entwicklung"
+    },
+    "check": {
+      "label": "Erstgespräch",
+      "heading": "30 Minuten, um Ihre Fragestellung zu strukturieren.",
+      "text": [
+        "Sie haben eine wirtschaftliche oder organisatorische Herausforderung, wissen aber noch nicht genau, wo Sie ansetzen sollen?",
+        "Im kostenfreien StrukturKlar-Erstgespräch betrachten wir zunächst Ihre Ausgangssituation."
+      ],
+      "stepsHeading": "Gemeinsam klären wir:",
+      "steps": [
+        "Worum geht es konkret?",
+        "Welche Fragestellung steht im Mittelpunkt?",
+        "Welche Informationen sind für eine erste Einordnung relevant?",
+        "Welche Zusammenhänge könnten näher untersucht werden?",
+        "Passt das Anliegen zum Leistungsbereich von StrukturKlar?",
+        "Könnte eine weiterführende Analyse sinnvoll sein?"
+      ],
+      "format": "Das Erstgespräch dauert bis zu 30 Minuten und findet online oder telefonisch statt."
+    }
+  },
+  "about": {
+    "label": "Über mich",
+    "heading": "Von Zahlen zu Strukturen. Von Strukturen zu Entscheidungen.",
+    "text": [
+      "Ich bin Anastasiia Gurina – Finanz- und Controllingexpertin mit akademischem Hintergrund in internationaler Wirtschaft und Finanzen und langjähriger Berufserfahrung in Finanzwirtschaft, Rechnungswesen, Controlling und organisatorischen Steuerungsprozessen.",
+      "Meine berufliche Entwicklung begann 1996 in der Ukraine. In Deutschland bin ich seit 2003 zu Hause und habe meine berufliche Qualifikation und Erfahrung kontinuierlich weiterentwickelt.",
+      "Zu meinen beruflichen Stationen gehören Tätigkeiten in der Finanzwirtschaft und im Rechnungswesen, die Verantwortung für Haupt- und Anlagenbuchhaltungsprozesse, die Betreuung unterschiedlicher Unternehmensstrukturen sowie Aufgaben in Controlling und kommunaler Verwaltung."
+    ],
+    "tasksHeading": "In meiner bisherigen Tätigkeit habe ich unter anderem:",
+    "tasks": [
+      "finanzwirtschaftliche Prozesse und Abschlussarbeiten verantwortet und koordiniert;",
+      "umfangreiche Mandantenbestände mit unterschiedlichen Anforderungen betreut;",
+      "Monatsabschlüsse, Auswertungen und Managementberichte erstellt;",
+      "finanzielle und organisatorische Zusammenhänge analysiert;",
+      "mit Controlling, Geschäftsführung, Verwaltung und externen Fachstellen zusammengearbeitet;",
+      "Mitarbeitende fachlich koordiniert und Arbeitsprozesse strukturiert;",
+      "Konzepte und Entscheidungsgrundlagen für wirtschaftliche und organisatorische Fragestellungen entwickelt."
+    ],
+    "keyPhrase": "Besonders prägend war für mich die Verbindung von finanzwirtschaftlicher Analyse und organisatorischem Denken: Zahlen stehen nie isoliert. Sie spiegeln Prozesse, Entscheidungen, Ressourcen und deren Zusammenwirken wider.",
+    "photoAlt": "Porträt von Anastasiia Gurina",
+    "backgroundHeading": "Akademischer und beruflicher Hintergrund",
+    "background": [
+      {
+        "title": "Internationale Wirtschaft und Finanzen",
+        "text": "Diplom-Spezialistin für Wirtschaft und Finanzen, Kyiv, 2006. Akademischer Abschluss mit Auszeichnung; Zeugnisbewertung durch die Zentralstelle für ausländisches Bildungswesen (ZAB). Der Abschluss ist in Deutschland auf Bachelor-Niveau eingeordnet."
+      },
+      {
+        "title": "Steuerfachangestellte",
+        "text": "Berufliche Qualifikation im deutschen Steuerfachbereich, 2015."
+      },
+      {
+        "title": "Berufliche Erfahrung",
+        "text": "Langjährige Tätigkeit in Finanzwirtschaft, Rechnungswesen, Controlling und Verwaltung, darunter Aufgaben in Konzernstrukturen und kommunalen Organisationen."
+      }
+    ],
+    "growthHeading": "Kontinuierliche Weiterentwicklung",
+    "growth": [
+      "Wirtschaftliche Zusammenhänge verändern sich. Auch analytische Methoden und digitale Möglichkeiten entwickeln sich ständig weiter.",
+      "Deshalb erweitere ich meine Kenntnisse kontinuierlich, insbesondere in den Bereichen Datenmanagement, datenbasierte Prozessanalyse, Reporting und digitale Auswertungsmethoden.",
+      "Weitere Themen wie SQL, Datenqualität und Business-Intelligence-Anwendungen befinden sich in meiner fachlichen Weiterentwicklung."
+    ],
+    "claim": "Mein Anspruch: Wirtschaftliche Erfahrung mit analytischem Denken und neuen methodischen Möglichkeiten verbinden.",
+    "systemsHeading": "Systeme",
+    "systems": [
+      "SAP",
+      "Excel",
+      "DATEV",
+      "DATEV Unternehmen online",
+      "LODAS",
+      "Sage",
+      "enaio",
+      "FAMOS"
+    ],
+    "languagesHeading": "Sprachen",
+    "languages": [
+      "Deutsch",
+      "Englisch",
+      "Ukrainisch",
+      "Russisch"
+    ]
+  },
+  "development": {
+    "label": "In Entwicklung",
+    "heading": "Meine Entwicklung",
+    "subtitle": "Von der Analyse eines Problems bis zur Entwicklung datenbasierter Lösungs- und Entscheidungsmodelle.",
+    "base": [
+      "Finance",
+      "Accounting",
+      "Controlling",
+      "Verwaltung",
+      "Prozesse",
+      "Risiken"
+    ],
+    "baseLabel": "Grundlage",
+    "path": [
+      "Business Analysis",
+      "Geschäftsprozesse & Organisation",
+      "Requirements Engineering",
+      "Datenanalyse / SQL",
+      "Power BI / Business Intelligence",
+      "Python",
+      "Digitalisierung & KI",
+      "Projektmanagement"
+    ],
+    "pathLabel": "Weiterentwicklung",
+    "keyPhrase": "Nicht ein neuer Beruf – sondern die nächste Ebene meiner bisherigen Arbeit.",
+    "dataField": {
+      "title": "Daten & Digitalisierung",
+      "items": [
+        "Datenbasierte Prozessanalyse",
+        "KPI- und Reportingstrukturen",
+        "Datenqualität",
+        "Business Intelligence",
+        "Power BI",
+        "Anforderungen an digitale Lösungen",
+        "Automatisierungspotenziale",
+        "KI-Potenziale in Geschäftsprozessen",
+        "datenbasierte Entscheidungsmodelle"
+      ]
+    }
+  },
+  "models": {
+    "label": "Denkmodelle",
+    "heading": "Denkmodelle",
+    "intro": "Aus praktischen Fragestellungen entstehen Modelle, mit denen komplexe Zusammenhänge strukturiert, verglichen und weiterentwickelt werden können.",
+    "sections": {
+      "ausgangsproblem": "Ausgangsproblem",
+      "denkfrage": "Denkfrage",
+      "modell": "Modell",
+      "elemente": "Elemente",
+      "anwendung": "Anwendung",
+      "beispiel": "Beispiel",
+      "wirkung": "Mögliche Wirkung",
+      "grenzen": "Grenzen",
+      "weiterentwicklung": "Weiterentwicklung"
+    }
+  },
+  "projects": {
+    "label": "Projekte",
+    "heading": "Projekte",
+    "intro": "Konkrete Fragestellungen aus Finanzen, Verwaltung, Prozessen und Ressourcen – strukturiert nach einem einheitlichen Vorgehen.",
+    "sections": {
+      "ausgangslage": "Ausgangslage",
+      "fragestellung": "Fragestellung",
+      "ist": "IST",
+      "analyse": "Analytischer Ansatz",
+      "struktur": "Struktur",
+      "risiken": "Risiken / GAP",
+      "optionen": "Optionen",
+      "modell": "Modell / Methode",
+      "beitrag": "Eigener Beitrag",
+      "wirkung": "Wirkung",
+      "status": "Status",
+      "weiterentwicklung": "Weiterentwicklung"
+    },
+    "statusHeading": "Kennzeichnung der Projekte",
+    "statusTypes": [
+      {
+        "status": "conceptualAnalysis",
+        "text": "eigenständige Untersuchung und Entwicklung eines Ansatzes."
+      },
+      {
+        "status": "scenarioAnalysis",
+        "text": "Berechnung oder Gegenüberstellung hypothetischer Möglichkeiten unter ausdrücklich genannten Annahmen."
+      },
+      {
+        "status": "practicalCoordination",
+        "text": "tatsächlich ausgeübte praktische Tätigkeit, etwa organisatorische Koordination."
+      },
+      {
+        "status": "implemented",
+        "text": "nur, wenn eine Umsetzung tatsächlich stattgefunden hat."
+      }
+    ],
+    "statusDisclaimer": "Hypothetische Berechnungen sind als Szenarien unter Annahmen zu verstehen, nicht als gesicherte Vorhersagen oder nachgewiesene Wirkungen.",
+    "methodHeading": "Arbeitsweise in der Praxis",
+    "method": "In meiner praktischen Arbeit analysiere ich Abläufe systematisch, erkenne Fehlerursachen und Risiken, strukturiere Arbeitsschritte und entwickle eigene Checklisten, die Qualität und Zuverlässigkeit unterstützen."
+  },
+  "workshop": {
+    "label": "Denkwerkstatt",
+    "heading": "Denkwerkstatt",
+    "intro": "Nicht jede interessante Frage beginnt mit einem Auftrag. Manche beginnt mit einer Beobachtung.",
+    "topicsHeading": "Themen",
+    "topics": [
+      "Mensch und Potenzial",
+      "Ressourcenallokation",
+      "Zukunft der Arbeit",
+      "Kompetenzentwicklung",
+      "datenbasierte Verwaltung",
+      "Digitalisierung",
+      "AI und Entscheidungsprozesse",
+      "nachhaltige Ressourcennutzung",
+      "Prozessqualität",
+      "langfristige Systemstabilität"
+    ],
+    "postsHeading": "Beiträge",
+    "empty": "Die ersten Beiträge sind in Vorbereitung.",
+    "channelsHeading": "Kurze Gedanken und Videos",
+    "channelsText": "Ausgewählte Gedanken erscheinen zusätzlich als kurze Beiträge auf LinkedIn.",
+    "sections": {
+      "hauptgedanke": "Hauptgedanke",
+      "analyse": "Analyse",
+      "beispiel": "Beispiel",
+      "modell": "Modell",
+      "ziel": "Ziel"
+    },
+    "video": "Video ansehen",
+    "ctaDefault": "Sie haben eine ähnliche Fragestellung? Eine kurze Beschreibung genügt.",
+    "lead": "Hier wird sichtbar, wie komplexe organisatorische, wirtschaftliche und gesellschaftliche Fragestellungen analysiert und strukturiert werden."
+  },
+  "contact": {
+    "label": "Kontakt",
+    "heading": "Eine komplexe Fragestellung? Beginnen wir mit einer klaren Struktur.",
+    "text": "Beschreiben Sie kurz Ihre wirtschaftliche oder organisatorische Situation und die Frage, mit der Sie sich beschäftigen. Nach einer ersten Einschätzung können wir klären, ob Ihr Anliegen zum Arbeitsbereich von StrukturKlar passt.",
+    "cta": "Kontakt aufnehmen",
+    "detailsHeading": "Kontaktdaten",
+    "email": "E-Mail",
+    "scopeHint": "Zum Umfang der Leistungen:",
+    "detailsName": "StrukturKlar – Anastasiia Gurina",
+    "detailsLine": "Wirtschaftliche Analyse · Strukturen · Entscheidungsgrundlagen"
+  },
+  "form": {
+    "heading": "Fragestellung beschreiben",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Ihre Fragestellung",
+    "messageHint": "Ein paar Sätze genügen: Worum geht es, und was soll geklärt werden? Bitte keine vertraulichen Unterlagen oder sensiblen Daten mitschicken.",
+    "privacy": "Ihre Angaben werden ausschließlich zur Bearbeitung der Anfrage verwendet. Mehr dazu in der",
+    "privacyLink": "Datenschutzerklärung",
+    "submit": "Kontakt aufnehmen",
+    "sending": "Wird gesendet …",
+    "success": "Vielen Dank. Ihre Nachricht ist angekommen.",
+    "error": "Die Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie direkt per E-Mail.",
+    "organisation": "Unternehmen / Organisation",
+    "optional": "optional",
+    "contactPreference": "Gewünschte Kontaktaufnahme",
+    "contactOptions": [
+      "E-Mail",
+      "Telefon",
+      "Video-Call"
+    ],
+    "phone": "Telefonnummer",
+    "phoneHint": "nur für Rückruf oder Video-Call",
+    "mailto": "Ihr E-Mail-Programm wurde mit der vorbereiteten Nachricht geöffnet. Bitte senden Sie sie dort ab. Falls sich nichts geöffnet hat, schreiben Sie direkt an",
+    "subject": "StrukturKlar: Anfrage von"
+  },
+  "scope": {
+    "label": "Rechtliches",
+    "heading": "Leistungsabgrenzung",
+    "subheading": "Was StrukturKlar leistet – und was nicht.",
+    "text": [
+      "StrukturKlar bietet eigenständige wirtschaftliche, organisatorische und konzeptionelle Analyseleistungen an.",
+      "Der Schwerpunkt liegt auf der systematischen Untersuchung wirtschaftlicher und organisatorischer Zusammenhänge, der Strukturierung komplexer Fragestellungen, der Entwicklung möglicher Handlungsoptionen und der Aufbereitung nachvollziehbarer Entscheidungsgrundlagen."
+    ],
+    "focusHeading": "Gegenstand der Leistungen",
+    "focusIntro": "Je nach individueller Vereinbarung können dazu insbesondere gehören:",
+    "focus": [
+      "wirtschaftliche und betriebswirtschaftliche Analysen;",
+      "Analyse von Kosten-, Ressourcen- und Prozessstrukturen;",
+      "organisatorische und konzeptionelle Untersuchungen;",
+      "Szenario-, Risiko- und Vergleichsanalysen;",
+      "Strukturierung unternehmerischer Fragestellungen;",
+      "Entwicklung konzeptioneller Lösungs- und Steuerungsansätze;",
+      "Erstellung analytischer Auswertungen und Entscheidungsgrundlagen."
+    ],
+    "notOfferedHeading": "Nicht Gegenstand der Leistungen",
+    "notOfferedIntro": "StrukturKlar erbringt keine:",
+    "notOffered": [
+      "Steuerberatung oder sonstige geschäftsmäßige Hilfeleistung in Steuersachen, soweit diese dem Steuerberatungsgesetz unterliegt;",
+      "Rechtsberatung oder rechtliche Prüfung individueller Sachverhalte, soweit diese dem Rechtsdienstleistungsgesetz unterliegt;",
+      "Erstellung von Steuererklärungen oder Jahresabschlüssen für Dritte;",
+      "laufende Finanz-, Lohn- oder Anlagenbuchhaltung als eigenständige Dienstleistung;",
+      "Lohnabrechnung;",
+      "Wirtschaftsprüfung oder gesetzliche Abschlussprüfung;",
+      "Immobilienvermittlung oder Maklertätigkeit;",
+      "Vertretung gegenüber Behörden, Gerichten, Vermietern oder sonstigen Dritten in rechtlichen oder steuerlichen Angelegenheiten;",
+      "Übernahme der operativen Geschäftsführung oder der unternehmerischen Entscheidungsverantwortung."
+    ],
+    "closing": [
+      "Die Analyse erfolgt auf Grundlage der vom Auftraggeber bereitgestellten Informationen und des vereinbarten Leistungsumfangs.",
+      "Die Ergebnisse stellen analytische Einschätzungen und konzeptionelle Handlungsmöglichkeiten dar. Sie ersetzen keine spezialisierten Leistungen zugelassener Berufsgruppen. Die unternehmerische Entscheidung und Umsetzung verbleiben beim Auftraggeber.",
+      "Der konkrete Leistungsumfang wird vor Beginn eines Projekts schriftlich vereinbart."
+    ]
+  },
+  "notFound": {
+    "heading": "Diese Seite gibt es nicht.",
+    "text": "Vielleicht wurde sie verschoben. Von der Startseite aus finden Sie alle Bereiche.",
+    "cta": "Zur Startseite"
+  },
+  "inquiry": {
+    "heading": "Kostenfreies Erstgespräch anfragen",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail-Adresse",
+    "address": "Anschrift / Unternehmenssitz",
+    "message": "Worum geht es bei Ihrer Anfrage?",
+    "availability": "Wann sind Sie am besten erreichbar?",
+    "availabilityOptions": [
+      "Werktags vormittags",
+      "Werktags nachmittags",
+      "Werktags flexibel",
+      "Individuelle Zeiten"
+    ],
+    "submit": "Anfrage senden",
+    "subject": "StrukturKlar: Anfrage Erstgespräch von",
+    "success": "Vielen Dank. Ihre Anfrage ist angekommen. Nach Prüfung melde ich mich bei Ihnen.",
+    "notes": [
+      "Das kostenfreie Erstgespräch dauert bis zu 30 Minuten und dient der ersten Orientierung und Auftragsklärung. Es beinhaltet keine vollständige Analyse, keine individuelle Fachberatung und keine ausgearbeitete Handlungsempfehlung.",
+      "Die Übermittlung Ihrer Anfrage stellt noch keine Terminbestätigung dar. Nach Prüfung Ihrer Anfrage melden wir uns zur Abstimmung eines möglichen Gesprächstermins.",
+      "Bitte übermitteln Sie per E-Mail keine vertraulichen Unterlagen oder personenbezogenen Daten Dritter."
+    ]
+  }
+}
