@@ -2,7 +2,7 @@ import { useT } from '../../i18n'
 import Section from '../ui/Section'
 import SectionHeader from '../ui/SectionHeader'
 import Flow from '../ui/Flow'
-import { site } from '../../config/site'
+import CopyEmail from '../ui/CopyEmail'
 
 export const DecisionSupport = () => {
   const { t, tm } = useT()
@@ -121,13 +121,10 @@ export const Check = () => {
             <p key={p}>{p}</p>
           ))}
         </div>
-        <a
-          href={`mailto:${site.person.email}?subject=${encodeURIComponent(t('inquiry.heading'))}`}
-          className="btn-primary mt-10"
-        >
-          {t('inquiry.heading')}
-        </a>
-        <p className="mt-4 text-sm text-ink-muted">{site.person.email}</p>
+        <p className="mt-10 font-medium">{t('inquiry.copyHint')}</p>
+        <div className="mt-5">
+          <CopyEmail />
+        </div>
       </div>
     </Section>
   )

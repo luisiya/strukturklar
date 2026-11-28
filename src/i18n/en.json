@@ -95,7 +95,9 @@
       "implemented": "Implemented project"
     },
     "legalGermanOnly": "The legal texts are available in German only; the German version is authoritative.",
-    "draft": "Draft"
+    "draft": "Draft",
+    "copyEmail": "Copy email address",
+    "emailCopied": "Copied"
   },
   "home": {
     "hero": {
@@ -672,6 +674,7 @@
       "The free initial consultation lasts up to 30 minutes and serves as a first orientation and clarification of the assignment. It does not include a full analysis, individual specialist advice or a worked-out recommendation.",
       "Submitting your request does not yet confirm an appointment. After reviewing your request, we will get in touch to arrange a possible date.",
       "Please do not send confidential documents or personal data of third parties by email."
-    ]
+    ],
+    "copyHint": "Please send your request by email. Copy the address and paste it into your email program."
   }
 }

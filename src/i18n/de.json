@@ -95,7 +95,9 @@
       "implemented": "Umgesetztes Projekt"
     },
     "legalGermanOnly": "Die rechtlichen Texte sind nur auf Deutsch verfügbar; maßgeblich ist die deutsche Fassung.",
-    "draft": "Entwurf"
+    "draft": "Entwurf",
+    "copyEmail": "E-Mail-Adresse kopieren",
+    "emailCopied": "Kopiert"
   },
   "home": {
     "hero": {
@@ -672,6 +674,7 @@
       "Das kostenfreie Erstgespräch dauert bis zu 30 Minuten und dient der ersten Orientierung und Auftragsklärung. Es beinhaltet keine vollständige Analyse, keine individuelle Fachberatung und keine ausgearbeitete Handlungsempfehlung.",
       "Die Übermittlung Ihrer Anfrage stellt noch keine Terminbestätigung dar. Nach Prüfung Ihrer Anfrage melden wir uns zur Abstimmung eines möglichen Gesprächstermins.",
       "Bitte übermitteln Sie per E-Mail keine vertraulichen Unterlagen oder personenbezogenen Daten Dritter."
-    ]
+    ],
+    "copyHint": "Bitte senden Sie Ihre Anfrage per E-Mail. Kopieren Sie dazu die Adresse und fügen Sie sie in Ihr E-Mail-Programm ein."
   }
 }

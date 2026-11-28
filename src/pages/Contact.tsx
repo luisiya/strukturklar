@@ -1,4 +1,4 @@
-import { HiOutlineMail, HiOutlineLocationMarker } from 'react-icons/hi'
+import { HiOutlineLocationMarker } from 'react-icons/hi'
 import { useT } from '../i18n'
 import { Seo } from '../lib/seo'
 import { localePath } from '../lib/paths'
@@ -7,8 +7,9 @@ import { site } from '../config/site'
 import PageHeader from '../components/ui/PageHeader'
 import Section from '../components/ui/Section'
 import PageLink from '../components/ui/PageLink'
+import CopyEmail from '../components/ui/CopyEmail'
 
-const photo = (w: number) => `${import.meta.env.BASE_URL}images/anastasiia-gurina-kontakt-${w}.jpg`
+const photo = (w: number) => `${import.meta.env.BASE_URL}images/anastasiia-gurina-sw-${w}.jpg`
 
 const Contact = () => {
   const { t, lang } = useT()
@@ -40,14 +41,10 @@ const Contact = () => {
                   <HiOutlineLocationMarker aria-hidden="true" className="h-5 w-5 shrink-0 text-petrol" />
                   {person.city}
                 </li>
-                <li className="flex items-center gap-3">
-                  <HiOutlineMail aria-hidden="true" className="h-5 w-5 shrink-0 text-petrol" />
-                  <span className="sr-only">{t('contact.email')}:</span>
-                  <a href={`mailto:${person.email}`} className="break-all hover:text-ink">
-                    {person.email}
-                  </a>
-                </li>
               </ul>
+              <div className="mt-5">
+                <CopyEmail align="start" />
+              </div>
             </div>
             <p className="text-sm text-ink-muted">
               {t('contact.scopeHint')}{' '}
@@ -58,7 +55,7 @@ const Contact = () => {
           </div>
           <img
             src={photo(480)}
-            srcSet={`${photo(480)} 480w, ${photo(636)} 636w`}
+            srcSet={`${photo(480)} 480w, ${photo(960)} 960w`}
             sizes="(min-width: 1024px) 360px, 80vw"
             alt={t('about.photoAlt')}
             width={480}
